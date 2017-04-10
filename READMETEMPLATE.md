@@ -17,6 +17,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 [Duplicati][appurl] works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box.com, Mega, hubiC and many others.
 
+[![duplicati](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duplicati-icon.png)][appurl]
 
 ## Usage
 
