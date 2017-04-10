@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+exec \
+	s6-setuidgid abc duplicati-server \
+	--webservice-interface=any --server-datafolder=/config
