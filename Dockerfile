@@ -6,6 +6,7 @@ ARG DUPLICATA_VER="2.0.1.53-1"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
+ENV HOME="/config"
 
 # set version label
 ARG BUILD_DATE
