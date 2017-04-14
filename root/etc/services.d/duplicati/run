@@ -1,5 +1,7 @@
 #!/usr/bin/with-contenv bash
 
-exec \
-	s6-setuidgid abc duplicati-server \
+cd /app/duplicati || exit
+
+ exec \
+	s6-setuidgid abc mono Duplicati.Server.exe \
 	--webservice-interface=any --server-datafolder=/config

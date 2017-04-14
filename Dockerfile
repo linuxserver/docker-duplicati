@@ -1,11 +1,7 @@
-FROM lsiobase/xenial
+FROM lsiobase/alpine:3.5
 MAINTAINER sparklyballs
 
-# package versions
-ARG DUPLICATA_VER="2.0.1.53-1"
-
-# environment settings
-ARG DEBIAN_FRONTEND="noninteractive"
+# environment settings
 ENV HOME="/config"
 
 # set version label
@@ -15,26 +11,32 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 
 # install packages
 RUN \
- apt-get update && \
- apt-get install -y \
-	--no-install-recommends \
-	gtk-sharp2 \
-	libappindicator3-0.1-cil \
-	mono-complete && \
+ apk add --no-cache \
+	curl \
+	tar \
+	unzip && \
+ apk add --no-cache \
+	--repository http://nl.alpinelinux.org/alpine/edge/testing \
+	mono && \
+
+# install duplicati
+ mkdir -p \
+	/app/duplicati && \
+ duplicati_tag=$(curl -sX GET "https://api.github.com/repos/duplicati/duplicati/releases" \
+	| awk '/tag_name/{print $4;exit}' FS='[""]') && \
+ duplicati_zip="duplicati-${duplicati_tag#*-}.zip" && \
  curl -o \
- /tmp/duplicatata.deb -L \
-	"https://updates.duplicati.com/experimental/duplicati_${DUPLICATA_VER}_all.deb" && \
- dpkg -i /tmp/duplicatata.deb && \
+ /tmp/duplicati.zip -L \
+	"https://github.com/duplicati/duplicati/releases/download/${duplicati_tag}/${duplicati_zip}" && \
+ unzip -q /tmp/duplicati.zip -d /app/duplicati && \
 
-# cleanup
+# cleanup
  rm -rf \
-	/tmp/* \
-	/var/lib/apt/lists/* \
-	/var/tmp/*
+	/tmp/*
 
-# copy local files
+# copy local files
 COPY root/ /
 
-# ports and volumes
+# ports and volumes
 EXPOSE 8200
 VOLUME /config
