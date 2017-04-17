@@ -44,7 +44,7 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 * `-e PGID` for GroupID - see below for explanation
 * `-e PUID` for UserID - see below for explanation
 
-It is based on ubuntu xenial with s6 overlay, for shell access whilst the container is running do `docker exec -it duplicati /bin/bash`.
+It is based on Alpine Linux with s6 overlay, for shell access whilst the container is running do `docker exec -it duplicati /bin/bash`.
 
 ### User / Group Identifiers
 
