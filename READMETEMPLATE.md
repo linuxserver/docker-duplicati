@@ -25,6 +25,8 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 docker create \
   --name=duplicati \
   -v <path to data>:/config \
+  -v <path to data>:/backups \
+  -v <path to data>:/source \
   -e PGID=<gid> -e PUID=<uid>  \
   -p 8200:8200 \
   linuxserver/duplicati
@@ -41,10 +43,12 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 
 * `-p 8200` - the port(s)
 * `-v /config` - path for duplicati config files
+* `-v /backups` - path to store local backups
+* `-v /source` - path to source for files to backup
 * `-e PGID` for GroupID - see below for explanation
 * `-e PUID` for UserID - see below for explanation
 
-It is based on ubuntu xenial  with s6 overlay, for shell access whilst the container is running do `docker exec -it duplicati /bin/bash`.
+It is based on ubuntu xenial with s6 overlay, for shell access whilst the container is running do `docker exec -it duplicati /bin/bash`.
 
 ### User / Group Identifiers
 
@@ -59,8 +63,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 
 ## Setting up the application
 
-Insert a basic user guide here to get a n00b up and running with the software inside the container. DELETE ME
-
+The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati][appurl].
 
 ## Info
 
@@ -77,4 +80,4 @@ Insert a basic user guide here to get a n00b up and running with the software in
 
 ## Versions
 
-+ **dd.MM.yy:** Initial Release.
++ **24.04.17:** Initial Release.
