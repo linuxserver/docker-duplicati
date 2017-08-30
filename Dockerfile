@@ -14,7 +14,7 @@ RUN \
  mkdir -p \
 	/app/duplicati && \
  duplicati_tag=$(curl -sX GET "https://api.github.com/repos/duplicati/duplicati/releases" \
-	| awk '/tag_name/{print $4;exit}' FS='[""]') && \
+	| awk '/tag_name.*(beta|release)/{print $4;exit}' FS='[""]') && \
  duplicati_zip="duplicati-${duplicati_tag#*-}.zip" && \
  curl -o \
  /tmp/duplicati.zip -L \
