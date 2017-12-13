@@ -80,5 +80,6 @@ The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for loc
 
 ## Versions
 
++ **09.12.17:** Fix continuation lines.
 + **31.08.17:** Build only beta or release versions (thanks deasmi).
 + **24.04.17:** Initial Release.
