@@ -18,7 +18,6 @@ pipeline {
     DEV_DOCKERHUB_IMAGE = 'lsiodev/duplicati'
     PR_DOCKERHUB_IMAGE = 'lspipepr/duplicati'
     DIST_IMAGE = 'ubuntu'
-    DIST_TAG = 'bionic'
     MULTIARCH='true'
     CI='true'
     CI_WEB='true'
