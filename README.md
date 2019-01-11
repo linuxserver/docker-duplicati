@@ -119,7 +119,7 @@ In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as bel
 &nbsp;
 ## Application Setup
 
-The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati][https://www.duplicati.com].
+The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati](https://www.duplicati.com/).
 
 
 
