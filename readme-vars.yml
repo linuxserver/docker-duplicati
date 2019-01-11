@@ -1,0 +1,45 @@
+---
+
+# project information
+project_name: duplicati
+project_url: "https://www.duplicati.com/"
+project_logo: "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png"
+project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box.com, Mega, hubiC and many others."
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v6-latest"}
+
+# container parameters
+common_param_env_vars_enabled: true
+param_container_name: "{{ project_name }}"
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/config", vol_host_path: "</path/to/appdata/config>", desc: "Contains all relevant configuration files." }
+  - { vol_path: "/backups", vol_host_path: "</path/to/backups>", desc: "Path to store local backups." }
+  - { vol_path: "/source", vol_host_path: "</path/to/source>", desc: "Path to source for files to backup." }
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "8200", internal_port: "8200", port_desc: "http gui" }
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
+
+# optional parameters
+optional_block_1: false
+optional_block_1_items: ""
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati]({{project_url}}).
+
+# changelog
+changelogs:
+  - { date: "11.01.19:", desc: "Multi-arch image." }
+  - { date: "09.12.17:", desc: "Fix continuation lines." }
+  - { date: "31.08.17:", desc: "Build only beta or release versions (thanks deasmi)." }
+  - { date: "24.04.17:", desc: "Initial release." }

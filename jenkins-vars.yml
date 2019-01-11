@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-duplicati
+external_type: github_devel
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'duplicati'
+  - EXT_REPO = 'duplicati'
+  - BUILD_VERSION_ARG = 'DUPLICATI_RELEASE'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-duplicati'
+  - CONTAINER_NAME = 'duplicati'
+  - DOCKERHUB_IMAGE = 'linuxserver/duplicati'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/duplicati'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/duplicati'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='8200'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''

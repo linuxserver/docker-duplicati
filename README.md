@@ -1,85 +1,140 @@
-[linuxserverurl]: https://linuxserver.io
-[forumurl]: https://forum.linuxserver.io
-[ircurl]: https://www.linuxserver.io/irc/
-[podcasturl]: https://www.linuxserver.io/podcast/
-[appurl]: https://www.duplicati.com
-[hub]: https://hub.docker.com/r/linuxserver/duplicati/
+[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)](https://linuxserver.io)
 
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
+The [LinuxServer.io](https://linuxserver.io) team brings you another container release featuring :-
 
-The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
-* [forum.linuxserver.io][forumurl]
-* [IRC][ircurl] on freenode at `#linuxserver.io`
-* [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
+ * regular and timely application updates
+ * easy user mappings (PGID, PUID)
+ * custom base image with s6 overlay
+ * weekly base OS updates with common layers across the entire LinuxServer.io ecosystem to minimise space usage, down time and bandwidth
+ * regular security updates
 
-# linuxserver/duplicati
-[![](https://images.microbadger.com/badges/version/linuxserver/duplicati.svg)](https://microbadger.com/images/linuxserver/duplicati "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/linuxserver/duplicati.svg)](https://microbadger.com/images/linuxserver/duplicati "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/duplicati.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/duplicati.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/x86-64/x86-64-duplicati)](https://ci.linuxserver.io/job/Docker-Builders/job/x86-64/job/x86-64-duplicati/)
+Find us at:
+* [Discord](https://discord.gg/YWrKVTn) - realtime support / chat with the community and the team.
+* [IRC](https://irc.linuxserver.io) - on freenode at `#linuxserver.io`. Our primary support channel is Discord.
+* [Blog](https://blog.linuxserver.io) - all the things you can do with our containers including How-To guides, opinions and much more!
+* [Podcast](https://anchor.fm/linuxserverio) - on hiatus. Coming back soon (late 2018).
 
-[Duplicati][appurl] works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box.com, Mega, hubiC and many others.
+# PSA: Changes are happening
 
-[![duplicati](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/duplicati-icon.png)][appurl]
+From August 2018 onwards, Linuxserver are in the midst of switching to a new CI platform which will enable us to build and release multiple architectures under a single repo. To this end, existing images for `arm64` and `armhf` builds are being deprecated. They are replaced by a manifest file in each container which automatically pulls the correct image for your architecture. You'll also be able to pull based on a specific architecture tag.
+
+TLDR: Multi-arch support is changing from multiple repos to one repo per container image.
+
+# [linuxserver/duplicati](https://github.com/linuxserver/docker-duplicati)
+[![](https://img.shields.io/discord/354974912613449730.svg?logo=discord&label=LSIO%20Discord&style=flat-square)](https://discord.gg/YWrKVTn)
+[![](https://images.microbadger.com/badges/version/linuxserver/duplicati.svg)](https://microbadger.com/images/linuxserver/duplicati "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/linuxserver/duplicati.svg)](https://microbadger.com/images/linuxserver/duplicati "Get your own version badge on microbadger.com")
+![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/duplicati.svg)
+![Docker Stars](https://img.shields.io/docker/stars/linuxserver/duplicati.svg)
+
+[Duplicati](https://www.duplicati.com/) works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box.com, Mega, hubiC and many others.
+
+[![duplicati](https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png)](https://www.duplicati.com/)
+
+## Supported Architectures
+
+Our images support multiple architectures such as `x86-64`, `arm64` and `armhf`. We utilise the docker manifest for multi-platform awareness. More information is available from docker [here](https://github.com/docker/distribution/blob/master/docs/spec/manifest-v2-2.md#manifest-list). 
+
+The architectures supported by this image are:
+
+| Architecture | Tag |
+| :----: | --- |
+| x86-64 | amd64-latest |
+| arm64 | arm64v8-latest |
+| armhf | arm32v6-latest |
 
 ## Usage
+
+Here are some example snippets to help you get started creating a container.
+
+### docker
 
 ```
 docker create \
   --name=duplicati \
-  -v <path to data>:/config \
-  -v <path to data>:/backups \
-  -v <path to data>:/source \
-  -e PGID=<gid> -e PUID=<uid>  \
+  -e PUID=1001 \
+  -e PGID=1001 \
+  -e TZ=Europe/London \
   -p 8200:8200 \
+  -v </path/to/appdata/config>:/config \
+  -v </path/to/backups>:/backups \
+  -v </path/to/source>:/source \
+  --restart unless-stopped \
   linuxserver/duplicati
+```
+
+
+### docker-compose
+
+Compatible with docker-compose v2 schemas.
+
+```
+---
+version: "2"
+services:
+  duplicati:
+    image: linuxserver/duplicati
+    container_name: duplicati
+    environment:
+      - PUID=1001
+      - PGID=1001
+      - TZ=Europe/London
+    volumes:
+      - </path/to/appdata/config>:/config
+      - </path/to/backups>:/backups
+      - </path/to/source>:/source
+    ports:
+      - 8200:8200
+    mem_limit: 4096m
+    restart: unless-stopped
 ```
 
 ## Parameters
 
-`The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
-For example with a port -p external:internal - what this shows is the port mapping from internal to external of the container.
-So -p 8080:80 would expose port 80 from inside the container to be accessible from the host's IP on port 8080
-http://192.168.x.x:8080 would show you what's running INSIDE the container on port 80.`
+Container images are configured using parameters passed at runtime (such as those above). These parameters are separated by a colon and indicate `<external>:<internal>` respectively. For example, `-p 8080:80` would expose port `80` from inside the container to be accessible from the host's IP on port `8080` outside the container.
 
+| Parameter | Function |
+| :----: | --- |
+| `-p 8200` | http gui |
+| `-e PUID=1001` | for UserID - see below for explanation |
+| `-e PGID=1001` | for GroupID - see below for explanation |
+| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
+| `-v /config` | Contains all relevant configuration files. |
+| `-v /backups` | Path to store local backups. |
+| `-v /source` | Path to source for files to backup. |
 
+## User / Group Identifiers
 
-* `-p 8200` - the port(s)
-* `-v /config` - path for duplicati config files
-* `-v /backups` - path to store local backups
-* `-v /source` - path to source for files to backup
-* `-e PGID` for GroupID - see below for explanation
-* `-e PUID` for UserID - see below for explanation
+When using volumes (`-v` flags) permissions issues can arise between the host OS and the container, we avoid this issue by allowing you to specify the user `PUID` and group `PGID`.
 
-It is based on ubuntu xenial with s6 overlay, for shell access whilst the container is running do `docker exec -it duplicati /bin/bash`.
+Ensure any volume directories on the host are owned by the same user you specify and any permissions issues will vanish like magic.
 
-### User / Group Identifiers
-
-Sometimes when using data volumes (`-v` flags) permissions issues can arise between the host OS and the container. We avoid this issue by allowing you to specify the user `PUID` and group `PGID`. Ensure the data volume directory on the host is owned by the same user you specify and it will "just work" ™.
-
-In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as below:
+In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as below:
 
 ```
-  $ id <dockeruser>
+  $ id username
     uid=1001(dockeruser) gid=1001(dockergroup) groups=1001(dockergroup)
 ```
 
-## Setting up the application
+&nbsp;
+## Application Setup
 
-The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati][appurl].
+The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati](https://www.duplicati.com/).
 
-## Info
+
+
+## Support Info
 
 * Shell access whilst the container is running: `docker exec -it duplicati /bin/bash`
 * To monitor the logs of the container in realtime: `docker logs -f duplicati`
-
 * container version number 
-
-`docker inspect -f '{{ index .Config.Labels "build_version" }}' duplicati`
-
+  * `docker inspect -f '{{ index .Config.Labels "build_version" }}' duplicati`
 * image version number
-
-`docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/duplicati`
+  * `docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/duplicati`
 
 ## Versions
 
-+ **09.12.17:** Fix continuation lines.
-+ **31.08.17:** Build only beta or release versions (thanks deasmi).
-+ **24.04.17:** Initial Release.
+* **11.01.19:** - Multi-arch image.
+* **09.12.17:** - Fix continuation lines.
+* **31.08.17:** - Build only beta or release versions (thanks deasmi).
+* **24.04.17:** - Initial release.
