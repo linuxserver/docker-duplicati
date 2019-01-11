@@ -2,14 +2,12 @@
 
 # jenkins variables
 project_name: docker-duplicati
-external_type: github_devel
+external_type: na
+custom_version_command: curl -sX GET 'https://api.github.com/repos/duplicati/duplicati/releases' | awk '/tag_name.*(beta|release)/{print $4;exit}' FS='[""]'
 release_type: stable
 release_tag: latest
 ls_branch: master
 repo_vars:
-  - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'duplicati'
-  - EXT_REPO = 'duplicati'
   - BUILD_VERSION_ARG = 'DUPLICATI_RELEASE'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-duplicati'
@@ -18,6 +16,7 @@ repo_vars:
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/duplicati'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/duplicati'
   - DIST_IMAGE = 'ubuntu'
+  - DIST_TAG = 'bionic'
   - MULTIARCH='true'
   - CI='true'
   - CI_WEB='true'
