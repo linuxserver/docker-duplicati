@@ -3,12 +3,12 @@
 # jenkins variables
 project_name: docker-duplicati
 external_type: custom_json
-release_type: stable
-release_tag: latest
-ls_branch: master
+release_type: prerelease
+release_tag: development
+ls_branch: development
 repo_vars:
   - JSON_URL = 'https://api.github.com/repos/duplicati/duplicati/releases'
-  - JSON_PATH = 'first(.[] | select(.tag_name | contains("beta"))) | .tag_name'
+  - JSON_PATH = 'first(.[] | select(.tag_name | contains("canary"))) | .tag_name'
   - BUILD_VERSION_ARG = 'DUPLICATI_RELEASE'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-duplicati'
