@@ -134,6 +134,7 @@ The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for loc
 
 ## Versions
 
+* **13.01.19:** - Use jq instead of awk in dockerfiles.
 * **11.01.19:** - Multi-arch image.
 * **09.12.17:** - Fix continuation lines.
 * **31.08.17:** - Build only beta or release versions (thanks deasmi).
