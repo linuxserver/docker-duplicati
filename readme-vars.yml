@@ -39,6 +39,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "13.01.19:", desc: "Use jq instead of awk in dockerfiles." }
   - { date: "11.01.19:", desc: "Multi-arch image." }
   - { date: "09.12.17:", desc: "Fix continuation lines." }
   - { date: "31.08.17:", desc: "Build only beta or release versions (thanks deasmi)." }
