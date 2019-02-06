@@ -26,6 +26,8 @@ TLDR: Multi-arch support is changing from multiple repos to one repo per contain
 [![](https://images.microbadger.com/badges/image/linuxserver/duplicati.svg)](https://microbadger.com/images/linuxserver/duplicati "Get your own version badge on microbadger.com")
 ![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/duplicati.svg)
 ![Docker Stars](https://img.shields.io/docker/stars/linuxserver/duplicati.svg)
+[![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Pipeline-Builders/docker-duplicati/master)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-duplicati/job/master/)
+[![](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/duplicati/latest/badge.svg)](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/duplicati/latest/index.html)
 
 [Duplicati](https://www.duplicati.com/) works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box.com, Mega, hubiC and many others.
 
@@ -35,6 +37,8 @@ TLDR: Multi-arch support is changing from multiple repos to one repo per contain
 
 Our images support multiple architectures such as `x86-64`, `arm64` and `armhf`. We utilise the docker manifest for multi-platform awareness. More information is available from docker [here](https://github.com/docker/distribution/blob/master/docs/spec/manifest-v2-2.md#manifest-list). 
 
+Simply pulling `linuxserver/duplicati` should retrieve the correct image for your arch, but you can also pull specific arch images via tags.
+
 The architectures supported by this image are:
 
 | Architecture | Tag |
@@ -42,6 +46,7 @@ The architectures supported by this image are:
 | x86-64 | amd64-latest |
 | arm64 | arm64v8-latest |
 | armhf | arm32v6-latest |
+
 
 ## Usage
 
