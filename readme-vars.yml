@@ -14,7 +14,7 @@ available_architectures:
   - { arch: "{{ arch_armhf }}", tag: "arm32v6-latest"}
 
 # development version
-development_versions: false
+development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Beta releases of Duplicati" }
   - { tag: "development", desc: "Canary releases of Duplicati" }
