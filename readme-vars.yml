@@ -13,6 +13,13 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
   - { arch: "{{ arch_armhf }}", tag: "arm32v6-latest"}
 
+# development version
+development_versions: false
+development_versions_items:
+  - { tag: "latest", desc: "Beta releases of Duplicati" }
+  - { tag: "development", desc: "Canary releases of Duplicati" }
+
+
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
@@ -29,13 +36,8 @@ param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 
 # optional parameters
-optional_block_1: true
-optional_block_1_items:
-  - |
-    Using tags, you can switch between the beta and canary releases of Duplicati. No tag is required for the latest beta release.  
-    Add the `development` tag, if required, to the `linuxserver/duplicati` line of the run/create command in the following format, `linuxserver/duplicati:development`.  
-    The development tag will be the latest canary release of Duplicati.  
-    HOWEVER, USE THE DEVELOPMENT TAG AT YOUR OWN PERIL !!!!!!!!!
+optional_block_1: false
+optional_block_1_items: ""
 
 # application setup block
 app_setup_block_enabled: true
@@ -44,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "28.02.19:", desc: "Allow access from all hostnames, clarify info on image tags." }
   - { date: "13.01.19:", desc: "Use jq instead of awk in dockerfiles." }
   - { date: "11.01.19:", desc: "Multi-arch image." }
   - { date: "09.12.17:", desc: "Fix continuation lines." }

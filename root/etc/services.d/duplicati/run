@@ -4,4 +4,4 @@ cd /app/duplicati || exit
 
  exec \
 	s6-setuidgid abc mono Duplicati.Server.exe \
-	--webservice-interface=any --server-datafolder=/config
+	--webservice-interface=any --server-datafolder=/config --webservice-allowed-hostnames=*
