@@ -13,6 +13,12 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
   - { arch: "{{ arch_armhf }}", tag: "arm32v6-latest"}
 
+# development version
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Beta releases of Duplicati" }
+  - { tag: "development", desc: "Canary releases of Duplicati" }
+
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
@@ -39,6 +45,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "11.03.19:", desc: "Rebase to bionic, add rclone." }
   - { date: "11.01.19:", desc: "Multi-arch image." }
   - { date: "09.12.17:", desc: "Fix continuation lines." }
   - { date: "31.08.17:", desc: "Build only beta or release versions (thanks deasmi)." }

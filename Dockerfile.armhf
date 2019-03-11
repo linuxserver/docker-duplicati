@@ -1,4 +1,4 @@
-FROM lsiobase/mono.armhf:xenial
+FROM lsiobase/mono:arm32v6-bionic
 
 # Add qemu to build on x86_64 systems
 COPY qemu-arm-static /usr/bin
@@ -14,10 +14,11 @@ LABEL maintainer="sparklyballs"
 ENV HOME="/config"
 
 RUN \
- echo "**** install jq ****" && \
+ echo "**** install packages ****" && \
  apt-get update && \
  apt-get install -y \
-	jq && \
+	jq \
+	rclone && \
  echo "**** install duplicati ****" && \
  if [ -z ${DUPLICATI_RELEASE+x} ]; then \
 	DUPLICATI_RELEASE=$(curl -sX GET "https://api.github.com/repos/duplicati/duplicati/releases" \

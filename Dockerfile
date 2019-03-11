@@ -1,4 +1,4 @@
-FROM lsiobase/mono:xenial
+FROM lsiobase/mono:bionic
 
 # set version label
 ARG BUILD_DATE
@@ -11,10 +11,11 @@ LABEL maintainer="sparklyballs"
 ENV HOME="/config"
 
 RUN \
- echo "**** install jq ****" && \
+ echo "**** install packages ****" && \
  apt-get update && \
  apt-get install -y \
-	jq && \
+	jq \
+	rclone && \
  echo "**** install duplicati ****" && \
  if [ -z ${DUPLICATI_RELEASE+x} ]; then \
 	DUPLICATI_RELEASE=$(curl -sX GET "https://api.github.com/repos/duplicati/duplicati/releases" \
