@@ -41,6 +41,14 @@ The architectures supported by this image are:
 | arm64 | arm64v8-latest |
 | armhf | arm32v6-latest |
 
+## Version Tags
+
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
+
+| Tag | Description |
+| :----: | --- |
+| latest | Beta releases of Duplicati |
+| development | Canary releases of Duplicati |
 
 ## Usage
 
@@ -163,6 +171,7 @@ Below are the instructions for updating containers:
 
 ## Versions
 
+* **11.03.19:** - Rebase to bionic, add rclone.
 * **11.01.19:** - Multi-arch image.
 * **09.12.17:** - Fix continuation lines.
 * **31.08.17:** - Build only beta or release versions (thanks deasmi).
