@@ -1,7 +1,7 @@
 adduser3.113+nmu3ubuntu4
-apt1.2.31
+apt1.2.32
 apt-transport-https1.2.32
-apt-utils1.2.31
+apt-utils1.2.32
 base-files9.4ubuntu4.8
 base-passwd3.5.39
 bash4.3-14ubuntu1.3
@@ -39,8 +39,8 @@ jq1.5+dfsg-1ubuntu0.1
 krb5-locales1.13.2+dfsg-5ubuntu2.1
 libacl12.2.52-3
 libapparmor12.10.95-0ubuntu2.10
-libapt-inst2.01.2.31
-libapt-pkg5.01.2.31
+libapt-inst2.01.2.32
+libapt-pkg5.01.2.32
 libasn1-8-heimdal1.7~git20150920+dfsg-4ubuntu1.16.04.1
 libattr11:2.4.47-2
 libaudit11:2.4.5-1ubuntu2.1
@@ -72,7 +72,7 @@ libgcrypt201.6.5-2ubuntu0.5
 libgdbm31.8.3-13.1
 libgdiplus5.6.1-0xamarin1+ubuntu1604b1
 libgif75.1.4-0.3~16.04
-libglib2.0-02.48.2-0ubuntu4.1
+libglib2.0-02.48.2-0ubuntu4.2
 libgmp102:6.1.0+dfsg-2
 libgnutls303.4.10-4ubuntu1.5
 libgpg-error01.21-2ubuntu1
