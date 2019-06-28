@@ -7,7 +7,7 @@ base-passwd3.5.39
 bash4.3-14ubuntu1.3
 binutils2.26.1-1ubuntu1~16.04.8
 bsdutils1:2.27.1-6ubuntu3.7
-bzip21.0.6-8
+bzip21.0.6-8ubuntu0.1
 ca-certificates20170717~16.04.2
 ca-certificates-mono5.20.1.19-0xamarin2+ubuntu1604b1
 cli-common0.9+xamarin8+ubuntu1604b1
@@ -46,7 +46,7 @@ libattr11:2.4.47-2
 libaudit11:2.4.5-1ubuntu2.1
 libaudit-common1:2.4.5-1ubuntu2.1
 libblkid12.27.1-6ubuntu3.7
-libbz2-1.01.0.6-8
+libbz2-1.01.0.6-8ubuntu0.1
 libc62.23-0ubuntu11
 libcairo21.14.6-1
 libcap21:2.24-12
@@ -62,7 +62,7 @@ libdebconfclient00.198ubuntu1
 libdevmapper1.02.12:1.02.110-1ubuntu10
 libdpkg-perl1.18.4ubuntu1.5
 libexif120.6.21-2
-libexpat12.1.0-7ubuntu0.16.04.3
+libexpat12.1.0-7ubuntu0.16.04.4
 libfdisk12.27.1-6ubuntu3.7
 libffi63.2.1-4
 libfontconfig12.11.94-0ubuntu1.1
