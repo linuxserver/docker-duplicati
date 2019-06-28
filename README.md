@@ -190,6 +190,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.06.19:** - Rebase to bionic.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
 * **28.02.19:** - Allow access from all hostnames, clarify info on image tags.
 * **13.01.19:** - Use jq instead of awk in dockerfiles.
