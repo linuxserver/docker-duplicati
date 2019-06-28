@@ -46,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "28.06.19:", desc: "Rebase to bionic." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
   - { date: "28.02.19:", desc: "Allow access from all hostnames, clarify info on image tags." }
   - { date: "13.01.19:", desc: "Use jq instead of awk in dockerfiles." }
