@@ -61,6 +61,7 @@ docker create \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
+  -e CLI_ARGS= `#optional` \
   -p 8200:8200 \
   -v </path/to/appdata/config>:/config \
   -v </path/to/backups>:/backups \
@@ -85,6 +86,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
+      - CLI_ARGS= #optional
     volumes:
       - </path/to/appdata/config>:/config
       - </path/to/backups>:/backups
@@ -104,6 +106,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
+| `-e CLI_ARGS=` | Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with |
 | `-v /config` | Contains all relevant configuration files. |
 | `-v /backups` | Path to store local backups. |
 | `-v /source` | Path to source for files to backup. |
@@ -193,6 +196,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **16.07.19:** - Allow for additional command line arguments in an environment variable.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
 * **11.03.19:** - Rebase to bionic, add rclone.
 * **11.01.19:** - Multi-arch image.
