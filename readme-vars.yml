@@ -34,6 +34,11 @@ param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 
+# optional container parameters
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - { env_var: "CLI_ARGS", env_value: "", desc: "Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with" }
+
 # optional parameters
 optional_block_1: false
 optional_block_1_items: ""
@@ -45,6 +50,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "16.07.19:", desc: "Allow for additional command line arguments in an environment variable." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
   - { date: "11.03.19:", desc: "Rebase to bionic, add rclone." }
   - { date: "11.01.19:", desc: "Multi-arch image." }
