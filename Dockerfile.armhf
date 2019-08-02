@@ -1,4 +1,4 @@
-FROM lsiobase/mono:arm32v6-bionic
+FROM lsiobase/mono:arm32v6-LTS
 
 # set version label
 ARG BUILD_DATE
