@@ -283,13 +283,13 @@ libsmartcols12.34-0.1ubuntu9.1
 libsqlite3-03.31.1-4ubuntu0.2
 libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.1
-libssl1.11.1.1f-1ubuntu2.2
+libssl1.11.1.1f-1ubuntu2.3
 libstdc++610.2.0-5ubuntu1~20.04
-libsystemd0245.4-4ubuntu3.4
+libsystemd0245.4-4ubuntu3.5
 libtasn1-64.16.0-2
 libtiff54.1.0+git191117-2ubuntu0.20.04.1
 libtinfo66.2-0ubuntu2
-libudev1245.4-4ubuntu3.4
+libudev1245.4-4ubuntu3.5
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
 libwebp60.6.1-2
@@ -322,7 +322,7 @@ mono-xbuild6.12.0.122-0xamarin1+ubuntu2004b1
 mount2.34-0.1ubuntu9.1
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
-openssl1.1.1f-1ubuntu2.2
+openssl1.1.1f-1ubuntu2.3
 passwd1:4.8.1-1ubuntu5.20.04
 perl5.30.0-9ubuntu0.2
 perl-base5.30.0-9ubuntu0.2
