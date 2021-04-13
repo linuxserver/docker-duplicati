@@ -16,8 +16,6 @@ pipeline {
     GITHUB_TOKEN=credentials('498b4638-2d02-4ce5-832d-8a57d01d97ab')
     GITLAB_TOKEN=credentials('b6f0f1dd-6952-4cf6-95d1-9c06380283f0')
     GITLAB_NAMESPACE=credentials('gitlab-namespace-id')
-    JSON_URL = 'https://api.github.com/repos/duplicati/duplicati/releases'
-    JSON_PATH = 'first(.[] | select(.tag_name | contains("canary"))) | .tag_name'
     BUILD_VERSION_ARG = 'DUPLICATI_RELEASE'
     LS_USER = 'linuxserver'
     LS_REPO = 'docker-duplicati'
@@ -100,16 +98,16 @@ pipeline {
     /* ########################
        External Release Tagging
        ######################## */
-    // If this is a custom json endpoint parse the return to get external tag
-    stage("Set ENV custom_json"){
-     steps{
-       script{
-         env.EXT_RELEASE = sh(
-           script: '''curl -s ${JSON_URL} | jq -r ". | ${JSON_PATH}" ''',
-           returnStdout: true).trim()
-         env.RELEASE_LINK = env.JSON_URL
-       }
-     }
+    // If this is a custom command to determine version use that command
+    stage("Set tag custom bash"){
+      steps{
+        script{
+          env.EXT_RELEASE = sh(
+            script: ''' curl -sX GET https://api.github.com/repos/duplicati/duplicati/releases | jq -r 'first(.[] | select(.tag_name | contains("canary"))) | .tag_name' ''',
+            returnStdout: true).trim()
+            env.RELEASE_LINK = 'custom_command'
+        }
+      }
     }
     // Sanitize the release tag and strip illegal docker or github characters
     stage("Sanitize tag"){
@@ -738,7 +736,7 @@ pipeline {
              "tagger": {"name": "LinuxServer Jenkins","email": "jenkins@linuxserver.io","date": "'${GITHUB_DATE}'"}}' '''
         echo "Pushing New release for Tag"
         sh '''#! /bin/bash
-              echo "Data change at JSON endpoint ${JSON_URL}" > releasebody.json
+              echo "Updating to ${EXT_RELEASE_CLEAN}" > releasebody.json
               echo '{"tag_name":"'${META_TAG}'",\
                      "target_commitish": "development",\
                      "name": "'${META_TAG}'",\
