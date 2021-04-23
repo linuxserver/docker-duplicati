@@ -40,6 +40,7 @@ Find us at:
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Fci-tests.linuxserver.io%2Flinuxserver%2Fduplicati%2Flatest%2Fci-status.yml)](https://ci-tests.linuxserver.io/linuxserver/duplicati/latest/index.html)
 
 [Duplicati](https://www.duplicati.com/) works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box.com, Mega, hubiC and many others.
+
 [![duplicati](https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png)](https://www.duplicati.com/)
 
 ## Supported Architectures
