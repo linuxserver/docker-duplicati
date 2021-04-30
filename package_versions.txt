@@ -102,8 +102,8 @@ libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1
 libkrb5-31.17-6ubuntu4.1
 libkrb5support01.17-6ubuntu4.1
 libksba81.3.5-2
-libldap-2.4-22.4.49+dfsg-2ubuntu1.7
-libldap-common2.4.49+dfsg-2ubuntu1.7
+libldap-2.4-22.4.49+dfsg-2ubuntu1.8
+libldap-common2.4.49+dfsg-2ubuntu1.8
 liblz4-11.9.2-2
 liblzma55.2.4-1ubuntu1
 libmono-2.0-dev6.12.0.122-0xamarin1+ubuntu2004b1
@@ -304,7 +304,7 @@ libxdmcp61:1.1.3-0ubuntu1
 libxext62:1.3.4-0ubuntu1
 libxrender11:0.9.10-1
 libzstd11.4.4+dfsg-3ubuntu0.1
-locales2.31-0ubuntu9.2
+locales2.31-0ubuntu9.3
 login1:4.8.1-1ubuntu5.20.04
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
