@@ -24,7 +24,7 @@ RUN \
  fi && \
  mkdir -p \
 	/app/duplicati && \
-	duplicati_url=$(curl -s https://api.github.com/repos/duplicati/duplicati/releases/tags/"${DUPLICATI_RELEASE}" |jq -r '.assets[].browser_download_url' |grep zip |grep -v signatures) && \
+	duplicati_url=$(curl -s https://api.github.com/repos/duplicati/duplicati/releases/tags/"${DUPLICATI_RELEASE}" |jq -r '.assets[].browser_download_url' |grep '.zip$' |grep -v signatures) && \
  curl -o \
  /tmp/duplicati.zip -L \
 	"${duplicati_url}" && \
