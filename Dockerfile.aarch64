@@ -9,12 +9,14 @@ LABEL maintainer="aptalca"
 
 # environment settings
 ENV HOME="/config"
+ENV DEBIAN_FRONTEND="noninteractive"
 
 RUN \
   echo "**** install jq ****" && \
   apt-get update && \
   apt-get install -y \
-    jq && \
+    jq \
+    unzip && \
   echo "**** install duplicati ****" && \
   if [ -z ${DUPLICATI_RELEASE+x} ]; then \
     DUPLICATI_RELEASE=$(curl -sX GET "https://api.github.com/repos/duplicati/duplicati/releases" \
