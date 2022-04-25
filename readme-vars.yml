@@ -51,6 +51,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "25.04.22:", desc: "Rebase to mono:focal." }
   - { date: "01.08.19:", desc: "Rebase to Linuxserver LTS mono version." }
   - { date: "16.07.19:", desc: "Allow for additional command line arguments in an environment variable." }
   - { date: "28.06.19:", desc: "Rebase to bionic." }
