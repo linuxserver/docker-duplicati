@@ -239,6 +239,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **25.04.22:** - Rebase to mono:focal.
 * **01.08.19:** - Rebase to Linuxserver LTS mono version.
 * **16.07.19:** - Allow for additional command line arguments in an environment variable.
 * **28.06.19:** - Rebase to bionic.
