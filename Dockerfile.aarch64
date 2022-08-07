@@ -15,6 +15,7 @@ RUN \
   echo "**** install jq ****" && \
   apt-get update && \
   apt-get install -y \
+    mono-devel \
     jq \
     unzip && \
   echo "**** install duplicati ****" && \
