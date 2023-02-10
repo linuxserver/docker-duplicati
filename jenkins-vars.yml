@@ -6,6 +6,7 @@ external_type: custom_json
 release_type: stable
 release_tag: latest
 ls_branch: master
+build_armhf: false
 repo_vars:
   - JSON_URL = 'https://api.github.com/repos/duplicati/duplicati/releases'
   - JSON_PATH = 'first(.[] | select(.tag_name | contains("beta"))) | .tag_name'
