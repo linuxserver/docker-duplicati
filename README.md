@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf| ❌ | |
+| armhf | ❌ | |
 
 ## Version Tags
 
@@ -66,7 +66,6 @@ This image provides various versions that are available via tags. Please read th
 | :----: | :----: |--- |
 | latest | ✅ | Beta releases of Duplicati |
 | development | ✅ | Canary releases of Duplicati |
-
 ## Application Setup
 
 The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati](https://www.duplicati.com/).
@@ -87,7 +86,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
       - CLI_ARGS= #optional
     volumes:
       - </path/to/appdata/config>:/config
@@ -105,7 +104,7 @@ docker run -d \
   --name=duplicati \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Etc/UTC \
   -e CLI_ARGS= `#optional` \
   -p 8200:8200 \
   -v </path/to/appdata/config>:/config \
@@ -113,6 +112,7 @@ docker run -d \
   -v </path/to/source>:/source \
   --restart unless-stopped \
   lscr.io/linuxserver/duplicati:development
+
 ```
 
 ## Parameters
@@ -124,7 +124,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 8200` | http gui |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
+| `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e CLI_ARGS=` | Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with |
 | `-v /config` | Contains all relevant configuration files. |
 | `-v /backups` | Path to store local backups. |
