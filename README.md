@@ -89,9 +89,9 @@ services:
       - TZ=Etc/UTC
       - CLI_ARGS= #optional
     volumes:
-      - </path/to/appdata/config>:/config
-      - </path/to/backups>:/backups
-      - </path/to/source>:/source
+      - /path/to/appdata/config:/config
+      - /path/to/backups:/backups
+      - /path/to/source:/source
     ports:
       - 8200:8200
     restart: unless-stopped
@@ -107,9 +107,9 @@ docker run -d \
   -e TZ=Etc/UTC \
   -e CLI_ARGS= `#optional` \
   -p 8200:8200 \
-  -v </path/to/appdata/config>:/config \
-  -v </path/to/backups>:/backups \
-  -v </path/to/source>:/source \
+  -v /path/to/appdata/config:/config \
+  -v /path/to/backups:/backups \
+  -v /path/to/source:/source \
   --restart unless-stopped \
   lscr.io/linuxserver/duplicati:development
 
@@ -239,6 +239,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **15.02.23:** - Rebase to Jammy.
 * **03.08.22:** - Deprecate armhf.
 * **13.03.22:** - Fix artifact link.
 * **10.03.21:** - Rebase to focal baseimage with mono 6.12+.
