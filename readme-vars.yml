@@ -23,9 +23,9 @@ common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "</path/to/appdata/config>", desc: "Contains all relevant configuration files." }
-  - { vol_path: "/backups", vol_host_path: "</path/to/backups>", desc: "Path to store local backups." }
-  - { vol_path: "/source", vol_host_path: "</path/to/source>", desc: "Path to source for files to backup." }
+  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Contains all relevant configuration files." }
+  - { vol_path: "/backups", vol_host_path: "/path/to/backups", desc: "Path to store local backups." }
+  - { vol_path: "/source", vol_host_path: "/path/to/source", desc: "Path to source for files to backup." }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8200", internal_port: "8200", port_desc: "http gui" }
@@ -49,6 +49,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "15.02.23:", desc: "Rebase to Jammy." }
   - { date: "03.08.22:", desc: "Deprecate armhf." }
   - { date: "13.03.22:", desc: "Fix artifact link." }
   - { date: "10.03.21:", desc: "Rebase to focal baseimage with mono 6.12+." }
