@@ -22,7 +22,6 @@ RUN \
   apt-get install -y \
     mono-devel \
     mono-vbnc \
-    rclone \
     unzip && \
   echo "**** install duplicati ****" && \
   if [ -z ${DUPLICATI_RELEASE+x} ]; then \
