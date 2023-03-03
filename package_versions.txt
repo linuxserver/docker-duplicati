@@ -1,360 +1,378 @@
-adduser3.118ubuntu5
-apt2.4.8
-apt-utils2.4.8
-base-files12ubuntu4.3
-base-passwd3.5.52build1
-bash5.1-6ubuntu1
-binfmt-support2.2.1-2
-binutils2.38-4ubuntu2.1
-binutils-common2.38-4ubuntu2.1
-binutils-x86-64-linux-gnu2.38-4ubuntu2.1
-bsdutils1:2.37.2-4ubuntu3
-bzip21.0.8-5build1
-ca-certificates20211016ubuntu0.22.04.1
-ca-certificates-mono6.12.0.182-0xamarin1+ubuntu2004b1
-cli-common0.10xamarin5+ubuntu2004b1
-coreutils8.32-4.1ubuntu1
-curl7.81.0-1ubuntu1.7
-dash0.5.11+git20210903+057cd650a4ed-3build1
-debconf1.5.79ubuntu1
-debianutils5.5-1ubuntu2
-diffutils1:3.8-0ubuntu2
-dirmngr2.2.27-3ubuntu2.1
-dpkg1.21.1ubuntu2.1
-e2fsprogs1.46.5-2ubuntu1.1
-findutils4.8.0-1ubuntu3
-fontconfig-config2.13.1-4.2ubuntu5
-fonts-dejavu-core2.37-2build1
-gcc-12-base12.1.0-2ubuntu1~22.04
-gnupg2.2.27-3ubuntu2.1
-gnupg-l10n2.2.27-3ubuntu2.1
-gnupg-utils2.2.27-3ubuntu2.1
-gpg2.2.27-3ubuntu2.1
-gpg-agent2.2.27-3ubuntu2.1
-gpgconf2.2.27-3ubuntu2.1
-gpgsm2.2.27-3ubuntu2.1
-gpgv2.2.27-3ubuntu2.1
-gpg-wks-client2.2.27-3ubuntu2.1
-gpg-wks-server2.2.27-3ubuntu2.1
-grep3.7-1build1
-gzip1.10-4ubuntu4.1
-hostname3.23ubuntu2
-init-system-helpers1.62
-jq1.6-2.1ubuntu3
-libacl12.3.1-1
-libapt-pkg6.02.4.8
-libassuan02.5.5-1build1
-libattr11:2.5.1-1build1
-libaudit11:3.0.7-1build1
-libaudit-common1:3.0.7-1build1
-libbinutils2.38-4ubuntu2.1
-libblkid12.37.2-4ubuntu3
-libbrotli11.0.9-2build6
-libbsd00.11.5-1
-libbz2-1.01.0.8-5build1
-libc62.35-0ubuntu3.1
-libcairo21.16.0-5ubuntu2
-libcap21:2.44-1build3
-libcap-ng00.7.9-2.2build3
-libc-bin2.35-0ubuntu3.1
-libcom-err21.46.5-2ubuntu1.1
-libcrypt11:4.4.27-1
-libctf02.38-4ubuntu2.1
-libctf-nobfd02.38-4ubuntu2.1
-libcurl47.81.0-1ubuntu1.7
-libdb5.35.3.28+dfsg1-0.8ubuntu3
-libdebconfclient00.261ubuntu1
-libdeflate01.10-2
-libdpkg-perl1.21.1ubuntu2.1
-libexif120.6.24-1build1
-libexpat12.4.7-1ubuntu0.2
-libext2fs21.46.5-2ubuntu1.1
-libffi83.4.2-4
-libfile-fcntllock-perl0.22-3build7
-libfontconfig12.13.1-4.2ubuntu5
-libfreetype62.11.1+dfsg-1ubuntu0.1
-libgcc-s112.1.0-2ubuntu1~22.04
-libgcrypt201.9.4-3ubuntu3
-libgdbm61.23-1
-libgdbm-compat41.23-1
-libgdiplus6.0.5-0xamarin1+ubuntu2004b1
-libgif75.1.9-2build2
-libglib2.0-02.72.4-0ubuntu1
-libglib2.0-data2.72.4-0ubuntu1
-libgmp102:6.2.1+dfsg-3ubuntu1
-libgnutls303.7.3-4ubuntu1.1
-libgpg-error01.43-3
-libgssapi-krb5-21.19.2-2ubuntu0.1
-libhogweed63.7.3-1build2
-libicu7070.1-2
-libidn2-02.3.2-2build1
-libjbig02.1-3.1ubuntu0.22.04.1
-libjpeg88c-2ubuntu10
-libjpeg-turbo82.1.2-0ubuntu1
-libjq11.6-2.1ubuntu3
-libk5crypto31.19.2-2ubuntu0.1
-libkeyutils11.6.1-2ubuntu3
-libkrb5-31.19.2-2ubuntu0.1
-libkrb5support01.19.2-2ubuntu0.1
-libksba81.6.0-2ubuntu0.2
-libldap-2.5-02.5.13+dfsg-0ubuntu0.22.04.1
-libldap-common2.5.13+dfsg-0ubuntu0.22.04.1
-liblocale-gettext-perl1.07-4build3
-liblz4-11.9.3-2build2
-liblzma55.2.5-2ubuntu1
-libmd01.0.4-1build1
-libmono-2.0-dev6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-accessibility4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-btls-interface4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-cairo4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-cecil-private-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-cecil-vb0.9-cil4.7-0xamarin3+ubuntu2004b1
-libmono-cil-dev6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-codecontracts4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-compilerservices-symbolwriter4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-corlib4.5-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-cscompmgd0.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-csharp4.0c-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-custommarshalers4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-data-tds4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-db2-1.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-debugger-soft4.0a-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-http4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-i18n4.0-all6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-i18n4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-i18n-cjk4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-i18n-mideast4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-i18n-other4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-i18n-rare4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-i18n-west4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-ldap4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-management4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-messaging4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-messaging-rabbitmq4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-microsoft-build4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-microsoft-build-engine4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-microsoft-build-framework4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-microsoft-build-tasks-v4.0-4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-microsoft-build-utilities-v4.0-4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-microsoft-csharp4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-microsoft-visualbasic10.0-cil4.7-0xamarin3+ubuntu2004b1
-libmono-microsoft-visualc10.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-microsoft-web-infrastructure1.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-oracle4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-parallel4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-peapi4.0a-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-posix4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-rabbitmq4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-relaxng4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-security4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmonosgen-2.0-16.12.0.182-0xamarin1+ubuntu2004b1
-libmonosgen-2.0-dev6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-sharpzip4.84-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-simd4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-smdiagnostics0.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-sqlite4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-componentmodel-composition4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-componentmodel-dataannotations4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-configuration4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-configuration-install4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-core4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-data4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-data-datasetextensions4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-data-entity4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-data-linq4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-data-services4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-data-services-client4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-deployment4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-design4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-drawing4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-drawing-design4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-dynamic4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-enterpriseservices4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-identitymodel4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-identitymodel-selectors4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-io-compression4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-io-compression-filesystem4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-json4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-json-microsoft4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-ldap4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-ldap-protocols4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-management4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-messaging4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-net4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-net-http4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-net-http-formatting4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-net-http-webrequest4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-numerics4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-numerics-vectors4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-core2.2-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-debugger2.2-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-experimental2.2-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-interfaces2.2-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-linq2.2-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-observable-aliases0.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-platformservices2.2-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-providers2.2-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-runtime-remoting2.2-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-windows-forms2.2-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reactive-windows-threading2.2-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-reflection-context4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-runtime4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-runtime-caching4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-runtime-durableinstancing4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-runtime-serialization4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-runtime-serialization-formatters-soap4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-security4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-servicemodel4.0a-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-servicemodel-activation4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-servicemodel-discovery4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-servicemodel-internals0.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-servicemodel-routing4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-servicemodel-web4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-serviceprocess4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-threading-tasks-dataflow4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-transactions4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-abstractions4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-applicationservices4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-dynamicdata4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-extensions4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-extensions-design4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-http4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-http-selfhost4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-http-webhost4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-mobile4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-mvc3.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-razor2.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-regularexpressions4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-routing4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-services4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-webpages2.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-webpages-deployment2.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-web-webpages-razor2.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-windows4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-windows-forms4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-windows-forms-datavisualization4.0a-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-workflow-activities4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-workflow-componentmodel4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-workflow-runtime4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-xaml4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-xml4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-xml-linq4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-system-xml-serialization4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-tasklets4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-webbrowser4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-webmatrix-data4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-windowsbase4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmono-xbuild-tasks4.0-cil6.12.0.182-0xamarin1+ubuntu2004b1
-libmount12.37.2-4ubuntu3
-libncurses66.3-2
-libncursesw66.3-2
-libnettle83.7.3-1build2
-libnghttp2-141.43.0-1build3
-libnpth01.6-3build2
-libnsl21.3.0-2build2
-libonig56.9.7.1-2build1
-libp11-kit00.24.0-6build1
-libpam0g1.4.0-11ubuntu2.3
-libpam-modules1.4.0-11ubuntu2.3
-libpam-modules-bin1.4.0-11ubuntu2.3
-libpam-runtime1.4.0-11ubuntu2.3
-libpcre2-8-010.39-3ubuntu0.1
-libpcre32:8.39-13ubuntu0.22.04.1
-libperl5.345.34.0-3ubuntu1.1
-libpipeline11.5.5-1
-libpixman-1-00.40.0-1ubuntu0.22.04.1
-libpng16-161.6.37-3build5
-libprocps82:3.3.17-6ubuntu2
-libpsl50.21.0-1.2build2
-libreadline88.1.2-1
-librtmp12.4+20151223.gitfa8646d.1-2build4
-libsasl2-22.1.27+dfsg2-3ubuntu1.1
-libsasl2-modules2.1.27+dfsg2-3ubuntu1.1
-libsasl2-modules-db2.1.27+dfsg2-3ubuntu1.1
-libseccomp22.5.3-2ubuntu2
-libselinux13.3-1build2
-libsemanage23.3-1build2
-libsemanage-common3.3-1build2
-libsepol23.3-1build1
-libsmartcols12.37.2-4ubuntu3
-libsqlite3-03.37.2-2ubuntu0.1
-libss21.46.5-2ubuntu1.1
-libssh-40.9.6-2build1
-libssl33.0.2-0ubuntu1.8
-libstdc++612.1.0-2ubuntu1~22.04
-libsystemd0249.11-0ubuntu3.6
-libtasn1-64.18.0-4build1
-libtiff54.3.0-6ubuntu0.3
-libtinfo66.3-2
-libtirpc31.3.2-2ubuntu0.1
-libtirpc-common1.3.2-2ubuntu0.1
-libudev1249.11-0ubuntu3.6
-libunistring21.0-1
-libuuid12.37.2-4ubuntu3
-libwebp71.2.2-2
-libx11-62:1.7.5-1
-libx11-data2:1.7.5-1
-libxau61:1.0.9-1build5
-libxcb11.14-3ubuntu3
-libxcb-render01.14-3ubuntu3
-libxcb-shm01.14-3ubuntu3
-libxdmcp61:1.1.3-0ubuntu5
-libxext62:1.3.4-1build1
-libxml22.9.13+dfsg-1ubuntu0.2
-libxrender11:0.9.10-1build4
-libxxhash00.8.1-1
-libzstd11.4.8+dfsg-3build1
-locales2.35-0ubuntu3.1
-login1:4.8.1-2ubuntu2.1
-logsave1.46.5-2ubuntu1.1
-lsb-base11.1.0ubuntu4
-mawk1.3.4.20200120-3
-mono-4.0-gac6.12.0.182-0xamarin1+ubuntu2004b1
-mono-csharp-shell6.12.0.182-0xamarin1+ubuntu2004b1
-mono-devel6.12.0.182-0xamarin1+ubuntu2004b1
-mono-gac6.12.0.182-0xamarin1+ubuntu2004b1
-mono-llvm-support6.12.0.182-0xamarin1+ubuntu2004b1
-mono-llvm-tools6.0+mono20190708165219-0xamarin2+ubuntu2004b1
-mono-mcs6.12.0.182-0xamarin1+ubuntu2004b1
-mono-roslyn6.12.0.182-0xamarin1+ubuntu2004b1
-mono-runtime6.12.0.182-0xamarin1+ubuntu2004b1
-mono-runtime-common6.12.0.182-0xamarin1+ubuntu2004b1
-mono-runtime-sgen6.12.0.182-0xamarin1+ubuntu2004b1
-mono-vbnc4.7-0xamarin3+ubuntu2004b1
-mono-xbuild6.12.0.182-0xamarin1+ubuntu2004b1
-mount2.37.2-4ubuntu3
-msbuild1:16.10.1+xamarinxplat.2021.05.26.14.00-0xamarin2+ubuntu2004b1
-msbuild-libhostfxr3.0.0.2019.04.16.02.13-0xamarin4+ubuntu2004b1
-msbuild-sdkresolver1:16.10.1+xamarinxplat.2021.05.26.14.00-0xamarin2+ubuntu2004b1
-ncurses-base6.3-2
-ncurses-bin6.3-2
-netbase6.3
-netcat1.218-4ubuntu1
-netcat-openbsd1.218-4ubuntu1
-openssl3.0.2-0ubuntu1.8
-passwd1:4.8.1-2ubuntu2.1
-perl5.34.0-3ubuntu1.1
-perl-base5.34.0-3ubuntu1.1
-perl-modules-5.345.34.0-3ubuntu1.1
-pinentry-curses1.1.1-1build2
-pkg-config0.29.2-1ubuntu3
-procps2:3.3.17-6ubuntu2
-publicsuffix20211207.1025-1
-readline-common8.1.2-1
-referenceassemblies-pcl2014.04.14-1xamarin7+ubuntu2004b1
-sed4.8-1ubuntu2
-sensible-utils0.0.17
-shared-mime-info2.1-2
-sysvinit-utils3.01-1ubuntu1
-tar1.34+dfsg-1build3
-tzdata2022g-0ubuntu0.22.04.1
-ubuntu-keyring2021.03.26
-ucf3.0043
-unzip6.0-26ubuntu3.1
-usrmerge25ubuntu2
-util-linux2.37.2-4ubuntu3
-xdg-user-dirs0.17-2ubuntu4
-xz-utils5.2.5-2ubuntu1
-zlib1g1:1.2.11.dfsg-2ubuntu9.2
+NAME                                                         VERSION                                                         TYPE      
+adduser                                                      3.118ubuntu5                                                    deb        
+apt                                                          2.4.8                                                           deb        
+apt-utils                                                    2.4.8                                                           deb        
+base-files                                                   12ubuntu4.3                                                     deb        
+base-passwd                                                  3.5.52build1                                                    deb        
+bash                                                         5.1-6ubuntu1                                                    deb        
+binfmt-support                                               2.2.1-2                                                         deb        
+binutils                                                     2.38-4ubuntu2.1                                                 deb        
+binutils-common                                              2.38-4ubuntu2.1                                                 deb        
+binutils-x86-64-linux-gnu                                    2.38-4ubuntu2.1                                                 deb        
+bsdutils                                                     1:2.37.2-4ubuntu3                                               deb        
+bzip2                                                        1.0.8-5build1                                                   deb        
+ca-certificates                                              20211016ubuntu0.22.04.1                                         deb        
+ca-certificates-mono                                         6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+cli-common                                                   0.10xamarin5+ubuntu2004b1                                       deb        
+coreutils                                                    8.32-4.1ubuntu1                                                 deb        
+curl                                                         7.81.0-1ubuntu1.8                                               deb        
+dash                                                         0.5.11+git20210903+057cd650a4ed-3build1                         deb        
+debconf                                                      1.5.79ubuntu1                                                   deb        
+debianutils                                                  5.5-1ubuntu2                                                    deb        
+diffutils                                                    1:3.8-0ubuntu2                                                  deb        
+dirmngr                                                      2.2.27-3ubuntu2.1                                               deb        
+dpkg                                                         1.21.1ubuntu2.1                                                 deb        
+e2fsprogs                                                    1.46.5-2ubuntu1.1                                               deb        
+findutils                                                    4.8.0-1ubuntu3                                                  deb        
+fontconfig-config                                            2.13.1-4.2ubuntu5                                               deb        
+fonts-dejavu-core                                            2.37-2build1                                                    deb        
+gcc-12-base                                                  12.1.0-2ubuntu1~22.04                                           deb        
+github.com/btcsuite/btcutil                                  v1.0.1                                                          go-module  
+github.com/calebcase/tmpfile                                 v1.0.1                                                          go-module  
+github.com/gogo/protobuf                                     v1.2.1                                                          go-module  
+github.com/minio/sha256-simd                                 v0.1.1                                                          go-module  
+github.com/spacemonkeygo/monkit/v3                           v3.0.7-0.20200515175308-072401d8c752                            go-module  
+github.com/vivint/infectious                                 v0.0.0-20200605153912-25a574ae18a3                              go-module  
+github.com/zeebo/errs                                        v1.2.2                                                          go-module  
+gnupg                                                        2.2.27-3ubuntu2.1                                               deb        
+gnupg-l10n                                                   2.2.27-3ubuntu2.1                                               deb        
+gnupg-utils                                                  2.2.27-3ubuntu2.1                                               deb        
+go.uber.org/atomic                                           v1.4.0                                                          go-module  
+go.uber.org/multierr                                         v1.1.0                                                          go-module  
+go.uber.org/zap                                              v1.10.0                                                         go-module  
+golang.org/x/crypto                                          v0.0.0-20200220183623-bac4c82f6975                              go-module  
+golang.org/x/sync                                            v0.0.0-20190911185100-cd5d95a43a6e                              go-module  
+golang.org/x/sys                                             v0.0.0-20200323222414-85ca7c5b95cd                              go-module  
+gpg                                                          2.2.27-3ubuntu2.1                                               deb        
+gpg-agent                                                    2.2.27-3ubuntu2.1                                               deb        
+gpg-wks-client                                               2.2.27-3ubuntu2.1                                               deb        
+gpg-wks-server                                               2.2.27-3ubuntu2.1                                               deb        
+gpgconf                                                      2.2.27-3ubuntu2.1                                               deb        
+gpgsm                                                        2.2.27-3ubuntu2.1                                               deb        
+gpgv                                                         2.2.27-3ubuntu2.1                                               deb        
+grep                                                         3.7-1build1                                                     deb        
+gzip                                                         1.10-4ubuntu4.1                                                 deb        
+hostname                                                     3.23ubuntu2                                                     deb        
+init-system-helpers                                          1.62                                                            deb        
+jq                                                           1.6-2.1ubuntu3                                                  deb        
+libacl1                                                      2.3.1-1                                                         deb        
+libapt-pkg6.0                                                2.4.8                                                           deb        
+libassuan0                                                   2.5.5-1build1                                                   deb        
+libattr1                                                     1:2.5.1-1build1                                                 deb        
+libaudit-common                                              1:3.0.7-1build1                                                 deb        
+libaudit1                                                    1:3.0.7-1build1                                                 deb        
+libbinutils                                                  2.38-4ubuntu2.1                                                 deb        
+libblkid1                                                    2.37.2-4ubuntu3                                                 deb        
+libbrotli1                                                   1.0.9-2build6                                                   deb        
+libbsd0                                                      0.11.5-1                                                        deb        
+libbz2-1.0                                                   1.0.8-5build1                                                   deb        
+libc-bin                                                     2.35-0ubuntu3.1                                                 deb        
+libc6                                                        2.35-0ubuntu3.1                                                 deb        
+libcairo2                                                    1.16.0-5ubuntu2                                                 deb        
+libcap-ng0                                                   0.7.9-2.2build3                                                 deb        
+libcap2                                                      1:2.44-1build3                                                  deb        
+libcom-err2                                                  1.46.5-2ubuntu1.1                                               deb        
+libcrypt1                                                    1:4.4.27-1                                                      deb        
+libctf-nobfd0                                                2.38-4ubuntu2.1                                                 deb        
+libctf0                                                      2.38-4ubuntu2.1                                                 deb        
+libcurl4                                                     7.81.0-1ubuntu1.8                                               deb        
+libdb5.3                                                     5.3.28+dfsg1-0.8ubuntu3                                         deb        
+libdebconfclient0                                            0.261ubuntu1                                                    deb        
+libdeflate0                                                  1.10-2                                                          deb        
+libdpkg-perl                                                 1.21.1ubuntu2.1                                                 deb        
+libexif12                                                    0.6.24-1build1                                                  deb        
+libexpat1                                                    2.4.7-1ubuntu0.2                                                deb        
+libext2fs2                                                   1.46.5-2ubuntu1.1                                               deb        
+libffi8                                                      3.4.2-4                                                         deb        
+libfile-fcntllock-perl                                       0.22-3build7                                                    deb        
+libfontconfig1                                               2.13.1-4.2ubuntu5                                               deb        
+libfreetype6                                                 2.11.1+dfsg-1ubuntu0.1                                          deb        
+libgcc-s1                                                    12.1.0-2ubuntu1~22.04                                           deb        
+libgcrypt20                                                  1.9.4-3ubuntu3                                                  deb        
+libgdbm-compat4                                              1.23-1                                                          deb        
+libgdbm6                                                     1.23-1                                                          deb        
+libgdiplus                                                   6.0.5-0xamarin1+ubuntu2004b1                                    deb        
+libgif7                                                      5.1.9-2build2                                                   deb        
+libglib2.0-0                                                 2.72.4-0ubuntu1                                                 deb        
+libglib2.0-data                                              2.72.4-0ubuntu1                                                 deb        
+libgmp10                                                     2:6.2.1+dfsg-3ubuntu1                                           deb        
+libgnutls30                                                  3.7.3-4ubuntu1.1                                                deb        
+libgpg-error0                                                1.43-3                                                          deb        
+libgssapi-krb5-2                                             1.19.2-2ubuntu0.1                                               deb        
+libhogweed6                                                  3.7.3-1build2                                                   deb        
+libicu70                                                     70.1-2                                                          deb        
+libidn2-0                                                    2.3.2-2build1                                                   deb        
+libjbig0                                                     2.1-3.1ubuntu0.22.04.1                                          deb        
+libjpeg-turbo8                                               2.1.2-0ubuntu1                                                  deb        
+libjpeg8                                                     8c-2ubuntu10                                                    deb        
+libjq1                                                       1.6-2.1ubuntu3                                                  deb        
+libk5crypto3                                                 1.19.2-2ubuntu0.1                                               deb        
+libkeyutils1                                                 1.6.1-2ubuntu3                                                  deb        
+libkrb5-3                                                    1.19.2-2ubuntu0.1                                               deb        
+libkrb5support0                                              1.19.2-2ubuntu0.1                                               deb        
+libksba8                                                     1.6.0-2ubuntu0.2                                                deb        
+libldap-2.5-0                                                2.5.13+dfsg-0ubuntu0.22.04.1                                    deb        
+libldap-common                                               2.5.13+dfsg-0ubuntu0.22.04.1                                    deb        
+liblocale-gettext-perl                                       1.07-4build3                                                    deb        
+liblz4-1                                                     1.9.3-2build2                                                   deb        
+liblzma5                                                     5.2.5-2ubuntu1                                                  deb        
+libmd0                                                       1.0.4-1build1                                                   deb        
+libmono-2.0-dev                                              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-accessibility4.0-cil                                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-btls-interface4.0-cil                                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-cairo4.0-cil                                         6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-cecil-private-cil                                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-cecil-vb0.9-cil                                      4.7-0xamarin3+ubuntu2004b1                                      deb        
+libmono-cil-dev                                              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-codecontracts4.0-cil                                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-compilerservices-symbolwriter4.0-cil                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-corlib4.5-cil                                        6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-cscompmgd0.0-cil                                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-csharp4.0c-cil                                       6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-custommarshalers4.0-cil                              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-data-tds4.0-cil                                      6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-db2-1.0-cil                                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-debugger-soft4.0a-cil                                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-http4.0-cil                                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-i18n-cjk4.0-cil                                      6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-i18n-mideast4.0-cil                                  6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-i18n-other4.0-cil                                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-i18n-rare4.0-cil                                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-i18n-west4.0-cil                                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-i18n4.0-all                                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-i18n4.0-cil                                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-ldap4.0-cil                                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-management4.0-cil                                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-messaging-rabbitmq4.0-cil                            6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-messaging4.0-cil                                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-microsoft-build-engine4.0-cil                        6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-microsoft-build-framework4.0-cil                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-microsoft-build-tasks-v4.0-4.0-cil                   6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-microsoft-build-utilities-v4.0-4.0-cil               6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-microsoft-build4.0-cil                               6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-microsoft-csharp4.0-cil                              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-microsoft-visualbasic10.0-cil                        4.7-0xamarin3+ubuntu2004b1                                      deb        
+libmono-microsoft-visualc10.0-cil                            6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-microsoft-web-infrastructure1.0-cil                  6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-oracle4.0-cil                                        6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-parallel4.0-cil                                      6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-peapi4.0a-cil                                        6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-posix4.0-cil                                         6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-rabbitmq4.0-cil                                      6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-relaxng4.0-cil                                       6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-security4.0-cil                                      6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-sharpzip4.84-cil                                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-simd4.0-cil                                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-smdiagnostics0.0-cil                                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-sqlite4.0-cil                                        6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-componentmodel-composition4.0-cil             6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-componentmodel-dataannotations4.0-cil         6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-configuration-install4.0-cil                  6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-configuration4.0-cil                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-core4.0-cil                                   6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-data-datasetextensions4.0-cil                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-data-entity4.0-cil                            6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-data-linq4.0-cil                              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-data-services-client4.0-cil                   6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-data-services4.0-cil                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-data4.0-cil                                   6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-deployment4.0-cil                             6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-design4.0-cil                                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-drawing-design4.0-cil                         6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-drawing4.0-cil                                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-dynamic4.0-cil                                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-enterpriseservices4.0-cil                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-identitymodel-selectors4.0-cil                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-identitymodel4.0-cil                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-io-compression-filesystem4.0-cil              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-io-compression4.0-cil                         6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-json-microsoft4.0-cil                         6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-json4.0-cil                                   6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-ldap-protocols4.0-cil                         6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-ldap4.0-cil                                   6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-management4.0-cil                             6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-messaging4.0-cil                              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-net-http-formatting4.0-cil                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-net-http-webrequest4.0-cil                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-net-http4.0-cil                               6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-net4.0-cil                                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-numerics-vectors4.0-cil                       6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-numerics4.0-cil                               6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-core2.2-cil                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-debugger2.2-cil                      6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-experimental2.2-cil                  6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-interfaces2.2-cil                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-linq2.2-cil                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-observable-aliases0.0-cil            6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-platformservices2.2-cil              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-providers2.2-cil                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-runtime-remoting2.2-cil              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-windows-forms2.2-cil                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reactive-windows-threading2.2-cil             6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-reflection-context4.0-cil                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-runtime-caching4.0-cil                        6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-runtime-durableinstancing4.0-cil              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-runtime-serialization-formatters-soap4.0-cil  6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-runtime-serialization4.0-cil                  6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-runtime4.0-cil                                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-security4.0-cil                               6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-servicemodel-activation4.0-cil                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-servicemodel-discovery4.0-cil                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-servicemodel-internals0.0-cil                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-servicemodel-routing4.0-cil                   6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-servicemodel-web4.0-cil                       6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-servicemodel4.0a-cil                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-serviceprocess4.0-cil                         6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-threading-tasks-dataflow4.0-cil               6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-transactions4.0-cil                           6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-abstractions4.0-cil                       6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-applicationservices4.0-cil                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-dynamicdata4.0-cil                        6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-extensions-design4.0-cil                  6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-extensions4.0-cil                         6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-http-selfhost4.0-cil                      6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-http-webhost4.0-cil                       6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-http4.0-cil                               6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-mobile4.0-cil                             6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-mvc3.0-cil                                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-razor2.0-cil                              6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-regularexpressions4.0-cil                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-routing4.0-cil                            6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-services4.0-cil                           6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-webpages-deployment2.0-cil                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-webpages-razor2.0-cil                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web-webpages2.0-cil                           6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-web4.0-cil                                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-windows-forms-datavisualization4.0a-cil       6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-windows-forms4.0-cil                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-windows4.0-cil                                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-workflow-activities4.0-cil                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-workflow-componentmodel4.0-cil                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-workflow-runtime4.0-cil                       6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-xaml4.0-cil                                   6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-xml-linq4.0-cil                               6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-xml-serialization4.0-cil                      6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system-xml4.0-cil                                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-system4.0-cil                                        6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-tasklets4.0-cil                                      6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-webbrowser4.0-cil                                    6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-webmatrix-data4.0-cil                                6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-windowsbase4.0-cil                                   6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmono-xbuild-tasks4.0-cil                                  6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmonosgen-2.0-1                                            6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmonosgen-2.0-dev                                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+libmount1                                                    2.37.2-4ubuntu3                                                 deb        
+libncurses6                                                  6.3-2                                                           deb        
+libncursesw6                                                 6.3-2                                                           deb        
+libnettle8                                                   3.7.3-1build2                                                   deb        
+libnghttp2-14                                                1.43.0-1build3                                                  deb        
+libnpth0                                                     1.6-3build2                                                     deb        
+libnsl2                                                      1.3.0-2build2                                                   deb        
+libonig5                                                     6.9.7.1-2build1                                                 deb        
+libp11-kit0                                                  0.24.0-6build1                                                  deb        
+libpam-modules                                               1.4.0-11ubuntu2.3                                               deb        
+libpam-modules-bin                                           1.4.0-11ubuntu2.3                                               deb        
+libpam-runtime                                               1.4.0-11ubuntu2.3                                               deb        
+libpam0g                                                     1.4.0-11ubuntu2.3                                               deb        
+libpcre2-8-0                                                 10.39-3ubuntu0.1                                                deb        
+libpcre3                                                     2:8.39-13ubuntu0.22.04.1                                        deb        
+libperl5.34                                                  5.34.0-3ubuntu1.1                                               deb        
+libpipeline1                                                 1.5.5-1                                                         deb        
+libpixman-1-0                                                0.40.0-1ubuntu0.22.04.1                                         deb        
+libpng16-16                                                  1.6.37-3build5                                                  deb        
+libprocps8                                                   2:3.3.17-6ubuntu2                                               deb        
+libpsl5                                                      0.21.0-1.2build2                                                deb        
+libreadline8                                                 8.1.2-1                                                         deb        
+librtmp1                                                     2.4+20151223.gitfa8646d.1-2build4                               deb        
+libsasl2-2                                                   2.1.27+dfsg2-3ubuntu1.2                                         deb        
+libsasl2-modules                                             2.1.27+dfsg2-3ubuntu1.2                                         deb        
+libsasl2-modules-db                                          2.1.27+dfsg2-3ubuntu1.2                                         deb        
+libseccomp2                                                  2.5.3-2ubuntu2                                                  deb        
+libselinux1                                                  3.3-1build2                                                     deb        
+libsemanage-common                                           3.3-1build2                                                     deb        
+libsemanage2                                                 3.3-1build2                                                     deb        
+libsepol2                                                    3.3-1build1                                                     deb        
+libsmartcols1                                                2.37.2-4ubuntu3                                                 deb        
+libsqlite3-0                                                 3.37.2-2ubuntu0.1                                               deb        
+libss2                                                       1.46.5-2ubuntu1.1                                               deb        
+libssh-4                                                     0.9.6-2build1                                                   deb        
+libssl3                                                      3.0.2-0ubuntu1.8                                                deb        
+libstdc++6                                                   12.1.0-2ubuntu1~22.04                                           deb        
+libsystemd0                                                  249.11-0ubuntu3.6                                               deb        
+libtasn1-6                                                   4.18.0-4build1                                                  deb        
+libtiff5                                                     4.3.0-6ubuntu0.3                                                deb        
+libtinfo6                                                    6.3-2                                                           deb        
+libtirpc-common                                              1.3.2-2ubuntu0.1                                                deb        
+libtirpc3                                                    1.3.2-2ubuntu0.1                                                deb        
+libudev1                                                     249.11-0ubuntu3.6                                               deb        
+libunistring2                                                1.0-1                                                           deb        
+libuuid1                                                     2.37.2-4ubuntu3                                                 deb        
+libwebp7                                                     1.2.2-2                                                         deb        
+libx11-6                                                     2:1.7.5-1                                                       deb        
+libx11-data                                                  2:1.7.5-1                                                       deb        
+libxau6                                                      1:1.0.9-1build5                                                 deb        
+libxcb-render0                                               1.14-3ubuntu3                                                   deb        
+libxcb-shm0                                                  1.14-3ubuntu3                                                   deb        
+libxcb1                                                      1.14-3ubuntu3                                                   deb        
+libxdmcp6                                                    1:1.1.3-0ubuntu5                                                deb        
+libxext6                                                     2:1.3.4-1build1                                                 deb        
+libxml2                                                      2.9.13+dfsg-1ubuntu0.2                                          deb        
+libxrender1                                                  1:0.9.10-1build4                                                deb        
+libxxhash0                                                   0.8.1-1                                                         deb        
+libzstd1                                                     1.4.8+dfsg-3build1                                              deb        
+locales                                                      2.35-0ubuntu3.1                                                 deb        
+login                                                        1:4.8.1-2ubuntu2.1                                              deb        
+logsave                                                      1.46.5-2ubuntu1.1                                               deb        
+lsb-base                                                     11.1.0ubuntu4                                                   deb        
+mawk                                                         1.3.4.20200120-3                                                deb        
+mono-4.0-gac                                                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mono-csharp-shell                                            6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mono-devel                                                   6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mono-gac                                                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mono-llvm-support                                            6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mono-llvm-tools                                              6.0+mono20190708165219-0xamarin2+ubuntu2004b1                   deb        
+mono-mcs                                                     6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mono-roslyn                                                  6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mono-runtime                                                 6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mono-runtime-common                                          6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mono-runtime-sgen                                            6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mono-vbnc                                                    4.7-0xamarin3+ubuntu2004b1                                      deb        
+mono-xbuild                                                  6.12.0.182-0xamarin1+ubuntu2004b1                               deb        
+mount                                                        2.37.2-4ubuntu3                                                 deb        
+msbuild                                                      1:16.10.1+xamarinxplat.2021.05.26.14.00-0xamarin2+ubuntu2004b1  deb        
+msbuild-libhostfxr                                           3.0.0.2019.04.16.02.13-0xamarin4+ubuntu2004b1                   deb        
+msbuild-sdkresolver                                          1:16.10.1+xamarinxplat.2021.05.26.14.00-0xamarin2+ubuntu2004b1  deb        
+ncurses-base                                                 6.3-2                                                           deb        
+ncurses-bin                                                  6.3-2                                                           deb        
+netbase                                                      6.3                                                             deb        
+netcat                                                       1.218-4ubuntu1                                                  deb        
+netcat-openbsd                                               1.218-4ubuntu1                                                  deb        
+openssl                                                      3.0.2-0ubuntu1.8                                                deb        
+passwd                                                       1:4.8.1-2ubuntu2.1                                              deb        
+perl                                                         5.34.0-3ubuntu1.1                                               deb        
+perl-base                                                    5.34.0-3ubuntu1.1                                               deb        
+perl-modules-5.34                                            5.34.0-3ubuntu1.1                                               deb        
+pinentry-curses                                              1.1.1-1build2                                                   deb        
+pkg-config                                                   0.29.2-1ubuntu3                                                 deb        
+procps                                                       2:3.3.17-6ubuntu2                                               deb        
+publicsuffix                                                 20211207.1025-1                                                 deb        
+readline-common                                              8.1.2-1                                                         deb        
+referenceassemblies-pcl                                      2014.04.14-1xamarin7+ubuntu2004b1                               deb        
+sed                                                          4.8-1ubuntu2                                                    deb        
+sensible-utils                                               0.0.17                                                          deb        
+shared-mime-info                                             2.1-2                                                           deb        
+storj.io/common                                              v0.0.0-20200611114417-9a3d012fdb62                              go-module  
+storj.io/drpc                                                v0.0.12                                                         go-module  
+storj.io/uplink                                              v1.1.1                                                          go-module  
+storj.io/uplink-c                                            (devel)                                                         go-module  
+sysvinit-utils                                               3.01-1ubuntu1                                                   deb        
+tar                                                          1.34+dfsg-1build3                                               deb        
+tzdata                                                       2022g-0ubuntu0.22.04.1                                          deb        
+ubuntu-keyring                                               2021.03.26                                                      deb        
+ucf                                                          3.0043                                                          deb        
+unzip                                                        6.0-26ubuntu3.1                                                 deb        
+usrmerge                                                     25ubuntu2                                                       deb        
+util-linux                                                   2.37.2-4ubuntu3                                                 deb        
+xdg-user-dirs                                                0.17-2ubuntu4                                                   deb        
+xz-utils                                                     5.2.5-2ubuntu1                                                  deb        
+zlib1g                                                       1:1.2.11.dfsg-2ubuntu9.2                                        deb        
