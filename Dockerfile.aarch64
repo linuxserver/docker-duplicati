@@ -26,13 +26,14 @@ RUN \
   echo "**** install duplicati ****" && \
   if [ -z ${DUPLICATI_RELEASE+x} ]; then \
     DUPLICATI_RELEASE=$(curl -sX GET "https://api.github.com/repos/duplicati/duplicati/releases" \
-    | jq -r 'first(.[] | select(.tag_name | contains("canary"))) | .tag_name'); \
+      | jq -r 'first(.[] | select(.tag_name | contains("canary"))) | .tag_name'); \
   fi && \
   mkdir -p \
     /app/duplicati && \
-    duplicati_url=$(curl -s https://api.github.com/repos/duplicati/duplicati/releases/tags/"${DUPLICATI_RELEASE}" |jq -r '.assets[].browser_download_url' |grep '.zip$' |grep -v signatures) && \
-  curl -o \
-  /tmp/duplicati.zip -L \
+  duplicati_url=$(curl -s https://api.github.com/repos/duplicati/duplicati/releases/tags/"${DUPLICATI_RELEASE}" |jq -r '.assets[].browser_download_url' |grep '.zip$' |grep -v signatures) || \
+    duplicati_url="https://updates.duplicati.com/canary/duplicati-$(echo $DUPLICATI_RELEASE | sed 's|^v[0-9.]*-||').zip" && \
+  curl -fso \
+    /tmp/duplicati.zip -L \
     "${duplicati_url}" && \
   unzip -q /tmp/duplicati.zip -d /app/duplicati && \
   echo "**** cleanup ****" && \
