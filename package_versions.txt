@@ -1919,8 +1919,8 @@ libudev1                                                     249.11-0ubuntu3.9  
 libunistring2                                                1.0-1                                                            deb        
 libuuid1                                                     2.37.2-4ubuntu3                                                  deb        
 libwebp7                                                     1.2.2-2ubuntu0.22.04.2                                           deb        
-libx11-6                                                     2:1.7.5-1ubuntu0.2                                               deb        
-libx11-data                                                  2:1.7.5-1ubuntu0.2                                               deb        
+libx11-6                                                     2:1.7.5-1ubuntu0.3                                               deb        
+libx11-data                                                  2:1.7.5-1ubuntu0.3                                               deb        
 libxau6                                                      1:1.0.9-1build5                                                  deb        
 libxcb-render0                                               1.14-3ubuntu3                                                    deb        
 libxcb-shm0                                                  1.14-3ubuntu3                                                    deb        
@@ -1931,7 +1931,7 @@ libxml2                                                      2.9.13+dfsg-1ubuntu
 libxrender1                                                  1:0.9.10-1build4                                                 deb        
 libxxhash0                                                   0.8.1-1                                                          deb        
 libzstd1                                                     1.4.8+dfsg-3build1                                               deb        
-locales                                                      2.35-0ubuntu3.3                                                  deb        
+locales                                                      2.35-0ubuntu3.4                                                  deb        
 login                                                        1:4.8.1-2ubuntu2.1                                               deb        
 logsave                                                      1.46.5-2ubuntu1.1                                                deb        
 lsb-base                                                     11.1.0ubuntu4                                                    deb        
