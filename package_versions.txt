@@ -1980,7 +1980,7 @@ netstandard                                                  4.6.26011.1        
 netstandard                                                  4.7.2558.0                                                       dotnet     
 netstandard                                                  4.7.3062.0                                                       dotnet     
 netstandard                                                  4.8.3761.0                                                       dotnet     
-openssl                                                      3.0.2-0ubuntu1.10                                                deb        
+openssl                                                      3.0.2-0ubuntu1.12                                                deb        
 passwd                                                       1:4.8.1-2ubuntu2.1                                               deb        
 perl                                                         5.34.0-3ubuntu1.2                                                deb        
 perl-base                                                    5.34.0-3ubuntu1.2                                                deb        
