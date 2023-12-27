@@ -2,6 +2,7 @@ NAME                                                         VERSION            
 #ZipLibrary                                                  4.84.0.0                                                                                          dotnet     
 (net46)                                                      3.0.3000.0                                                                                        dotnet     
 (net46)                                                      4.0.0.398                                                                                         dotnet     
+ARSoft.Tools.Net                                             1.8.1.0                                                                                           dotnet     
 ASP.Net WebPages                                             1.0.20105.407                                                                                     dotnet     
 AlphaFS                                                      2.2.6.0                                                                                           dotnet     
 AlphaVSS                                                                                                                                                       dotnet     
@@ -10,62 +11,61 @@ Amazon Web Services SDK for .NET                             3.3.103.52         
 Amazon Web Services SDK for .NET                             3.3.103.71                                                                                        dotnet     
 Amazon Web Services SDK for .NET                             3.3.104.43                                                                                        dotnet     
 Assuan                                                       8.8.3.4de3154                                                                                     dotnet     
-Bouncy Castle for .NET                                       1.8.19031.1                                                                                       dotnet     
+BouncyCastle.NET                                             2.2.1.47552                                                                                       dotnet     
 C# LDAP                                                      4.0.0.0                                                                                           dotnet     
 C5: Copenhagen Comprehensive Collection Classes for CLI      1.1.1.0                                                                                           dotnet     
 COSXML                                                       5.4.11.0                                                                                          dotnet     
 CoCoL                                                        1.7.1.0                                                                                           dotnet     
-CommandLine.BackendTester                                    2.0.7.2                                                                                           dotnet     
+CommandLine.BackendTester                                    2.0.7.100                                                                                         dotnet     
 Commons.Xml.Relaxng.dll                                      0.0.0.1                                                                                           dotnet     
 DbLinq                                                       0.20                                                                                              dotnet     
 DotNetZip Library                                            1.9.1.8                                                                                           dotnet     
-Dropbox                                                      2.0.7.2                                                                                           dotnet     
-Duplicati                                                    2.0.7.2                                                                                           dotnet     
-Duplicati.Backend.AlternativeFTP                             2.0.7.2                                                                                           dotnet     
-Duplicati.Backend.CloudFiles                                 2.0.7.2                                                                                           dotnet     
-Duplicati.Backend.FTP                                        2.0.7.2                                                                                           dotnet     
-Duplicati.Backend.File                                       2.0.7.2                                                                                           dotnet     
-Duplicati.Backend.Jottacloud                                 2.0.7.2                                                                                           dotnet     
-Duplicati.Backend.S3                                         2.0.7.2                                                                                           dotnet     
-Duplicati.Backend.WEBDAV                                     2.0.7.2                                                                                           dotnet     
-Duplicati.CommandLine                                        2.0.7.2                                                                                           dotnet     
-Duplicati.CommandLine.BackendTool                            2.0.7.2                                                                                           dotnet     
-Duplicati.CommandLine.ConfigurationImporter                  2.0.7.2                                                                                           dotnet     
-Duplicati.CommandLine.RecoveryTool                           2.0.7.2                                                                                           dotnet     
-Duplicati.Compression                                        2.0.7.2                                                                                           dotnet     
-Duplicati.Core                                               2.0.7.2                                                                                           dotnet     
-Duplicati.DynamicLoader                                      2.0.7.2                                                                                           dotnet     
-Duplicati.GUI.TrayIcon                                       2.0.7.2                                                                                           dotnet     
-Duplicati.Library.AutoUpdater                                2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.Backblaze                          2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.Box                                2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.GoogleServices                     2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.HubiC                              2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.Mega                               2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.OneDrive                           2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.OpenStack                          2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.Rclone                             2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.SSHv2                              2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.SharePoint                         2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.Sia                                2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.TahoeLAFS                          2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.Tardigrade                         2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Backend.TencentCOS                         2.0.7.2                                                                                           dotnet     
-Duplicati.Library.IO                                         2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Interfaces                                 2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Localization                               2.0.7.2                                                                                           dotnet     
-Duplicati.Library.Modules.Builtin                            2.0.7.2                                                                                           dotnet     
-Duplicati.Library.OAuthHelper                                2.0.7.2                                                                                           dotnet     
-Duplicati.Library.UsageReporter                              2.0.7.2                                                                                           dotnet     
-Duplicati.Logging                                            2.0.7.2                                                                                           dotnet     
-Duplicati.Main                                               2.0.7.2                                                                                           dotnet     
-Duplicati.Server                                             2.0.7.2                                                                                           dotnet     
-Duplicati.Server.Serialization                               2.0.7.2                                                                                           dotnet     
-Duplicati.Service                                            2.0.7.2                                                                                           dotnet     
+Dropbox                                                      2.0.7.100                                                                                         dotnet     
+Duplicati                                                    2.0.7.100                                                                                         dotnet     
+Duplicati.Backend.AlternativeFTP                             2.0.7.100                                                                                         dotnet     
+Duplicati.Backend.CloudFiles                                 2.0.7.100                                                                                         dotnet     
+Duplicati.Backend.FTP                                        2.0.7.100                                                                                         dotnet     
+Duplicati.Backend.File                                       2.0.7.100                                                                                         dotnet     
+Duplicati.Backend.Jottacloud                                 2.0.7.100                                                                                         dotnet     
+Duplicati.Backend.S3                                         2.0.7.100                                                                                         dotnet     
+Duplicati.Backend.WEBDAV                                     2.0.7.100                                                                                         dotnet     
+Duplicati.CommandLine                                        2.0.7.100                                                                                         dotnet     
+Duplicati.CommandLine.BackendTool                            2.0.7.100                                                                                         dotnet     
+Duplicati.CommandLine.ConfigurationImporter                  2.0.7.100                                                                                         dotnet     
+Duplicati.CommandLine.RecoveryTool                           2.0.7.100                                                                                         dotnet     
+Duplicati.Compression                                        2.0.7.100                                                                                         dotnet     
+Duplicati.Core                                               2.0.7.100                                                                                         dotnet     
+Duplicati.DynamicLoader                                      2.0.7.100                                                                                         dotnet     
+Duplicati.GUI.TrayIcon                                       2.0.7.100                                                                                         dotnet     
+Duplicati.Library.AutoUpdater                                2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.Backblaze                          2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.Box                                2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.GoogleServices                     2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.Mega                               2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.OneDrive                           2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.OpenStack                          2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.Rclone                             2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.SSHv2                              2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.SharePoint                         2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.Sia                                2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.TahoeLAFS                          2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.Tardigrade                         2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Backend.TencentCOS                         2.0.7.100                                                                                         dotnet     
+Duplicati.Library.IO                                         2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Interfaces                                 2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Localization                               2.0.7.100                                                                                         dotnet     
+Duplicati.Library.Modules.Builtin                            2.0.7.100                                                                                         dotnet     
+Duplicati.Library.OAuthHelper                                2.0.7.100                                                                                         dotnet     
+Duplicati.Library.UsageReporter                              2.0.7.100                                                                                         dotnet     
+Duplicati.Logging                                            2.0.7.100                                                                                         dotnet     
+Duplicati.Main                                               2.0.7.100                                                                                         dotnet     
+Duplicati.Server                                             2.0.7.100                                                                                         dotnet     
+Duplicati.Server.Serialization                               2.0.7.100                                                                                         dotnet     
+Duplicati.Service                                            2.0.7.100                                                                                         dotnet     
 Duplicati.Tools.dll                                          0.0.0.0                                                                                           dotnet     
-Encryption                                                   2.0.7.2                                                                                           dotnet     
+Encryption                                                   2.0.7.100                                                                                         dotnet     
 FasterHashing                                                1.1.2.23404                                                                                       dotnet     
-FluentFTP                                                    27.1.1.0                                                                                          dotnet     
+FluentFTP                                                    46.0.2.0                                                                                          dotnet     
 GNU Privacy Guard (GnuPG)                                    2.2.17                                                                                            dotnet     
 GPGME                                                        33.22.1.ea11c2a1                                                                                  dotnet     
 HttpServer                                                   1.0.0.0                                                                                           dotnet     
@@ -89,14 +89,14 @@ MONO CLI                                                     4.0.30319.1        
 MONO CLI                                                     4.0.30319.17020                                                                                   dotnet     
 MONO CLI                                                     4.6.57.0                                                                                          dotnet     
 MSBuild.dll                                                  16.10.1.31701                                                                                     dotnet     
-MailKit                                                      2.3.1.0                                                                                           dotnet     
+MailKit                                                      4.1.0.0                                                                                           dotnet     
 MegaApiClient                                                1.10.3+Branch.tags-v1.10.3.Sha.f97b1cf13430ca4dd3a66b62f2aa43ba07e3af07                           dotnet     
 Merq                                                         1.1.15-master+d297683                                                                             dotnet     
 Merq                                                         1.1.17-master+cba4571                                                                             dotnet     
 Microsoft Azure Key Vault Core                               3.0.419.36903                                                                                     dotnet     
 Microsoft Azure Key Vault WebKey                             3.0.419.36903                                                                                     dotnet     
 Microsoft Rest Azure Client Runtime                          3.3.18.0                                                                                          dotnet     
-Microsoft Rest Client Runtime                                2.3.20.0                                                                                          dotnet     
+Microsoft Rest Client Runtime                                2.3.23.0                                                                                          dotnet     
 Microsoft.AspNetCore.Analyzers                               3.1.2-servicing.20068.1                                                                           dotnet     
 Microsoft.AspNetCore.Components.Analyzers                    3.100.220.10506                                                                                   dotnet     
 Microsoft.AspNetCore.Mvc.Analyzers                           3.1.2-servicing.20068.1                                                                           dotnet     
@@ -127,6 +127,7 @@ Microsoft.CodeAnalysis.VisualBasic                           3.9.0-6.21124.20+db
 Microsoft.DotNet.MSBuildSdkResolver                          5.0.300-servicing.21267.11+9ba45093c91f7245f701618c7bfc547538c5fb6d                               dotnet     
 Microsoft.DotNet.PlatformAbstractions                        2.1.0                                                                                             dotnet     
 Microsoft.Extensions.DependencyModel                         2.1.0                                                                                             dotnet     
+Microsoft.Extensions.Logging.Abstractions                    2.1.0.18136                                                                                       dotnet     
 Microsoft.NET.Build.Extensions.Tasks                         3.1.400-preview.20365.20+b501745abdf35363aa5f1caa95d9086594c49366                                 dotnet     
 Microsoft.NET.Build.Tasks                                    3.1.400-preview.20365.20+b501745abdf35363aa5f1caa95d9086594c49366                                 dotnet     
 Microsoft.NET.HostModel                                      3.100.220.6704                                                                                    dotnet     
@@ -144,8 +145,8 @@ Microsoft.Web.Delegation.dll                                 7.1.1982.0         
 Microsoft.Web.XmlTransform                                   3.0.0+29.d4d088b6a9c793525b1a27a119cb66ba4587bb39                                                 dotnet     
 Microsoft.Win32.Primitives                                   4.6.25714.01                                                                                      dotnet     
 Microsoft.WindowsAzure.Storage.dll                           9.3.2.0                                                                                           dotnet     
-MimeKit                                                      2.3.1.0                                                                                           dotnet     
-Minio                                                        3.1.7.0                                                                                           dotnet     
+MimeKit                                                      4.1.0.0                                                                                           dotnet     
+Minio                                                        3.1.13.0                                                                                          dotnet     
 Mono C# Compiler                                             4.6.57.0                                                                                          dotnet     
 Mono Common Language Infrastructure                          0.0.0.1                                                                                           dotnet     
 Mono Common Language Infrastructure                          10.0.0.0                                                                                          dotnet     
@@ -217,11 +218,11 @@ Otp.NET                                                      1.2.2.0            
 PEAPI.dll                                                    4.0.0.0                                                                                           dotnet     
 RabbitMQ.Client.Apigen.exe                                   0.0.0.0                                                                                           dotnet     
 Reactive Extensions                                          3.0.0+Branch.master.Sha.327d7bdac1e2cbc2cb8751848f63480c84cdd8be                                  dotnet     
-RestSharp                                                    106.3.1+Branch.master.Sha.ffb26a54d4473cc9612322f2aaf153c2caa03def                                dotnet     
+RestSharp                                                    106.10.1.0                                                                                        dotnet     
 SMDiagnostics.dll                                            4.6.57.0                                                                                          dotnet     
 SMDiagnostics.dll                                            4.7.2046.0                                                                                        dotnet     
 SQLite-net                                                   1.7.335.0                                                                                         dotnet     
-SQLiteHelper                                                 2.0.7.2                                                                                           dotnet     
+SQLiteHelper                                                 2.0.7.100                                                                                         dotnet     
 SQLitePCLRaw.batteries_v2                                    2.0.3.851                                                                                         dotnet     
 SQLitePCLRaw.core                                            2.0.3.851                                                                                         dotnet     
 SQLitePCLRaw.nativelibrary                                   2.0.3.851                                                                                         dotnet     
@@ -229,10 +230,10 @@ SQLitePCLRaw.provider.dynamic_cdecl                          2.0.3.851          
 SSH.NET                                                      2016.0.0                                                                                          dotnet     
 SSH.NET                                                      2020.0.2                                                                                          dotnet     
 Setup Configuration Interoperability Types                   1.16.30.25919                                                                                     dotnet     
+Sharp.Xmpp                                                   1.0.2.2                                                                                           dotnet     
 SharpAESCrypt                                                1.3.3.0                                                                                           dotnet     
 SharpCompress                                                0.24.0                                                                                            dotnet     
 System.AppContext                                            4.6.25714.01                                                                                      dotnet     
-System.Buffers                                               4.6.25519.03                                                                                      dotnet     
 System.Buffers                                               4.6.28619.01                                                                                      dotnet     
 System.Collections                                           4.6.25714.01                                                                                      dotnet     
 System.Collections.Concurrent                                4.6.25714.01                                                                                      dotnet     
@@ -284,6 +285,7 @@ System.Diagnostics.Tracing.dll                               4.0.40013.0        
 System.Drawing.Primitives                                    4.6.25714.01                                                                                      dotnet     
 System.Dynamic.Runtime                                       4.6.25714.01                                                                                      dotnet     
 System.Dynamic.Runtime.dll                                   4.0.30319.17929                                                                                   dotnet     
+System.Formats.Asn1                                          7.0.22.51805                                                                                      dotnet     
 System.Globalization                                         4.6.25714.01                                                                                      dotnet     
 System.Globalization.Calendars                               4.6.25714.01                                                                                      dotnet     
 System.Globalization.Extensions                              4.6.26011.01                                                                                      dotnet     
@@ -311,8 +313,8 @@ System.Linq.Parallel.dll                                     4.0.30319.17929    
 System.Linq.Queryable                                        4.6.25714.01                                                                                      dotnet     
 System.Linq.Queryable.dll                                    4.0.30319.17929                                                                                   dotnet     
 System.Linq.dll                                              4.0.30319.17929                                                                                   dotnet     
-System.Memory                                                4.6.27617.02                                                                                      dotnet     
 System.Memory                                                4.6.28619.01                                                                                      dotnet     
+System.Memory                                                4.6.31308.01                                                                                      dotnet     
 System.Net.Http                                              4.6.26011.01                                                                                      dotnet     
 System.Net.Http.Formatting                                   4.0.0.0                                                                                           dotnet     
 System.Net.Http.dll                                          4.0.30319.17929                                                                                   dotnet     
@@ -372,8 +374,8 @@ System.Resources.ResourceManager                             4.6.25714.01       
 System.Resources.ResourceManager.dll                         4.0.30319.17929                                                                                   dotnet     
 System.Resources.Writer                                      4.6.25714.01                                                                                      dotnet     
 System.Runtime                                               4.6.25714.01                                                                                      dotnet     
-System.Runtime.CompilerServices.Unsafe                       4.6.26919.02                                                                                      dotnet     
 System.Runtime.CompilerServices.Unsafe                       5.0.20.51904                                                                                      dotnet     
+System.Runtime.CompilerServices.Unsafe                       6.0.21.52210                                                                                      dotnet     
 System.Runtime.CompilerServices.VisualC                      4.6.25714.01                                                                                      dotnet     
 System.Runtime.Extensions                                    4.6.25714.01                                                                                      dotnet     
 System.Runtime.Extensions.dll                                4.0.30319.17929                                                                                   dotnet     
@@ -487,13 +489,12 @@ System.dll                                                   4.0.20.0           
 System.dll                                                   4.0.25.0                                                                                          dotnet     
 System.dll                                                   4.0.30.0                                                                                          dotnet     
 System.dll                                                   4.0.30319.17929                                                                                   dotnet     
-TlsTest                                                      0.0.0.0                                                                                           dotnet     
 UnixSupport.dll                                              0.0.0.0                                                                                           dotnet     
 VBCSCompiler                                                 3.9.0-6.21124.20+db94f4cc8c78a7cd8cf9cfdae091158d2ba9d974                                         dotnet     
 Visual Basic.Net Compiler                                    0.0.0.5943                                                                                        dotnet     
 Web Deployment Framework                                     7.1.1981.0                                                                                        dotnet     
 WebMatrix.Data.dll                                           4.0.0.0                                                                                           dotnet     
-WindowsService                                               2.0.7.2                                                                                           dotnet     
+WindowsService                                               2.0.7.100                                                                                         dotnet     
 Xamarin Visual Studio                                        4.6.0.353-projectsystems+34691a4                                                                  dotnet     
 Xamarin.IoT.Core                                             1.0.0.0                                                                                           dotnet     
 Xamarin.IoT.Tasks                                            0.0.0.0                                                                                           dotnet     
@@ -501,7 +502,6 @@ Xamarin.Mac                                                  8.10.0.5; git-rev-h
 Xamarin.Messaging.Integration                                0.0.0.0                                                                                           dotnet     
 Xamarin.VisualStudio.IoT.Tasks.dll                           0.0.0.0                                                                                           dotnet     
 adduser                                                      3.118ubuntu5                                                                                      deb        
-agsXMPP                                                      1.3.1                                                                                             dotnet     
 aprofutil.exe                                                0.0.0.0                                                                                           dotnet     
 apt                                                          2.4.11                                                                                            deb        
 apt-utils                                                    2.4.11                                                                                            deb        
