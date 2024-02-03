@@ -635,8 +635,8 @@ libkrb5-3                                                    1.19.2-2ubuntu0.2  
 libkrb5support0                                              1.19.2-2ubuntu0.2                                                                                 deb        
 libksba                                                      19.11.6.25cc42c                                                                                   dotnet     
 libksba8                                                     1.6.0-2ubuntu0.2                                                                                  deb        
-libldap-2.5-0                                                2.5.16+dfsg-0ubuntu0.22.04.1                                                                      deb        
-libldap-common                                               2.5.16+dfsg-0ubuntu0.22.04.1                                                                      deb        
+libldap-2.5-0                                                2.5.16+dfsg-0ubuntu0.22.04.2                                                                      deb        
+libldap-common                                               2.5.16+dfsg-0ubuntu0.22.04.2                                                                      deb        
 liblocale-gettext-perl                                       1.07-4build3                                                                                      deb        
 liblz4-1                                                     1.9.3-2build2                                                                                     deb        
 liblzma5                                                     5.2.5-2ubuntu1                                                                                    deb        
@@ -891,7 +891,7 @@ netcat                                                       1.218-4ubuntu1     
 netcat-openbsd                                               1.218-4ubuntu1                                                                                    deb        
 netfx.force.conflicts                                        4.6.26011.01                                                                                      dotnet     
 netstandard                                                  4.6.26011.1                                                                                       dotnet     
-openssl                                                      3.0.2-0ubuntu1.12                                                                                 deb        
+openssl                                                      3.0.2-0ubuntu1.13                                                                                 deb        
 passwd                                                       1:4.8.1-2ubuntu2.1                                                                                deb        
 pdb2mdb.exe                                                  0.0.0.0                                                                                           dotnet     
 perl                                                         5.34.0-3ubuntu1.3                                                                                 deb        
