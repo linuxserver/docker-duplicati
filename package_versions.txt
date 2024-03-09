@@ -599,7 +599,7 @@ libcurl4                                                     7.81.0-1ubuntu1.15 
 libdb5.3                                                     5.3.28+dfsg1-0.8ubuntu3                                                            deb                           
 libdebconfclient0                                            0.261ubuntu1                                                                       deb                           
 libdeflate0                                                  1.10-2                                                                             deb                           
-libdpkg-perl                                                 1.21.1ubuntu2.2                                                                    deb                           
+libdpkg-perl                                                 1.21.1ubuntu2.3                                                                    deb                           
 libexif12                                                    0.6.24-1build1                                                                     deb                           
 libexpat1                                                    2.4.7-1ubuntu0.2                                                                   deb                           
 libext2fs2                                                   1.46.5-2ubuntu1.1                                                                  deb                           
@@ -916,7 +916,7 @@ storj.io/uplink                                              v1.5.0-rc.1        
 storj.io/uplink-c                                            (devel)                                                                            go-module  (+3 duplicates)    
 sysvinit-utils                                               3.01-1ubuntu1                                                                      deb                           
 tar                                                          1.34+dfsg-1ubuntu0.1.22.04.1                                                       deb                           
-tzdata                                                       2023d-0ubuntu0.22.04                                                               deb                           
+tzdata                                                       2024a-0ubuntu0.22.04                                                               deb                           
 ubuntu-keyring                                               2021.03.26                                                                         deb                           
 ucf                                                          3.0043                                                                             deb                           
 unzip                                                        6.0-26ubuntu3.2                                                                    deb                           
