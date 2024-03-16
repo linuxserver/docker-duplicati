@@ -601,7 +601,7 @@ libdebconfclient0                                            0.261ubuntu1       
 libdeflate0                                                  1.10-2                                                                             deb                           
 libdpkg-perl                                                 1.21.1ubuntu2.3                                                                    deb                           
 libexif12                                                    0.6.24-1build1                                                                     deb                           
-libexpat1                                                    2.4.7-1ubuntu0.2                                                                   deb                           
+libexpat1                                                    2.4.7-1ubuntu0.3                                                                   deb                           
 libext2fs2                                                   1.46.5-2ubuntu1.1                                                                  deb                           
 libffi8                                                      3.4.2-4                                                                            deb                           
 libfile-fcntllock-perl                                       0.22-3build7                                                                       deb                           
