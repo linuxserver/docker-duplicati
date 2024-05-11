@@ -511,7 +511,6 @@ apt-utils                                                    2.4.12             
 base-files                                                   12ubuntu4.6                                                                        deb                           
 base-passwd                                                  3.5.52build1                                                                       deb                           
 bash                                                         5.1-6ubuntu1.1                                                                     deb                           
-bash                                                         5.1.16                                                                             binary                        
 binfmt-support                                               2.2.1-2                                                                            deb                           
 binutils                                                     2.38-4ubuntu2.6                                                                    deb                           
 binutils-common                                              2.38-4ubuntu2.6                                                                    deb                           
@@ -521,6 +520,7 @@ bsdutils                                                     1:2.37.2-4ubuntu3.4
 bzip2                                                        1.0.8-5build1                                                                      deb                           
 ca-certificates                                              20230311ubuntu0.22.04.1                                                            deb                           
 ca-certificates-mono                                         6.12.0.200-0xamarin2+ubuntu2004b1                                                  deb                           
+catatonit                                                    0.1.7-1                                                                            deb                           
 cccheck.exe                                                  0.0.0.0                                                                            dotnet                        
 ccrewrite.exe                                                0.0.0.0                                                                            dotnet                        
 cli-common                                                   0.10xamarin5+ubuntu2004b1                                                          deb                           
@@ -619,8 +619,8 @@ libgdbm-compat4                                              1.23-1             
 libgdbm6                                                     1.23-1                                                                             deb                           
 libgdiplus                                                   6.0.5-0xamarin1+ubuntu2004b1                                                       deb                           
 libgif7                                                      5.1.9-2build2                                                                      deb                           
-libglib2.0-0                                                 2.72.4-0ubuntu2.2                                                                  deb                           
-libglib2.0-data                                              2.72.4-0ubuntu2.2                                                                  deb                           
+libglib2.0-0                                                 2.72.4-0ubuntu2.3                                                                  deb                           
+libglib2.0-data                                              2.72.4-0ubuntu2.3                                                                  deb                           
 libgmp10                                                     2:6.2.1+dfsg-3ubuntu1                                                              deb                           
 libgnutls30                                                  3.7.3-4ubuntu1.5                                                                   deb                           
 libgpg-error                                                 27.27.0.85f427f                                                                    dotnet                        
