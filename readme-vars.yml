@@ -23,24 +23,17 @@ common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Contains all relevant configuration files." }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Contains all relevant configuration files." }
   - { vol_path: "/backups", vol_host_path: "/path/to/backups", desc: "Path to store local backups." }
   - { vol_path: "/source", vol_host_path: "/path/to/source", desc: "Path to source for files to backup." }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8200", internal_port: "8200", port_desc: "http gui" }
-param_usage_include_env: true
-param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "CLI_ARGS", env_value: "", desc: "Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with" }
-
-# optional parameters
-optional_block_1: false
-optional_block_1_items: ""
 
 # application setup block
 app_setup_block_enabled: true
@@ -49,6 +42,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "30.05.23:", desc: "Rebase to Noble, switch to net core." }
   - { date: "15.02.23:", desc: "Rebase to Jammy." }
   - { date: "03.08.22:", desc: "Deprecate armhf." }
   - { date: "13.03.22:", desc: "Fix artifact link." }
