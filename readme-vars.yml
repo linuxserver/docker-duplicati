@@ -35,6 +35,8 @@ opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "CLI_ARGS", env_value: "", desc: "Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with" }
 
+readonly_supported: true
+
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |

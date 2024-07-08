@@ -11,7 +11,8 @@ LABEL maintainer="aptalca"
 
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
-ENV HOME="/config"
+ENV HOME="/config" \
+  TMPDIR=/run/duplicati-temp
 
 RUN \
   echo "**** install packages ****" && \
@@ -26,7 +27,7 @@ RUN \
   fi && \
   duplicati_url=$(curl -s https://api.github.com/repos/duplicati/duplicati/releases/tags/"${DUPLICATI_RELEASE}" |jq -r '.assets[].browser_download_url' |grep 'linux-x64-gui.zip$') || \
     duplicati_url="https://updates.duplicati.com/canary/duplicati-${DUPLICATI_RELEASE}-linux-x64-gui.zip" && \
-  curl -fo \
+  curl -fso \
     /tmp/duplicati.zip -L \
     "${duplicati_url}" && \
   unzip -q /tmp/duplicati.zip -d /app && \
