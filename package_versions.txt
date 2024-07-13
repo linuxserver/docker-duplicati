@@ -926,7 +926,7 @@ storj.io/uplink-c                                            1.21.4             
 storj.io/uplink-c                                            v1.8.1                                                                             go-module  (+2 duplicates)    
 sysvinit-utils                                               3.01-1ubuntu1                                                                      deb                           
 tar                                                          1.34+dfsg-1ubuntu0.1.22.04.2                                                       deb                           
-tzdata                                                       2024a-0ubuntu0.22.04                                                               deb                           
+tzdata                                                       2024a-0ubuntu0.22.04.1                                                             deb                           
 ubuntu-keyring                                               2021.03.26                                                                         deb                           
 ucf                                                          3.0043                                                                             deb                           
 unzip                                                        6.0-26ubuntu3.2                                                                    deb                           
