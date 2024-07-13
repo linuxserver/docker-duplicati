@@ -70,6 +70,11 @@ This image provides various versions that are available via tags. Please read th
 
 The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati](https://www.duplicati.com/).
 
+## Read-Only Operation
+
+This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
+
+
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
@@ -127,6 +132,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-v /config` | Contains all relevant configuration files. |
 | `-v /backups` | Path to store local backups. |
 | `-v /source` | Path to source for files to backup. |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
 
 ## Environment variables from files (Docker secrets)
 
