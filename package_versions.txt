@@ -530,7 +530,7 @@ csc                                                          3.900.21.12420     
 csharp.exe                                                   0.0.0.0                                                                            dotnet                        
 csi                                                          3.900.21.12420                                                                     dotnet                        
 culevel.exe                                                  0.0.0.0                                                                            dotnet                        
-curl                                                         7.81.0-1ubuntu1.16                                                                 deb                           
+curl                                                         7.81.0-1ubuntu1.17                                                                 deb                           
 dash                                                         0.5.11+git20210903+057cd650a4ed-3build1                                            deb                           
 debconf                                                      1.5.79ubuntu1                                                                      deb                           
 debianutils                                                  5.5-1ubuntu2                                                                       deb                           
@@ -600,7 +600,7 @@ libcom-err2                                                  1.46.5-2ubuntu1.1  
 libcrypt1                                                    1:4.4.27-1                                                                         deb                           
 libctf-nobfd0                                                2.38-4ubuntu2.6                                                                    deb                           
 libctf0                                                      2.38-4ubuntu2.6                                                                    deb                           
-libcurl4                                                     7.81.0-1ubuntu1.16                                                                 deb                           
+libcurl4                                                     7.81.0-1ubuntu1.17                                                                 deb                           
 libdb5.3                                                     5.3.28+dfsg1-0.8ubuntu3                                                            deb                           
 libdebconfclient0                                            0.261ubuntu1                                                                       deb                           
 libdeflate0                                                  1.10-2                                                                             deb                           
@@ -824,7 +824,7 @@ libsmartcols1                                                2.37.2-4ubuntu3.4  
 libsqlite3-0                                                 3.37.2-2ubuntu0.3                                                                  deb                           
 libss2                                                       1.46.5-2ubuntu1.1                                                                  deb                           
 libssh-4                                                     0.9.6-2ubuntu0.22.04.3                                                             deb                           
-libssl3                                                      3.0.2-0ubuntu1.16                                                                  deb                           
+libssl3                                                      3.0.2-0ubuntu1.17                                                                  deb                           
 libstdc++6                                                   12.3.0-1ubuntu1~22.04                                                              deb                           
 libsystemd0                                                  249.11-0ubuntu3.12                                                                 deb                           
 libtasn1-6                                                   4.18.0-4build1                                                                     deb                           
@@ -895,7 +895,7 @@ netcat                                                       1.218-4ubuntu1     
 netcat-openbsd                                               1.218-4ubuntu1                                                                     deb                           
 netfx.force.conflicts                                        4.6.26011.01                                                                       dotnet     (+1 duplicate)     
 netstandard                                                  4.6.26011.1                                                                        dotnet                        
-openssl                                                      3.0.2-0ubuntu1.16                                                                  deb                           
+openssl                                                      3.0.2-0ubuntu1.17                                                                  deb                           
 passwd                                                       1:4.8.1-2ubuntu2.2                                                                 deb                           
 pdb2mdb.exe                                                  0.0.0.0                                                                            dotnet                        
 perl                                                         5.34.0-3ubuntu1.3                                                                  deb                           
@@ -922,7 +922,7 @@ storj.io/infectious                                          v0.0.1             
 storj.io/picobuf                                             v0.0.2-0.20230906122608-c4ba17033c6c                                               go-module  (+4 duplicates)    
 storj.io/uplink                                              v1.12.2                                                                            go-module  (+4 duplicates)    
 storj.io/uplink-c                                            (devel)                                                                            go-module                     
-storj.io/uplink-c                                            1.21.4                                                                             go-module                     
+storj.io/uplink-c                                            v1.21.4                                                                            go-module                     
 storj.io/uplink-c                                            v1.8.1                                                                             go-module  (+2 duplicates)    
 sysvinit-utils                                               3.01-1ubuntu1                                                                      deb                           
 tar                                                          1.34+dfsg-1ubuntu0.1.22.04.2                                                       deb                           
