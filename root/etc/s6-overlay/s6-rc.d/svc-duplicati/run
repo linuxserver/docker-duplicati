@@ -1,7 +1,14 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-exec \
-    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8200" \
-        cd /app/duplicati s6-setuidgid abc ./duplicati-server \
-        --webservice-interface=any --server-datafolder=/config --webservice-allowed-hostnames=* $CLI_ARGS
+if [[ -f /app/duplicati/duplicati-server ]]; then
+    exec \
+        s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8200" \
+            cd /app/duplicati s6-setuidgid abc ./duplicati-server \
+            --webservice-interface=any --server-datafolder=/config --webservice-allowed-hostnames=* $CLI_ARGS
+else
+    exec \
+        s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8200" \
+            cd /app/duplicati s6-setuidgid abc ./Duplicati.Server.exe \
+            --webservice-interface=any --server-datafolder=/config --webservice-allowed-hostnames=* $CLI_ARGS
+fi
