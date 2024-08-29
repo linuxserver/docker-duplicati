@@ -30,6 +30,10 @@ param_usage_include_ports: true
 param_ports:
   - { external_port: "8200", internal_port: "8200", port_desc: "http gui" }
 
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "SETTINGS_ENCRYPTION_KEY", env_value: "", desc: "Encryption key for settings database. Minimum 8 characters, alphanumeric."}
+
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
@@ -40,11 +44,14 @@ readonly_supported: true
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
-  The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati]({{project_url}}).
+  The webui is at `<your ip>:8200`.
+
+  For local backups select `/backups` as the destination. For more information see [Duplicati]({{project_url}}).
 
 # changelog
 changelogs:
-  - { date: "30.05.23:", desc: "Rebase to Noble, switch to net core." }
+  - { date: "29.08.24:", desc: "Add support for settings DB encryption." }
+  - { date: "30.05.24:", desc: "Rebase to Noble, switch to net core." }
   - { date: "15.02.23:", desc: "Rebase to Jammy." }
   - { date: "03.08.22:", desc: "Deprecate armhf." }
   - { date: "13.03.22:", desc: "Fix artifact link." }

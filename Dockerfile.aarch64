@@ -12,7 +12,8 @@ LABEL maintainer="aptalca"
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
 ENV HOME="/config" \
-  TMPDIR=/run/duplicati-temp
+  TMPDIR=/run/duplicati-temp \
+  DUPLICATI__REQUIRE_DB_ENCRYPTION_KEY=true
 
 RUN \
   echo "**** install packages ****" && \

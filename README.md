@@ -68,7 +68,9 @@ This image provides various versions that are available via tags. Please read th
 
 ## Application Setup
 
-The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati](https://www.duplicati.com/).
+The webui is at `<your ip>:8200`.
+
+For local backups select `/backups` as the destination. For more information see [Duplicati](https://www.duplicati.com/).
 
 ## Read-Only Operation
 
@@ -91,6 +93,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
+      - SETTINGS_ENCRYPTION_KEY=
       - CLI_ARGS= #optional
     volumes:
       - /path/to/duplicati/config:/config
@@ -109,6 +112,7 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
+  -e SETTINGS_ENCRYPTION_KEY= \
   -e CLI_ARGS= `#optional` \
   -p 8200:8200 \
   -v /path/to/duplicati/config:/config \
@@ -128,6 +132,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
+| `-e SETTINGS_ENCRYPTION_KEY=` | Encryption key for settings database. Minimum 8 characters, alphanumeric. |
 | `-e CLI_ARGS=` | Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with |
 | `-v /config` | Contains all relevant configuration files. |
 | `-v /backups` | Path to store local backups. |
@@ -295,7 +300,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **30.05.23:** - Rebase to Noble, switch to net core.
+* **29.08.24:** - Add support for settings DB encryption.
+* **30.05.24:** - Rebase to Noble, switch to net core.
 * **15.02.23:** - Rebase to Jammy.
 * **03.08.22:** - Deprecate armhf.
 * **13.03.22:** - Fix artifact link.
