@@ -33,12 +33,12 @@ param_ports:
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "SETTINGS_ENCRYPTION_KEY", env_value: "", desc: "Encryption key for settings database. Minimum 8 characters, alphanumeric."}
-  - { env_var: "DUPLICATI__WEBSERVICE_PASSWORD", env_value: "", desc: "Password for the webui. If left unset will default to `changeme` and can be changed from the webui settings."}
 
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "CLI_ARGS", env_value: "", desc: "Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with" }
+  - { env_var: "DUPLICATI__WEBSERVICE_PASSWORD", env_value: "", desc: "Password for the webui. If left unset will default to `changeme` and can be changed from the webui settings."}
 
 readonly_supported: true
 
