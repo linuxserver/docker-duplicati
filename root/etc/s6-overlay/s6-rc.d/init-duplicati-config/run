@@ -16,6 +16,9 @@ if [[ -f "/config/Duplicati-server.sqlite" ]]; then
     fi
 else
     # New install
+    if [[ -z ${DUPLICATI__WEBSERVICE_PASSWORD} ]]; then
+        printf "changeme" > /run/s6/container_environment/DUPLICATI__WEBSERVICE_PASSWORD
+    fi
     if [[ -n ${SETTINGS_ENCRYPTION_KEY} ]]; then
         # Enable settings encryption
         true

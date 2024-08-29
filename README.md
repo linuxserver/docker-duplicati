@@ -90,6 +90,7 @@ services:
       - TZ=Etc/UTC
       - SETTINGS_ENCRYPTION_KEY=
       - CLI_ARGS= #optional
+      - DUPLICATI__WEBSERVICE_PASSWORD= #optional
     volumes:
       - /path/to/duplicati/config:/config
       - /path/to/backups:/backups
@@ -109,6 +110,7 @@ docker run -d \
   -e TZ=Etc/UTC \
   -e SETTINGS_ENCRYPTION_KEY= \
   -e CLI_ARGS= `#optional` \
+  -e DUPLICATI__WEBSERVICE_PASSWORD= `#optional` \
   -p 8200:8200 \
   -v /path/to/duplicati/config:/config \
   -v /path/to/backups:/backups \
@@ -129,6 +131,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e SETTINGS_ENCRYPTION_KEY=` | Encryption key for settings database. Minimum 8 characters, alphanumeric. |
 | `-e CLI_ARGS=` | Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with |
+| `-e DUPLICATI__WEBSERVICE_PASSWORD=` | Password for the webui. If left unset will default to `changeme` and can be changed from the webui settings. |
 | `-v /config` | Contains all relevant configuration files. |
 | `-v /backups` | Path to store local backups. |
 | `-v /source` | Path to source for files to backup. |

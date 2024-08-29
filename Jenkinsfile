@@ -37,7 +37,7 @@ pipeline {
     CI_DELAY='120'
     CI_DOCKERENV='SETTINGS_ENCRYPTION_KEY=abcde12345'
     CI_AUTH=''
-    CI_WEBPATH=''
+    CI_WEBPATH='/login.html'
   }
   stages {
     stage("Set git config"){
