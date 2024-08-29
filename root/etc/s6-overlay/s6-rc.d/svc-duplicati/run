@@ -3,5 +3,4 @@
 
 exec \
     s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8200" \
-        cd /app/duplicati s6-setuidgid abc mono Duplicati.Server.exe \
-        --webservice-interface=any --server-datafolder=/config --webservice-allowed-hostnames=* $CLI_ARGS
+        cd /app/duplicati s6-setuidgid abc ./duplicati-server $CLI_ARGS

@@ -39,7 +39,7 @@ Find us at:
 [![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-duplicati%2Fjob%2Fmaster%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-duplicati/job/master/)
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Fci-tests.linuxserver.io%2Flinuxserver%2Fduplicati%2Flatest%2Fci-status.yml)](https://ci-tests.linuxserver.io/linuxserver/duplicati/latest/index.html)
 
-[Duplicati](https://www.duplicati.com/) works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box.com, Mega, hubiC and many others.
+[Duplicati](https://www.duplicati.com/) is a backup client that securely stores encrypted, incremental, compressed backups on local storage, cloud storage services and remote file servers. It works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, B2, and many others.
 
 [![duplicati](https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png)](https://www.duplicati.com/)
 
@@ -68,7 +68,9 @@ This image provides various versions that are available via tags. Please read th
 
 ## Application Setup
 
-The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati](https://www.duplicati.com/).
+The webui is at `<your ip>:8200`.
+
+For local backups select `/backups` as the destination. For more information see [Duplicati](https://www.duplicati.com/).
 
 ## Usage
 
@@ -86,9 +88,10 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
+      - SETTINGS_ENCRYPTION_KEY=
       - CLI_ARGS= #optional
     volumes:
-      - /path/to/appdata/config:/config
+      - /path/to/duplicati/config:/config
       - /path/to/backups:/backups
       - /path/to/source:/source
     ports:
@@ -104,9 +107,10 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
+  -e SETTINGS_ENCRYPTION_KEY= \
   -e CLI_ARGS= `#optional` \
   -p 8200:8200 \
-  -v /path/to/appdata/config:/config \
+  -v /path/to/duplicati/config:/config \
   -v /path/to/backups:/backups \
   -v /path/to/source:/source \
   --restart unless-stopped \
@@ -123,6 +127,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
+| `-e SETTINGS_ENCRYPTION_KEY=` | Encryption key for settings database. Minimum 8 characters, alphanumeric. |
 | `-e CLI_ARGS=` | Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with |
 | `-v /config` | Contains all relevant configuration files. |
 | `-v /backups` | Path to store local backups. |
@@ -289,7 +294,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **15.02.23:** - Deprecate armhf.
+* **29.08.24:** - Rebase to Noble, add support for settings DB encryption.
+* **15.02.23:** - Rebase to Jammy.
 * **03.08.22:** - Deprecate armhf.
 * **25.04.22:** - Rebase to mono:focal.
 * **01.08.19:** - Rebase to Linuxserver LTS mono version.

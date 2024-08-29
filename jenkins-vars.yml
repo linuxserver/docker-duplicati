@@ -6,7 +6,6 @@ external_type: custom_json
 release_type: stable
 release_tag: latest
 ls_branch: master
-build_armhf: false
 repo_vars:
   - JSON_URL = 'https://api.github.com/repos/duplicati/duplicati/releases'
   - JSON_PATH = 'first(.[] | select(.tag_name | contains("beta"))) | .tag_name'
@@ -24,6 +23,6 @@ repo_vars:
   - CI_PORT='8200'
   - CI_SSL='false'
   - CI_DELAY='120'
-  - CI_DOCKERENV='TZ=US/Pacific|ISCI=true'
-  - CI_AUTH='user:password'
+  - CI_DOCKERENV='SETTINGS_ENCRYPTION_KEY=abcde12345'
+  - CI_AUTH=''
   - CI_WEBPATH=''
