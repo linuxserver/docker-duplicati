@@ -13,7 +13,11 @@ LABEL maintainer="aptalca"
 ARG DEBIAN_FRONTEND="noninteractive"
 ENV HOME="/config" \
   TMPDIR=/run/duplicati-temp \
-  DUPLICATI__REQUIRE_DB_ENCRYPTION_KEY=true
+  DUPLICATI__REQUIRE_DB_ENCRYPTION_KEY=true \
+  DUPLICATI__SERVER_DATAFOLDER=/config \
+  DUPLICATI__WEBSERVICE_PORT=8200 \
+  DUPLICATI__WEBSERVICE_INTERFACE=any \
+  DUPLICATI__WEBSERVICE_ALLOWED_HOSTNAMES=*
 
 RUN \
   echo "**** install packages ****" && \

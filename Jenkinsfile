@@ -35,7 +35,7 @@ pipeline {
     CI_PORT='8200'
     CI_SSL='false'
     CI_DELAY='120'
-    CI_DOCKERENV=''
+    CI_DOCKERENV='SETTINGS_ENCRYPTION_KEY=abcde12345'
     CI_AUTH=''
     CI_WEBPATH=''
   }
