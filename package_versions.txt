@@ -540,7 +540,7 @@ disco.exe                                                    0.0.0.0            
 dpkg                                                         1.21.1ubuntu2.3                                                                    deb                           
 dtd2rng.exe                                                  0.0.0.0                                                                            dotnet                        
 dtd2xsd.exe                                                  0.0.0.0                                                                            dotnet                        
-e2fsprogs                                                    1.46.5-2ubuntu1.1                                                                  deb                           
+e2fsprogs                                                    1.46.5-2ubuntu1.2                                                                  deb                           
 findutils                                                    4.8.0-1ubuntu3                                                                     deb                           
 fontconfig-config                                            2.13.1-4.2ubuntu5                                                                  deb                           
 fonts-dejavu-core                                            2.37-2build1                                                                       deb                           
@@ -596,7 +596,7 @@ libc6                                                        2.35-0ubuntu3.8    
 libcairo2                                                    1.16.0-5ubuntu2                                                                    deb                           
 libcap-ng0                                                   0.7.9-2.2build3                                                                    deb                           
 libcap2                                                      1:2.44-1ubuntu0.22.04.1                                                            deb                           
-libcom-err2                                                  1.46.5-2ubuntu1.1                                                                  deb                           
+libcom-err2                                                  1.46.5-2ubuntu1.2                                                                  deb                           
 libcrypt1                                                    1:4.4.27-1                                                                         deb                           
 libctf-nobfd0                                                2.38-4ubuntu2.6                                                                    deb                           
 libctf0                                                      2.38-4ubuntu2.6                                                                    deb                           
@@ -607,7 +607,7 @@ libdeflate0                                                  1.10-2             
 libdpkg-perl                                                 1.21.1ubuntu2.3                                                                    deb                           
 libexif12                                                    0.6.24-1build1                                                                     deb                           
 libexpat1                                                    2.4.7-1ubuntu0.3                                                                   deb                           
-libext2fs2                                                   1.46.5-2ubuntu1.1                                                                  deb                           
+libext2fs2                                                   1.46.5-2ubuntu1.2                                                                  deb                           
 libffi8                                                      3.4.2-4                                                                            deb                           
 libfile-fcntllock-perl                                       0.22-3build7                                                                       deb                           
 libfontconfig1                                               2.13.1-4.2ubuntu5                                                                  deb                           
@@ -822,7 +822,7 @@ libsemanage2                                                 3.3-1build2        
 libsepol2                                                    3.3-1build1                                                                        deb                           
 libsmartcols1                                                2.37.2-4ubuntu3.4                                                                  deb                           
 libsqlite3-0                                                 3.37.2-2ubuntu0.3                                                                  deb                           
-libss2                                                       1.46.5-2ubuntu1.1                                                                  deb                           
+libss2                                                       1.46.5-2ubuntu1.2                                                                  deb                           
 libssh-4                                                     0.9.6-2ubuntu0.22.04.3                                                             deb                           
 libssl3                                                      3.0.2-0ubuntu1.17                                                                  deb                           
 libstdc++6                                                   12.3.0-1ubuntu1~22.04                                                              deb                           
@@ -850,7 +850,7 @@ libxxhash0                                                   0.8.1-1            
 libzstd1                                                     1.4.8+dfsg-3build1                                                                 deb                           
 locales                                                      2.35-0ubuntu3.8                                                                    deb                           
 login                                                        1:4.8.1-2ubuntu2.2                                                                 deb                           
-logsave                                                      1.46.5-2ubuntu1.1                                                                  deb                           
+logsave                                                      1.46.5-2ubuntu1.2                                                                  deb                           
 lsb-base                                                     11.1.0ubuntu4                                                                      deb                           
 macpack.exe                                                  6.12.0.200                                                                         dotnet                        
 master                                                       1.0.0.0                                                                            dotnet                        
