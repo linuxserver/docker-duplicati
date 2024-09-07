@@ -824,7 +824,7 @@ libsmartcols1                                                2.37.2-4ubuntu3.4  
 libsqlite3-0                                                 3.37.2-2ubuntu0.3                                                                  deb                           
 libss2                                                       1.46.5-2ubuntu1.2                                                                  deb                           
 libssh-4                                                     0.9.6-2ubuntu0.22.04.3                                                             deb                           
-libssl3                                                      3.0.2-0ubuntu1.17                                                                  deb                           
+libssl3                                                      3.0.2-0ubuntu1.18                                                                  deb                           
 libstdc++6                                                   12.3.0-1ubuntu1~22.04                                                              deb                           
 libsystemd0                                                  249.11-0ubuntu3.12                                                                 deb                           
 libtasn1-6                                                   4.18.0-4build1                                                                     deb                           
@@ -895,7 +895,7 @@ netcat                                                       1.218-4ubuntu1     
 netcat-openbsd                                               1.218-4ubuntu1                                                                     deb                           
 netfx.force.conflicts                                        4.6.26011.01                                                                       dotnet     (+1 duplicate)     
 netstandard                                                  4.6.26011.1                                                                        dotnet                        
-openssl                                                      3.0.2-0ubuntu1.17                                                                  deb                           
+openssl                                                      3.0.2-0ubuntu1.18                                                                  deb                           
 passwd                                                       1:4.8.1-2ubuntu2.2                                                                 deb                           
 pdb2mdb.exe                                                  0.0.0.0                                                                            dotnet                        
 perl                                                         5.34.0-3ubuntu1.3                                                                  deb                           
