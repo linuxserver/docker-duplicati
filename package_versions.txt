@@ -530,7 +530,7 @@ csc                                                          3.900.21.12420     
 csharp.exe                                                   0.0.0.0                                                                            dotnet                        
 csi                                                          3.900.21.12420                                                                     dotnet                        
 culevel.exe                                                  0.0.0.0                                                                            dotnet                        
-curl                                                         7.81.0-1ubuntu1.17                                                                 deb                           
+curl                                                         7.81.0-1ubuntu1.18                                                                 deb                           
 dash                                                         0.5.11+git20210903+057cd650a4ed-3build1                                            deb                           
 debconf                                                      1.5.79ubuntu1                                                                      deb                           
 debianutils                                                  5.5-1ubuntu2                                                                       deb                           
@@ -600,13 +600,13 @@ libcom-err2                                                  1.46.5-2ubuntu1.2  
 libcrypt1                                                    1:4.4.27-1                                                                         deb                           
 libctf-nobfd0                                                2.38-4ubuntu2.6                                                                    deb                           
 libctf0                                                      2.38-4ubuntu2.6                                                                    deb                           
-libcurl4                                                     7.81.0-1ubuntu1.17                                                                 deb                           
+libcurl4                                                     7.81.0-1ubuntu1.18                                                                 deb                           
 libdb5.3                                                     5.3.28+dfsg1-0.8ubuntu3                                                            deb                           
 libdebconfclient0                                            0.261ubuntu1                                                                       deb                           
 libdeflate0                                                  1.10-2                                                                             deb                           
 libdpkg-perl                                                 1.21.1ubuntu2.3                                                                    deb                           
 libexif12                                                    0.6.24-1build1                                                                     deb                           
-libexpat1                                                    2.4.7-1ubuntu0.3                                                                   deb                           
+libexpat1                                                    2.4.7-1ubuntu0.4                                                                   deb                           
 libext2fs2                                                   1.46.5-2ubuntu1.2                                                                  deb                           
 libffi8                                                      3.4.2-4                                                                            deb                           
 libfile-fcntllock-perl                                       0.22-3build7                                                                       deb                           
