@@ -15,7 +15,7 @@ jobs:
           SKIP_EXTERNAL_TRIGGER: ${{ vars.SKIP_EXTERNAL_TRIGGER }}
         run: |
           printf "# External trigger for docker-duplicati\n\n" >> $GITHUB_STEP_SUMMARY
-          if grep -wq "^duplicati_development$" <<< "${SKIP_EXTERNAL_TRIGGER}"; then
+          if grep -q "^duplicati_development" <<< "${SKIP_EXTERNAL_TRIGGER}"; then
             echo "> [!WARNING]" >> $GITHUB_STEP_SUMMARY
             echo "> Github organizational variable \`SKIP_EXTERNAL_TRIGGER\` contains \`duplicati_development\`; skipping trigger." >> $GITHUB_STEP_SUMMARY
             exit 0
