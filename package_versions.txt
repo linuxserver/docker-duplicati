@@ -518,7 +518,7 @@ binutils-x86-64-linux-gnu                                    2.38-4ubuntu2.6    
 browsercaps-updater.exe                                      0.0.0.0                                                                            dotnet                        
 bsdutils                                                     1:2.37.2-4ubuntu3.4                                                                deb                           
 bzip2                                                        1.0.8-5build1                                                                      deb                           
-ca-certificates                                              20230311ubuntu0.22.04.1                                                            deb                           
+ca-certificates                                              20240203~22.04.1                                                                   deb                           
 ca-certificates-mono                                         6.12.0.200-0xamarin2+ubuntu2004b1                                                  deb                           
 catatonit                                                    0.1.7-1                                                                            deb                           
 cccheck.exe                                                  0.0.0.0                                                                            dotnet                        
