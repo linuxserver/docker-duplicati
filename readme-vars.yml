@@ -4,7 +4,7 @@
 project_name: duplicati
 project_url: "https://www.duplicati.com/"
 project_logo: "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/duplicati-icon.png"
-project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon Cloud Drive & S3, Google Drive, box.com, Mega, hubiC and many others."
+project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a backup client that securely stores encrypted, incremental, compressed backups on local storage, cloud storage services and remote file servers. It works with standard protocols like FTP, SSH, WebDAV as well as popular services like Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, B2, and many others."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 
 # supported architectures
@@ -23,33 +23,34 @@ common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Contains all relevant configuration files." }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Contains all relevant configuration files." }
   - { vol_path: "/backups", vol_host_path: "/path/to/backups", desc: "Path to store local backups." }
   - { vol_path: "/source", vol_host_path: "/path/to/source", desc: "Path to source for files to backup." }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8200", internal_port: "8200", port_desc: "http gui" }
+
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
+  - { env_var: "SETTINGS_ENCRYPTION_KEY", env_value: "", desc: "Encryption key for settings database. Minimum 8 characters, alphanumeric."}
 
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
   - { env_var: "CLI_ARGS", env_value: "", desc: "Optionally specify any [CLI variables](https://duplicati.readthedocs.io/en/latest/07-other-command-line-utilities/) you want to launch the app with" }
-
-# optional parameters
-optional_block_1: false
-optional_block_1_items: ""
+  - { env_var: "DUPLICATI__WEBSERVICE_PASSWORD", env_value: "", desc: "Password for the webui. If left unset will default to `changeme` and can be changed from the webui settings."}
 
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
-  The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for local backups select `/backups` as the destination. For more information see [Duplicati]({{project_url}}).
+  The webui is at `<your ip>:8200`.
+
+  For local backups select `/backups` as the destination. For more information see [Duplicati]({{project_url}}).
 
 # changelog
 changelogs:
-  - { date: "15.02.23:", desc: "Deprecate armhf." }
+  - { date: "29.11.24:", desc: "Rebase to Noble, add support for settings DB encryption." }
+  - { date: "15.02.23:", desc: "Rebase to Jammy." }
   - { date: "03.08.22:", desc: "Deprecate armhf." }
   - { date: "25.04.22:", desc: "Rebase to mono:focal." }
   - { date: "01.08.19:", desc: "Rebase to Linuxserver LTS mono version." }

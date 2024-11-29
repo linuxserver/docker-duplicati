@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-jammy
+FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-noble
 
 # set version label
 ARG BUILD_DATE
@@ -10,31 +10,33 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="aptalca"
 
 # environment settings
-ENV HOME="/config"
-ENV DEBIAN_FRONTEND="noninteractive"
+ARG DEBIAN_FRONTEND="noninteractive"
+ENV HOME="/config" \
+  TMPDIR=/run/duplicati-temp \
+  DUPLICATI__REQUIRE_DB_ENCRYPTION_KEY=true \
+  DUPLICATI__SERVER_DATAFOLDER=/config \
+  DUPLICATI__WEBSERVICE_PORT=8200 \
+  DUPLICATI__WEBSERVICE_INTERFACE=any \
+  DUPLICATI__WEBSERVICE_ALLOWED_HOSTNAMES=*
 
 RUN \
-  echo "**** add mono repository ****" && \
-  apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF && \
-  echo "deb http://download.mono-project.com/repo/ubuntu stable-focal main" | tee /etc/apt/sources.list.d/mono-official.list && \
   echo "**** install pockages ****" && \
   apt-get update && \
   apt-get install -y \
-    mono-devel \
-    mono-vbnc \
+    libicu74 \
     unzip && \
   echo "**** install duplicati ****" && \
   if [ -z ${DUPLICATI_RELEASE+x} ]; then \
     DUPLICATI_RELEASE=$(curl -sX GET "https://api.github.com/repos/duplicati/duplicati/releases" \
     | jq -r 'first(.[] | select(.tag_name | contains("beta"))) | .tag_name'); \
   fi && \
-  mkdir -p \
-    /app/duplicati && \
-  duplicati_url=$(curl -s https://api.github.com/repos/duplicati/duplicati/releases/tags/"${DUPLICATI_RELEASE}" |jq -r '.assets[].browser_download_url' |grep '.zip$' |grep -v signatures) && \
+  duplicati_url=$(curl -s "https://api.github.com/repos/duplicati/duplicati/releases/tags/${DUPLICATI_RELEASE}" | jq -r '.assets[].browser_download_url' |grep 'linux-arm64-gui.zip$') && \
   curl -o \
     /tmp/duplicati.zip -L \
     "${duplicati_url}" && \
-  unzip -q /tmp/duplicati.zip -d /app/duplicati && \
+  unzip -q /tmp/duplicati.zip -d /app && \
+  mv /app/duplicati* /app/duplicati && \
+  printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apt-get clean && \
   rm -rf \
