@@ -37,6 +37,7 @@ RUN \
     /tmp/duplicati.zip -L \
     "${duplicati_url}" && \
   unzip -q /tmp/duplicati.zip -d /app/duplicati && \
+  mv /app/duplicati* /app/duplicati && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apt-get clean && \
