@@ -49,7 +49,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "29.08.24:", desc: "Rebase to Noble, add support for settings DB encryption." }
+  - { date: "29.11.24:", desc: "Rebase to Noble, add support for settings DB encryption." }
   - { date: "15.02.23:", desc: "Rebase to Jammy." }
   - { date: "03.08.22:", desc: "Deprecate armhf." }
   - { date: "25.04.22:", desc: "Rebase to mono:focal." }
