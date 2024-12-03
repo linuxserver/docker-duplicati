@@ -21,7 +21,7 @@ ENV HOME="/config" \
 
 RUN \
   echo "**** install packages ****" && \
-  cho ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections && \
+  echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections && \
   apt-get update && \
   apt-get install -y \
     libicu74 \
