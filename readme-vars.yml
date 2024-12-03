@@ -44,6 +44,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "03.12.24:", desc: "Add mscorefonts for captcha support." }
   - { date: "30.05.23:", desc: "Rebase to Noble, switch to net core." }
   - { date: "15.02.23:", desc: "Rebase to Jammy." }
   - { date: "03.08.22:", desc: "Deprecate armhf." }
