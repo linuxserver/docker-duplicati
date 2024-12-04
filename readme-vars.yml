@@ -51,6 +51,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "03.12.24:", desc: "Add mscorefonts for captcha support." }
   - { date: "29.08.24:", desc: "Add support for settings DB encryption." }
   - { date: "30.05.24:", desc: "Rebase to Noble, switch to net core." }
   - { date: "15.02.23:", desc: "Rebase to Jammy." }
