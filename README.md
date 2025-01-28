@@ -306,6 +306,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.01.25:** - Add xz-utils.
 * **03.12.24:** - Add mscorefonts for captcha support.
 * **29.08.24:** - Add support for settings DB encryption.
 * **30.05.24:** - Rebase to Noble, switch to net core.
