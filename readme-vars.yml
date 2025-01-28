@@ -82,6 +82,7 @@ init_diagram: |
   "duplicati:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "28.01.25:", desc: "Add xz-utils."}
   - {date: "03.12.24:", desc: "Add mscorefonts for captcha support."}
   - {date: "29.11.24:", desc: "Rebase to Noble, add support for settings DB encryption."}
   - {date: "15.02.23:", desc: "Rebase to Jammy."}
