@@ -30,7 +30,7 @@ else
     fi
 fi
 
-# permissions
+# permissions
 lsiown -R abc:abc \
     /config \
     /run/duplicati-temp

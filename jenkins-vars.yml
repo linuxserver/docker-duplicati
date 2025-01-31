@@ -8,7 +8,7 @@ release_tag: development
 ls_branch: development
 repo_vars:
   - JSON_URL = 'https://api.github.com/repos/duplicati/duplicati/releases'
-  - JSON_PATH = 'first(.[] | select(.tag_name | contains("canary"))) | .tag_name'
+  - JSON_PATH = 'first(.[] | select(.tag_name | contains("beta"))) | .tag_name'
   - BUILD_VERSION_ARG = 'DUPLICATI_RELEASE'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-duplicati'
