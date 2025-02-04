@@ -20,7 +20,7 @@ ENV HOME="/config" \
   DUPLICATI__WEBSERVICE_ALLOWED_HOSTNAMES=*
 
 RUN \
-  echo "**** install pockages ****" && \
+  echo "**** install packages ****" && \
   echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections && \
   apt-get update && \
   apt-get install -y \
