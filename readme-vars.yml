@@ -43,7 +43,7 @@ app_setup_block: |
   For local backups select `/backups` as the destination. For more information see [Duplicati]({{project_url}}).
 # init diagram
 init_diagram: |
-  "duplicati:latest": {
+  "duplicati:development": {
     docker-mods
     base {
       fix-attr +\nlegacy cont-init
@@ -79,7 +79,7 @@ init_diagram: |
   Base Images: {
     "baseimage-ubuntu:noble"
   }
-  "duplicati:latest" <- Base Images
+  "duplicati:development" <- Base Images
 # changelog
 changelogs:
   - {date: "31.01.25:", desc: "Make `latest` stable releases, move beta releases to `development`."}
