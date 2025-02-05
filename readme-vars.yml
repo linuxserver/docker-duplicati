@@ -14,8 +14,8 @@ available_architectures:
 # development version
 development_versions: true
 development_versions_items:
-  - {tag: "latest", desc: "Beta releases of Duplicati"}
-  - {tag: "development", desc: "Canary releases of Duplicati"}
+  - {tag: "latest", desc: "Stable releases of Duplicati"}
+  - {tag: "development", desc: "Beta releases of Duplicati"}
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
@@ -82,6 +82,7 @@ init_diagram: |
   "duplicati:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "31.01.25:", desc: "Make `latest` stable releases, move beta releases to `development`."}
   - {date: "28.01.25:", desc: "Add xz-utils."}
   - {date: "03.12.24:", desc: "Add mscorefonts for captcha support."}
   - {date: "29.11.24:", desc: "Rebase to Noble, add support for settings DB encryption."}
