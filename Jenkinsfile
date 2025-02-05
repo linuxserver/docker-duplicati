@@ -20,7 +20,7 @@ pipeline {
     QUAYIO_API_TOKEN=credentials('quayio-repo-api-token')
     GIT_SIGNING_KEY=credentials('484fbca6-9a4f-455e-b9e3-97ac98785f5f')
     JSON_URL = 'https://api.github.com/repos/duplicati/duplicati/releases'
-    JSON_PATH = 'first(.[] | select(.tag_name | contains("canary"))) | .tag_name'
+    JSON_PATH = 'first(.[] | select(.tag_name | contains("beta"))) | .tag_name'
     BUILD_VERSION_ARG = 'DUPLICATI_RELEASE'
     LS_USER = 'linuxserver'
     LS_REPO = 'docker-duplicati'

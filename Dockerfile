@@ -31,11 +31,10 @@ RUN \
   echo "**** install duplicati ****" && \
   if [ -z ${DUPLICATI_RELEASE+x} ]; then \
     DUPLICATI_RELEASE=$(curl -sX GET "https://api.github.com/repos/duplicati/duplicati/releases" \
-      | jq -r 'first(.[] | select(.tag_name | contains("canary"))) | .tag_name'); \
+      | jq -r 'first(.[] | select(.tag_name | contains("beta"))) | .tag_name'); \
   fi && \
-  duplicati_url=$(curl -s https://api.github.com/repos/duplicati/duplicati/releases/tags/"${DUPLICATI_RELEASE}" |jq -r '.assets[].browser_download_url' |grep 'linux-x64-gui.zip$') || \
-    duplicati_url="https://updates.duplicati.com/canary/duplicati-${DUPLICATI_RELEASE}-linux-x64-gui.zip" && \
-  curl -fso \
+  duplicati_url=$(curl -s "https://api.github.com/repos/duplicati/duplicati/releases/tags/${DUPLICATI_RELEASE}" | jq -r '.assets[].browser_download_url' |grep 'linux-x64-gui.zip$') && \
+  curl -o \
     /tmp/duplicati.zip -L \
     "${duplicati_url}" && \
   unzip -q /tmp/duplicati.zip -d /app && \
