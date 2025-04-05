@@ -1,714 +1,444 @@
-NAME                                                        VERSION                                                                  TYPE                        
-@duplicati/ngclient                                         0.0.91                                                                   npm                          
-Aliyun OSS SDK for C#                                       2.13.0                                                                   dotnet                       
-AlphaVSS                                                    2.0.3+Branch.master.Sha.2800471697f06364d7a57ff891a96f343a044a21         dotnet                       
-Amazon Web Services SDK for .NET                            3.7.102.54                                                               dotnet                       
-Amazon Web Services SDK for .NET                            3.7.400.45                                                               dotnet                       
-Amazon Web Services SDK for .NET                            3.7.402.39                                                               dotnet                       
-Amazon Web Services SDK for .NET                            3.7.405.9                                                                dotnet                       
-Amazon.SecretsManager.Extensions.Caching                    1.0.0.0                                                                  dotnet                       
-Artalk.Xmpp                                                 1.0.5                                                                    dotnet                       
-Avalonia                                                    0.7.0.0                                                                  dotnet                       
-Avalonia                                                    11.2.0.0                                                                 dotnet     (+17 duplicates)  
-Bouncy Castle for .NET (netstandard2.0)                     1.8.5.50                                                                 dotnet                       
-BouncyCastle.NET                                            2.4.0.33771                                                              dotnet                       
-COSXML                                                      5.4.11.0                                                                 dotnet                       
-CoCoL                                                       1.8.0.0                                                                  dotnet                       
-Crc32.NET                                                   1.2.0.5                                                                  dotnet                       
-DnsClient.NET                                               1.4.0.0                                                                  dotnet                       
-Duplicati.CommandLine                                       2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.AutoUpdater                           2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.BackendTester                         2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.BackendTester.Implementation          2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.BackendTool                           2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.BackendTool.Implementation            2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.Implementation                        2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.RecoveryTool                          2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.RecoveryTool.Implementation           2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.SecretTool                            2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.SecretTool.Implementation             2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.ServerUtil                            2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.ServerUtil.Implementation             2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.SharpAESCrypt                         2.1.0.5                                                                  dotnet                       
-Duplicati.CommandLine.Snapshots                             2.1.0.5                                                                  dotnet                       
-Duplicati.GUI.TrayIcon                                      2.1.0.5                                                                  dotnet                       
-Duplicati.GUI.TrayIcon.Implementation                       2.1.0.5                                                                  dotnet                       
-Duplicati.Library.AutoUpdater                               2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.AliyunOSS                         1.0.0.0                                                                  dotnet                       
-Duplicati.Library.Backend.AzureBlob                         2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.Backblaze                         2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.Box                               2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.CloudFiles                        2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.Dropbox                           2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.FTP                               2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.File                              2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.GoogleServices                    2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.Idrivee2                          2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.Jottacloud                        2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.Mega                              2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.OneDrive                          2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.OpenStack                         2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.Rclone                            2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.S3                                2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.SSHv2                             2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.SharePoint                        2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.Sia                               2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.Storj                             2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.TahoeLAFS                         2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.TencentCOS                        2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backend.WEBDAV                            2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Backends                                  2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Common                                    2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Compression                               2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Crashlog                                  2.1.0.5                                                                  dotnet                       
-Duplicati.Library.DynamicLoader                             2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Encryption                                2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Interface                                 2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Localization                              2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Logging                                   2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Main                                      2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Modules.Builtin                           2.1.0.5                                                                  dotnet                       
-Duplicati.Library.OAuthHelper                               2.1.0.5                                                                  dotnet                       
-Duplicati.Library.RemoteControl                             2.1.0.5                                                                  dotnet                       
-Duplicati.Library.RestAPI                                   2.1.0.5                                                                  dotnet                       
-Duplicati.Library.SecretProvider                            2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Snapshots                                 2.1.0.5                                                                  dotnet                       
-Duplicati.Library.UsageReporter                             2.1.0.5                                                                  dotnet                       
-Duplicati.Library.Utility                                   2.1.0.5                                                                  dotnet                       
-Duplicati.License                                           2.1.0.5                                                                  dotnet                       
-Duplicati.Server                                            2.1.0.5                                                                  dotnet                       
-Duplicati.Server.Implementation                             2.1.0.5                                                                  dotnet                       
-Duplicati.Server.Serialization                              2.1.0.5                                                                  dotnet                       
-Duplicati.Service                                           2.1.0.5                                                                  dotnet                       
-Duplicati.Service.Implementation                            2.1.0.5                                                                  dotnet                       
-Duplicati.Tools                                             2.1.0.5                                                                  dotnet                       
-Duplicati.WebserverCore                                     2.1.0.5                                                                  dotnet                       
-FluentFTP                                                   50.1.0.0                                                                 dotnet                       
-Google.Api.CommonProtos                                     2.15.0.0                                                                 dotnet                       
-Google.Api.Gax                                              4.8.0.0                                                                  dotnet                       
-Google.Api.Gax.Grpc                                         4.8.0.0                                                                  dotnet                       
-Google.Apis                                                 1.67.0.0                                                                 dotnet                       
-Google.Apis.Auth                                            1.67.0.0                                                                 dotnet                       
-Google.Apis.Core                                            1.67.0.0                                                                 dotnet                       
-Google.Cloud.Iam.V1                                         3.2.0.0                                                                  dotnet                       
-Google.Cloud.Location                                       2.2.0.0                                                                  dotnet                       
-Google.Cloud.SecretManager.V1                               2.5.0.0                                                                  dotnet                       
-Google.Protobuf                                             3.25.0.0                                                                 dotnet                       
-Grpc.Auth                                                   2.60.0.0                                                                 dotnet                       
-Grpc.Core.Api                                               2.60.0.0                                                                 dotnet                       
-Grpc.Net.Client                                             2.60.0.0                                                                 dotnet                       
-Grpc.Net.Common                                             2.60.0.0                                                                 dotnet                       
-HarfBuzzSharp                                               7.3.0.2                                                                  dotnet                       
-Json.NET                                                    13.0.3.27908                                                             dotnet                       
-MailKit                                                     2.4.1.0                                                                  dotnet                       
-MegaApiClient                                               1.10.4+Branch.tags-v1.10.4.Sha.17e32721d8780d9870f63f032a22a8f41189afa6  dotnet                       
-Meziantou.Framework.Win32.CredentialManager                 1.7.0.0                                                                  dotnet                       
-MicroCom                                                    0.11.0.0                                                                 dotnet                       
-Microsoft Azure Client Pipeline                             1.4400.124.50905                                                         dotnet                       
-Microsoft Azure Key Vault Core                              3.0.419.36903                                                            dotnet                       
-Microsoft Azure Key Vault WebKey                            3.0.419.36903                                                            dotnet                       
-Microsoft Azure.Identity Component                          1.1300.24.51403                                                          dotnet                       
-Microsoft Azure.Security.KeyVault.Secrets client library    4.700.24.51403                                                           dotnet                       
-Microsoft Rest Azure Client Runtime                         3.3.19                                                                   dotnet                       
-Microsoft Rest Client Runtime                               2.3.24                                                                   dotnet                       
-Microsoft.AspNetCore                                        8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Antiforgery                            8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Authentication                         8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Authentication.Abstractions            8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Authentication.BearerToken             8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Authentication.Cookies                 8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Authentication.Core                    8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Authentication.JwtBearer               8.0.324.11615                                                            dotnet                       
-Microsoft.AspNetCore.Authentication.OAuth                   8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Authorization                          8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Authorization.Policy                   8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Components                             8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Components.Authorization               8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Components.Endpoints                   8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Components.Forms                       8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Components.Server                      8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Components.Web                         8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Connections.Abstractions               8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.CookiePolicy                           8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Cors                                   8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Cryptography.Internal                  8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Cryptography.KeyDerivation             8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.DataProtection                         8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.DataProtection.Abstractions            8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.DataProtection.Extensions              8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Diagnostics                            8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Diagnostics.Abstractions               8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Diagnostics.HealthChecks               8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.HostFiltering                          8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Hosting                                8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Hosting.Abstractions                   8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Hosting.Server.Abstractions            8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Html.Abstractions                      8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Http                                   8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Http.Abstractions                      8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Http.Connections                       8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Http.Connections.Common                8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Http.Extensions                        8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Http.Features                          8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Http.Results                           8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.HttpLogging                            8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.HttpOverrides                          8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.HttpsPolicy                            8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Identity                               8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Localization                           8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Localization.Routing                   8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Metadata                               8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc                                    8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.Abstractions                       8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.ApiExplorer                        8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.Core                               8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.Cors                               8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.DataAnnotations                    8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.Formatters.Json                    8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.Formatters.Xml                     8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.Localization                       8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.Razor                              8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.RazorPages                         8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.TagHelpers                         8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Mvc.ViewFeatures                       8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.OutputCaching                          8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.RateLimiting                           8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Razor                                  8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Razor.Runtime                          8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.RequestDecompression                   8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.ResponseCaching                        8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.ResponseCaching.Abstractions           8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.ResponseCompression                    8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Rewrite                                8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Routing                                8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Routing.Abstractions                   8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Server.HttpSys                         8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Server.IIS                             8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Server.IISIntegration                  8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Server.Kestrel                         8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Server.Kestrel.Core                    8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes    8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Server.Kestrel.Transport.Quic          8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets       8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.Session                                8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.SignalR                                8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.SignalR.Common                         8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.SignalR.Core                           8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.SignalR.Protocols.Json                 8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.StaticFiles                            8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.WebSockets                             8.0.624.26909                                                            dotnet                       
-Microsoft.AspNetCore.WebUtilities                           8.0.624.26909                                                            dotnet                       
-Microsoft.Azure.Storage.Blob.dll                            11.0.1.0                                                                 dotnet                       
-Microsoft.Azure.Storage.Common.dll                          11.0.1.0                                                                 dotnet                       
-Microsoft.Azure.Storage.File.dll                            11.0.1.0                                                                 dotnet                       
-Microsoft.Azure.Storage.Queue.dll                           11.0.1.0                                                                 dotnet                       
-Microsoft.Bcl.AsyncInterfaces                               6.0.21.52210                                                             dotnet                       
-Microsoft.CSharp                                            8.0.624.26715                                                            dotnet                       
-Microsoft.Extensions.Caching.Abstractions                   8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Caching.Memory                         8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Configuration                          8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Configuration.Abstractions             8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Configuration.Binder                   8.0.123.58001                                                            dotnet                       
-Microsoft.Extensions.Configuration.CommandLine              8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Configuration.EnvironmentVariables     8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Configuration.FileExtensions           8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Configuration.Ini                      8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Configuration.Json                     8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Configuration.KeyPerFile               8.0.624.26909                                                            dotnet                       
-Microsoft.Extensions.Configuration.UserSecrets              8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Configuration.Xml                      8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.DependencyInjection                    8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.DependencyInjection.Abstractions       8.0.324.11423                                                            dotnet                       
-Microsoft.Extensions.Diagnostics                            8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Diagnostics.Abstractions               8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Diagnostics.HealthChecks               8.0.624.26909                                                            dotnet                       
-Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions  8.0.624.26909                                                            dotnet                       
-Microsoft.Extensions.Features                               8.0.624.26909                                                            dotnet                       
-Microsoft.Extensions.FileProviders.Abstractions             8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.FileProviders.Composite                8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.FileProviders.Embedded                 8.0.624.26909                                                            dotnet                       
-Microsoft.Extensions.FileProviders.Physical                 8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.FileSystemGlobbing                     8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Hosting                                8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Hosting.Abstractions                   8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Http                                   8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Identity.Core                          8.0.624.26909                                                            dotnet                       
-Microsoft.Extensions.Identity.Stores                        8.0.624.26909                                                            dotnet                       
-Microsoft.Extensions.Localization                           8.0.624.26909                                                            dotnet                       
-Microsoft.Extensions.Localization.Abstractions              8.0.624.26909                                                            dotnet                       
-Microsoft.Extensions.Logging                                8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Logging.Abstractions                   8.0.324.11423                                                            dotnet                       
-Microsoft.Extensions.Logging.Configuration                  8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Logging.Console                        8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Logging.Debug                          8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Logging.EventLog                       8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Logging.EventSource                    8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Logging.TraceSource                    8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.ObjectPool                             8.0.624.26909                                                            dotnet                       
-Microsoft.Extensions.Options                                8.0.224.6711                                                             dotnet                       
-Microsoft.Extensions.Options.ConfigurationExtensions        8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Options.DataAnnotations                8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.Primitives                             8.0.23.53103                                                             dotnet                       
-Microsoft.Extensions.WebEncoders                            8.0.624.26909                                                            dotnet                       
-Microsoft.IO.RecyclableMemoryStream                         3.0.0.0                                                                  dotnet                       
-Microsoft.Identity.Client                                   4.65.0.0                                                                 dotnet                       
-Microsoft.Identity.Client.Extensions.Msal                   4.65.0.0                                                                 dotnet                       
-Microsoft.IdentityModel.Abstractions                        7.5.0.50326                                                              dotnet                       
-Microsoft.IdentityModel.JsonWebTokens                       7.5.0.50326                                                              dotnet                       
-Microsoft.IdentityModel.Logging                             7.5.0.50326                                                              dotnet                       
-Microsoft.IdentityModel.Protocols                           7.1.2.41121005246.a607fa5e0005a6178cf1d2fed4fa0f8179cdb186               dotnet                       
-Microsoft.IdentityModel.Protocols.OpenIdConnect             7.1.2.41121005246.a607fa5e0005a6178cf1d2fed4fa0f8179cdb186               dotnet                       
-Microsoft.IdentityModel.Tokens                              7.5.0.50326                                                              dotnet                       
-Microsoft.JSInterop                                         8.0.624.26909                                                            dotnet                       
-Microsoft.Net.Http.Headers                                  8.0.624.26909                                                            dotnet                       
-Microsoft.OpenApi                                           1.2.3.0                                                                  dotnet                       
-Microsoft.VisualBasic                                       8.0.624.26715                                                            dotnet                       
-Microsoft.VisualBasic.Core                                  13.0.624.26715                                                           dotnet                       
-Microsoft.Win32.Primitives                                  8.0.624.26715                                                            dotnet                       
-Microsoft.Win32.Registry                                    8.0.624.26715                                                            dotnet                       
-Microsoft.Win32.SystemEvents                                7.0.22.51805                                                             dotnet                       
-Microsoft.WindowsAzure.Storage.dll                          9.3.2.0                                                                  dotnet                       
-MimeKit                                                     2.4.1.0                                                                  dotnet                       
-Minio                                                       3.1.13.0                                                                 dotnet                       
-Mono.Unix.dll                                               7.100.21.45801                                                           dotnet                       
-NGettext                                                    0.6.5                                                                    dotnet                       
-Otp.NET                                                     1.4.0.0                                                                  dotnet                       
-RestSharp                                                   106.10.1.0                                                               dotnet                       
-SQLite-net                                                  1.7.335.0                                                                dotnet                       
-SQLiteHelper                                                2.1.0.5                                                                  dotnet                       
-SQLitePCLRaw.batteries_v2                                   2.0.3.851                                                                dotnet                       
-SQLitePCLRaw.core                                           2.0.3.851                                                                dotnet                       
-SQLitePCLRaw.nativelibrary                                  2.0.3.851                                                                dotnet                       
-SQLitePCLRaw.provider.dynamic_cdecl                         2.0.3.851                                                                dotnet                       
-SSH.NET                                                     2024.2.0.1+74d4364c32                                                    dotnet                       
-SharePointPnP.Client                                        16.1.7723.1200                                                           dotnet                       
-SharpAESCrypt                                               2.0.3.0                                                                  dotnet                       
-SharpCompress.dll                                           0.36.0+f515ff36b684b395c1e65043e17ab442fd65c1f0                          dotnet                       
-SixLabors.Fonts                                             2.0.3.0                                                                  dotnet                       
-SixLabors.ImageSharp                                        3.1.5.0                                                                  dotnet                       
-SixLabors.ImageSharp.Drawing                                2.1.3.0                                                                  dotnet                       
-SkiaSharp                                                   2.88.8.0                                                                 dotnet                       
-StreamUtil                                                  1.0.0.0                                                                  dotnet                       
-Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                                  dotnet                       
-Swashbuckle.AspNetCore.SwaggerGen                           6.5.0.0                                                                  dotnet                       
-Swashbuckle.AspNetCore.SwaggerUI                            6.5.0.0                                                                  dotnet                       
-System                                                      8.0.624.26715                                                            dotnet                       
-System.AppContext                                           8.0.624.26715                                                            dotnet                       
-System.Buffers                                              8.0.624.26715                                                            dotnet                       
-System.ClientModel                                          1.100.24.46703                                                           dotnet                       
-System.CodeDom                                              8.0.23.53103                                                             dotnet                       
-System.Collections                                          8.0.624.26715                                                            dotnet                       
-System.Collections.Concurrent                               8.0.624.26715                                                            dotnet                       
-System.Collections.Immutable                                8.0.624.26715                                                            dotnet                       
-System.Collections.NonGeneric                               8.0.624.26715                                                            dotnet                       
-System.Collections.Specialized                              8.0.624.26715                                                            dotnet                       
-System.CommandLine.NamingConventionBinder                   2.0.22.27201                                                             dotnet                       
-System.ComponentModel                                       8.0.624.26715                                                            dotnet                       
-System.ComponentModel.Annotations                           8.0.624.26715                                                            dotnet                       
-System.ComponentModel.DataAnnotations                       8.0.624.26715                                                            dotnet                       
-System.ComponentModel.EventBasedAsync                       8.0.624.26715                                                            dotnet                       
-System.ComponentModel.Primitives                            8.0.624.26715                                                            dotnet                       
-System.ComponentModel.TypeConverter                         8.0.624.26715                                                            dotnet                       
-System.Configuration                                        8.0.624.26715                                                            dotnet                       
-System.Console                                              8.0.624.26715                                                            dotnet                       
-System.Core                                                 8.0.624.26715                                                            dotnet                       
-System.Data                                                 8.0.624.26715                                                            dotnet                       
-System.Data.Common                                          8.0.624.26715                                                            dotnet                       
-System.Data.DataSetExtensions                               8.0.624.26715                                                            dotnet                       
-System.Data.SQLite                                          1.0.115.0                                                                dotnet                       
-System.Diagnostics.Contracts                                8.0.624.26715                                                            dotnet                       
-System.Diagnostics.Debug                                    8.0.624.26715                                                            dotnet                       
-System.Diagnostics.DiagnosticSource                         8.0.624.26715                                                            dotnet                       
-System.Diagnostics.EventLog                                 8.0.23.53103                                                             dotnet                       
-System.Diagnostics.FileVersionInfo                          8.0.624.26715                                                            dotnet                       
-System.Diagnostics.Process                                  8.0.624.26715                                                            dotnet                       
-System.Diagnostics.StackTrace                               8.0.624.26715                                                            dotnet                       
-System.Diagnostics.TextWriterTraceListener                  8.0.624.26715                                                            dotnet                       
-System.Diagnostics.Tools                                    8.0.624.26715                                                            dotnet                       
-System.Diagnostics.TraceSource                              8.0.624.26715                                                            dotnet                       
-System.Diagnostics.Tracing                                  8.0.624.26715                                                            dotnet                       
-System.Drawing                                              8.0.624.26715                                                            dotnet                       
-System.Drawing.Common                                       7.0.22.51805                                                             dotnet                       
-System.Drawing.Primitives                                   8.0.624.26715                                                            dotnet                       
-System.Dynamic.Runtime                                      8.0.624.26715                                                            dotnet                       
-System.Formats.Asn1                                         8.0.624.26715                                                            dotnet                       
-System.Formats.Tar                                          8.0.624.26715                                                            dotnet                       
-System.Globalization                                        8.0.624.26715                                                            dotnet                       
-System.Globalization.Calendars                              8.0.624.26715                                                            dotnet                       
-System.Globalization.Extensions                             8.0.624.26715                                                            dotnet                       
-System.IO                                                   8.0.624.26715                                                            dotnet                       
-System.IO.Compression                                       8.0.624.26715                                                            dotnet                       
-System.IO.Compression.Brotli                                8.0.624.26715                                                            dotnet                       
-System.IO.Compression.FileSystem                            8.0.624.26715                                                            dotnet                       
-System.IO.Compression.ZipFile                               8.0.624.26715                                                            dotnet                       
-System.IO.FileSystem                                        8.0.624.26715                                                            dotnet                       
-System.IO.FileSystem.AccessControl                          8.0.624.26715                                                            dotnet                       
-System.IO.FileSystem.DriveInfo                              8.0.624.26715                                                            dotnet                       
-System.IO.FileSystem.Primitives                             8.0.624.26715                                                            dotnet                       
-System.IO.FileSystem.Watcher                                8.0.624.26715                                                            dotnet                       
-System.IO.IsolatedStorage                                   8.0.624.26715                                                            dotnet                       
-System.IO.MemoryMappedFiles                                 8.0.624.26715                                                            dotnet                       
-System.IO.Pipelines                                         8.0.23.53103                                                             dotnet                       
-System.IO.Pipes                                             8.0.624.26715                                                            dotnet                       
-System.IO.Pipes.AccessControl                               8.0.624.26715                                                            dotnet                       
-System.IO.UnmanagedMemoryStream                             8.0.624.26715                                                            dotnet                       
-System.IdentityModel.Tokens.Jwt                             7.5.0.50326                                                              dotnet                       
-System.Linq                                                 8.0.624.26715                                                            dotnet                       
-System.Linq.Expressions                                     8.0.624.26715                                                            dotnet                       
-System.Linq.Parallel                                        8.0.624.26715                                                            dotnet                       
-System.Linq.Queryable                                       8.0.624.26715                                                            dotnet                       
-System.Management                                           8.0.23.53103                                                             dotnet                       
-System.Memory                                               8.0.624.26715                                                            dotnet                       
-System.Memory.Data                                          6.0.21.52210                                                             dotnet                       
-System.Net                                                  8.0.624.26715                                                            dotnet                       
-System.Net.Http                                             8.0.624.26715                                                            dotnet                       
-System.Net.Http.Json                                        8.0.624.26715                                                            dotnet                       
-System.Net.HttpListener                                     8.0.624.26715                                                            dotnet                       
-System.Net.Mail                                             8.0.624.26715                                                            dotnet                       
-System.Net.NameResolution                                   8.0.624.26715                                                            dotnet                       
-System.Net.NetworkInformation                               8.0.624.26715                                                            dotnet                       
-System.Net.Ping                                             8.0.624.26715                                                            dotnet                       
-System.Net.Primitives                                       8.0.624.26715                                                            dotnet                       
-System.Net.Quic                                             8.0.624.26715                                                            dotnet                       
-System.Net.Requests                                         8.0.624.26715                                                            dotnet                       
-System.Net.Security                                         8.0.624.26715                                                            dotnet                       
-System.Net.ServicePoint                                     8.0.624.26715                                                            dotnet                       
-System.Net.Sockets                                          8.0.624.26715                                                            dotnet                       
-System.Net.WebClient                                        8.0.624.26715                                                            dotnet                       
-System.Net.WebHeaderCollection                              8.0.624.26715                                                            dotnet                       
-System.Net.WebProxy                                         8.0.624.26715                                                            dotnet                       
-System.Net.WebSockets                                       8.0.624.26715                                                            dotnet                       
-System.Net.WebSockets.Client                                8.0.624.26715                                                            dotnet                       
-System.Numerics                                             8.0.624.26715                                                            dotnet                       
-System.Numerics.Vectors                                     8.0.624.26715                                                            dotnet                       
-System.ObjectModel                                          8.0.624.26715                                                            dotnet                       
-System.Private.CoreLib                                      8.0.624.26715                                                            dotnet                       
-System.Private.DataContractSerialization                    8.0.624.26715                                                            dotnet                       
-System.Private.Uri                                          8.0.624.26715                                                            dotnet                       
-System.Private.Xml                                          8.0.624.26715                                                            dotnet                       
-System.Private.Xml.Linq                                     8.0.624.26715                                                            dotnet                       
-System.Reactive (net6.0)                                    6.0.0.1+e29c7a50db                                                       dotnet                       
-System.Reactive.Linq (netstandard2.0)                       3.0.6000.0                                                               dotnet                       
-System.Reflection                                           8.0.624.26715                                                            dotnet                       
-System.Reflection.DispatchProxy                             8.0.624.26715                                                            dotnet                       
-System.Reflection.Emit                                      8.0.624.26715                                                            dotnet                       
-System.Reflection.Emit.ILGeneration                         8.0.624.26715                                                            dotnet                       
-System.Reflection.Emit.Lightweight                          8.0.624.26715                                                            dotnet                       
-System.Reflection.Extensions                                8.0.624.26715                                                            dotnet                       
-System.Reflection.Metadata                                  8.0.624.26715                                                            dotnet                       
-System.Reflection.Primitives                                8.0.624.26715                                                            dotnet                       
-System.Reflection.TypeExtensions                            8.0.624.26715                                                            dotnet                       
-System.Resources.Reader                                     8.0.624.26715                                                            dotnet                       
-System.Resources.ResourceManager                            8.0.624.26715                                                            dotnet                       
-System.Resources.Writer                                     8.0.624.26715                                                            dotnet                       
-System.Runtime                                              8.0.624.26715                                                            dotnet                       
-System.Runtime.CompilerServices.Unsafe                      8.0.624.26715                                                            dotnet                       
-System.Runtime.CompilerServices.VisualC                     8.0.624.26715                                                            dotnet                       
-System.Runtime.Extensions                                   8.0.624.26715                                                            dotnet                       
-System.Runtime.Handles                                      8.0.624.26715                                                            dotnet                       
-System.Runtime.InteropServices                              8.0.624.26715                                                            dotnet                       
-System.Runtime.InteropServices.JavaScript                   8.0.624.26715                                                            dotnet                       
-System.Runtime.InteropServices.RuntimeInformation           8.0.624.26715                                                            dotnet                       
-System.Runtime.Intrinsics                                   8.0.624.26715                                                            dotnet                       
-System.Runtime.Loader                                       8.0.624.26715                                                            dotnet                       
-System.Runtime.Numerics                                     8.0.624.26715                                                            dotnet                       
-System.Runtime.Serialization                                8.0.624.26715                                                            dotnet                       
-System.Runtime.Serialization.Formatters                     8.0.624.26715                                                            dotnet                       
-System.Runtime.Serialization.Json                           8.0.624.26715                                                            dotnet                       
-System.Runtime.Serialization.Primitives                     8.0.624.26715                                                            dotnet                       
-System.Runtime.Serialization.Xml                            8.0.624.26715                                                            dotnet                       
-System.Security                                             8.0.624.26715                                                            dotnet                       
-System.Security.AccessControl                               8.0.624.26715                                                            dotnet                       
-System.Security.Claims                                      8.0.624.26715                                                            dotnet                       
-System.Security.Cryptography                                8.0.624.26715                                                            dotnet                       
-System.Security.Cryptography.Algorithms                     8.0.624.26715                                                            dotnet                       
-System.Security.Cryptography.Cng                            8.0.624.26715                                                            dotnet                       
-System.Security.Cryptography.Csp                            8.0.624.26715                                                            dotnet                       
-System.Security.Cryptography.Encoding                       8.0.624.26715                                                            dotnet                       
-System.Security.Cryptography.OpenSsl                        8.0.624.26715                                                            dotnet                       
-System.Security.Cryptography.Pkcs                           8.0.23.53103                                                             dotnet                       
-System.Security.Cryptography.Primitives                     8.0.624.26715                                                            dotnet                       
-System.Security.Cryptography.ProtectedData                  4.6.26515.06                                                             dotnet                       
-System.Security.Cryptography.X509Certificates               8.0.624.26715                                                            dotnet                       
-System.Security.Cryptography.Xml                            8.0.524.21615                                                            dotnet                       
-System.Security.Principal                                   8.0.624.26715                                                            dotnet                       
-System.Security.Principal.Windows                           8.0.624.26715                                                            dotnet                       
-System.Security.SecureString                                8.0.624.26715                                                            dotnet                       
-System.ServiceModel.Web                                     8.0.624.26715                                                            dotnet                       
-System.ServiceProcess                                       8.0.624.26715                                                            dotnet                       
-System.Text.Encoding                                        8.0.624.26715                                                            dotnet                       
-System.Text.Encoding.CodePages                              8.0.624.26715                                                            dotnet                       
-System.Text.Encoding.Extensions                             8.0.624.26715                                                            dotnet                       
-System.Text.Encodings.Web                                   8.0.624.26715                                                            dotnet                       
-System.Text.Json                                            8.0.624.26715                                                            dotnet                       
-System.Text.RegularExpressions                              8.0.624.26715                                                            dotnet                       
-System.Threading                                            8.0.624.26715                                                            dotnet                       
-System.Threading.Channels                                   8.0.624.26715                                                            dotnet                       
-System.Threading.Overlapped                                 8.0.624.26715                                                            dotnet                       
-System.Threading.RateLimiting                               8.0.23.53103                                                             dotnet                       
-System.Threading.Tasks                                      8.0.624.26715                                                            dotnet                       
-System.Threading.Tasks.Dataflow                             8.0.624.26715                                                            dotnet                       
-System.Threading.Tasks.Extensions                           8.0.624.26715                                                            dotnet                       
-System.Threading.Tasks.Parallel                             8.0.624.26715                                                            dotnet                       
-System.Threading.Thread                                     8.0.624.26715                                                            dotnet                       
-System.Threading.ThreadPool                                 8.0.624.26715                                                            dotnet                       
-System.Threading.Timer                                      8.0.624.26715                                                            dotnet                       
-System.Transactions                                         8.0.624.26715                                                            dotnet                       
-System.Transactions.Local                                   8.0.624.26715                                                            dotnet                       
-System.ValueTuple                                           8.0.624.26715                                                            dotnet                       
-System.Web                                                  8.0.624.26715                                                            dotnet                       
-System.Web.HttpUtility                                      8.0.624.26715                                                            dotnet                       
-System.Windows                                              8.0.624.26715                                                            dotnet                       
-System.Xml                                                  8.0.624.26715                                                            dotnet                       
-System.Xml.Linq                                             8.0.624.26715                                                            dotnet                       
-System.Xml.ReaderWriter                                     8.0.624.26715                                                            dotnet                       
-System.Xml.Serialization                                    8.0.624.26715                                                            dotnet                       
-System.Xml.XDocument                                        8.0.624.26715                                                            dotnet                       
-System.Xml.XPath                                            8.0.624.26715                                                            dotnet                       
-System.Xml.XPath.XDocument                                  8.0.624.26715                                                            dotnet                       
-System.Xml.XmlDocument                                      8.0.624.26715                                                            dotnet                       
-System.Xml.XmlSerializer                                    8.0.624.26715                                                            dotnet                       
-Tmds.DBus.Protocol                                          0.20.0.0                                                                 dotnet                       
-VaultSharp                                                  1.7.0.0                                                                  dotnet                       
-Websocket.Client                                            5.1.2.0                                                                  dotnet                       
-WindowsBase                                                 8.0.624.26715                                                            dotnet                       
-ZstdSharp                                                   0.7.4.0                                                                  dotnet                       
-adduser                                                     3.137ubuntu1                                                             deb                          
-apt                                                         2.7.14build2                                                             deb                          
-apt-utils                                                   2.7.14build2                                                             deb                          
-base-files                                                  13ubuntu10.2                                                             deb                          
-base-passwd                                                 3.6.3build1                                                              deb                          
-bash                                                        5.2.21-2ubuntu4                                                          deb                          
-bsdutils                                                    1:2.39.3-9ubuntu6.2                                                      deb                          
-ca-certificates                                             20240203                                                                 deb                          
-cabextract                                                  1.11-2                                                                   deb                          
-catatonit                                                   0.1.7-1                                                                  deb                          
-chardet                                                     5.2.0                                                                    python                       
-coreutils                                                   9.4-3ubuntu6                                                             deb                          
-cron                                                        3.0pl1-184ubuntu2                                                        deb                          
-cron-daemon-common                                          3.0pl1-184ubuntu2                                                        deb                          
-curl                                                        8.5.0-2ubuntu10.6                                                        deb                          
-dash                                                        0.5.12-6ubuntu5                                                          deb                          
-dbus                                                        1.14.10-4ubuntu4.1                                                       deb                          
-dbus-bin                                                    1.14.10-4ubuntu4.1                                                       deb                          
-dbus-daemon                                                 1.14.10-4ubuntu4.1                                                       deb                          
-dbus-python                                                 1.3.2                                                                    python                       
-dbus-session-bus-common                                     1.14.10-4ubuntu4.1                                                       deb                          
-dbus-system-bus-common                                      1.14.10-4ubuntu4.1                                                       deb                          
-debconf                                                     1.5.86ubuntu1                                                            deb                          
-debianutils                                                 5.17build1                                                               deb                          
-diffutils                                                   1:3.10-1build1                                                           deb                          
-dirmngr                                                     2.4.4-2ubuntu17                                                          deb                          
-distro-info                                                 1.7+build1                                                               python                       
-distro-info                                                 1.7build1                                                                deb                          
-distro-info-data                                            0.60ubuntu0.2                                                            deb                          
-dpkg                                                        1.22.6ubuntu6.1                                                          deb                          
-e2fsprogs                                                   1.47.0-2.4~exp1ubuntu4.1                                                 deb                          
-findutils                                                   4.9.0-5build1                                                            deb                          
-fonts-liberation                                            1:2.1.5-3                                                                deb                          
-fonts-liberation-sans-narrow                                1:1.07.6-4                                                               deb                          
-gcc-14-base                                                 14.2.0-4ubuntu2~24.04                                                    deb                          
-gir1.2-girepository-2.0                                     1.80.1-1                                                                 deb                          
-gir1.2-glib-2.0                                             2.80.0-6ubuntu3.2                                                        deb                          
-github.com/calebcase/tmpfile                                v1.0.3                                                                   go-module                    
-github.com/flynn/noise                                      v1.0.0                                                                   go-module                    
-github.com/gogo/protobuf                                    v1.3.2                                                                   go-module                    
-github.com/jtolio/noiseconn                                 v0.0.0-20230111204749-d7ec1a08b0b8                                       go-module                    
-github.com/klauspost/compress                               v1.17.7                                                                  go-module                    
-github.com/klauspost/cpuid/v2                               v2.2.5                                                                   go-module                    
-github.com/spacemonkeygo/monkit/v3                          v3.0.22                                                                  go-module                    
-github.com/zeebo/blake3                                     v0.2.3                                                                   go-module                    
-github.com/zeebo/errs                                       v1.3.0                                                                   go-module                    
-gnupg                                                       2.4.4-2ubuntu17                                                          deb                          
-gnupg-l10n                                                  2.4.4-2ubuntu17                                                          deb                          
-gnupg-utils                                                 2.4.4-2ubuntu17                                                          deb                          
-golang.org/x/crypto                                         v0.19.0                                                                  go-module                    
-golang.org/x/exp                                            v0.0.0-20231006140011-7918f672742d                                       go-module                    
-golang.org/x/sync                                           v0.6.0                                                                   go-module                    
-golang.org/x/sys                                            v0.17.0                                                                  go-module                    
-gpg                                                         2.4.4-2ubuntu17                                                          deb                          
-gpg-agent                                                   2.4.4-2ubuntu17                                                          deb                          
-gpg-wks-client                                              2.4.4-2ubuntu17                                                          deb                          
-gpgconf                                                     2.4.4-2ubuntu17                                                          deb                          
-gpgsm                                                       2.4.4-2ubuntu17                                                          deb                          
-gpgv                                                        2.4.4-2ubuntu17                                                          deb                          
-grep                                                        3.11-4build1                                                             deb                          
-gzip                                                        1.12-1ubuntu3                                                            deb                          
-hostname                                                    3.23+nmu2ubuntu2                                                         deb                          
-init-system-helpers                                         1.66ubuntu1                                                              deb                          
-iso-codes                                                   4.16.0-1                                                                 deb                          
-jose-jwt                                                    5.0.0+e56a3af135a2a5fa5a7275fca684751e34371779                           dotnet                       
-jq                                                          1.7.1-3build1                                                            deb                          
-keyboxd                                                     2.4.4-2ubuntu17                                                          deb                          
-krb5-locales                                                1.20.1-6ubuntu2.5                                                        deb                          
-libacl1                                                     2.3.2-1build1.1                                                          deb                          
-libapparmor1                                                4.0.1really4.0.1-0ubuntu0.24.04.3                                        deb                          
-libapt-pkg6.0t64                                            2.7.14build2                                                             deb                          
-libassuan0                                                  2.5.6-1build1                                                            deb                          
-libattr1                                                    1:2.5.2-1build1.1                                                        deb                          
-libaudit-common                                             1:3.1.2-2.1build1.1                                                      deb                          
-libaudit1                                                   1:3.1.2-2.1build1.1                                                      deb                          
-libblkid1                                                   2.39.3-9ubuntu6.2                                                        deb                          
-libbrotli1                                                  1.1.0-2build2                                                            deb                          
-libbsd0                                                     0.12.1-1build1.1                                                         deb                          
-libbz2-1.0                                                  1.0.8-5.1build0.1                                                        deb                          
-libc-bin                                                    2.39-0ubuntu8.4                                                          deb                          
-libc6                                                       2.39-0ubuntu8.4                                                          deb                          
-libcap-ng0                                                  0.8.4-2build2                                                            deb                          
-libcap2                                                     1:2.66-5ubuntu2.2                                                        deb                          
-libcom-err2                                                 1.47.0-2.4~exp1ubuntu4.1                                                 deb                          
-libcrypt1                                                   1:4.4.36-4build1                                                         deb                          
-libcurl4t64                                                 8.5.0-2ubuntu10.6                                                        deb                          
-libdb5.3t64                                                 5.3.28+dfsg2-7                                                           deb                          
-libdbus-1-3                                                 1.14.10-4ubuntu4.1                                                       deb                          
-libdebconfclient0                                           0.271ubuntu3                                                             deb                          
-libexpat1                                                   2.6.1-2ubuntu0.2                                                         deb                          
-libext2fs2t64                                               1.47.0-2.4~exp1ubuntu4.1                                                 deb                          
-libffi8                                                     3.4.6-1build1                                                            deb                          
-libfontenc1                                                 1:1.1.8-1build1                                                          deb                          
-libfreetype6                                                2.13.2+dfsg-1build3                                                      deb                          
-libgcc-s1                                                   14.2.0-4ubuntu2~24.04                                                    deb                          
-libgcrypt20                                                 1.10.3-2build1                                                           deb                          
-libgirepository-1.0-1                                       1.80.1-1                                                                 deb                          
-libglib2.0-0t64                                             2.80.0-6ubuntu3.2                                                        deb                          
-libglib2.0-data                                             2.80.0-6ubuntu3.2                                                        deb                          
-libgmp10                                                    2:6.3.0+dfsg-2ubuntu6.1                                                  deb                          
-libgnutls30t64                                              3.8.3-1.1ubuntu3.3                                                       deb                          
-libgpg-error0                                               1.47-3build2.1                                                           deb                          
-libgssapi-krb5-2                                            1.20.1-6ubuntu2.5                                                        deb                          
-libhogweed6t64                                              3.9.1-2.2build1.1                                                        deb                          
-libicu74                                                    74.2-1ubuntu3.1                                                          deb                          
-libidn2-0                                                   2.3.7-2build1.1                                                          deb                          
-libjq1                                                      1.7.1-3build1                                                            deb                          
-libjson-c5                                                  0.17-1build1                                                             deb                          
-libk5crypto3                                                1.20.1-6ubuntu2.5                                                        deb                          
-libkeyutils1                                                1.6.3-3build1                                                            deb                          
-libkrb5-3                                                   1.20.1-6ubuntu2.5                                                        deb                          
-libkrb5support0                                             1.20.1-6ubuntu2.5                                                        deb                          
-libksba8                                                    1.6.6-1build1                                                            deb                          
-libldap-common                                              2.6.7+dfsg-1~exp1ubuntu8.2                                               deb                          
-libldap2                                                    2.6.7+dfsg-1~exp1ubuntu8.2                                               deb                          
-liblz4-1                                                    1.9.4-1build1.1                                                          deb                          
-liblzma5                                                    5.6.1+really5.4.5-1build0.1                                              deb                          
-libmd0                                                      1.1.0-2build1.1                                                          deb                          
-libmount1                                                   2.39.3-9ubuntu6.2                                                        deb                          
-libmspack0t64                                               0.11-1.1build1                                                           deb                          
-libncursesw6                                                6.4+20240113-1ubuntu2                                                    deb                          
-libnettle8t64                                               3.9.1-2.2build1.1                                                        deb                          
-libnghttp2-14                                               1.59.0-1ubuntu0.2                                                        deb                          
-libnpth0t64                                                 1.6-3.1build1                                                            deb                          
-libonig5                                                    6.9.9-1build1                                                            deb                          
-libp11-kit0                                                 0.25.3-4ubuntu2.1                                                        deb                          
-libpam-modules                                              1.5.3-5ubuntu5.1                                                         deb                          
-libpam-modules-bin                                          1.5.3-5ubuntu5.1                                                         deb                          
-libpam-runtime                                              1.5.3-5ubuntu5.1                                                         deb                          
-libpam0g                                                    1.5.3-5ubuntu5.1                                                         deb                          
-libpcre2-8-0                                                10.42-4ubuntu2.1                                                         deb                          
-libpng16-16t64                                              1.6.43-5build1                                                           deb                          
-libproc2-0                                                  2:4.0.4-4ubuntu3.2                                                       deb                          
-libpsl5t64                                                  0.21.2-1.1build1                                                         deb                          
-libpython3-stdlib                                           3.12.3-0ubuntu2                                                          deb                          
-libpython3.12-minimal                                       3.12.3-1ubuntu0.5                                                        deb                          
-libpython3.12-stdlib                                        3.12.3-1ubuntu0.5                                                        deb                          
-libreadline8t64                                             8.2-4build1                                                              deb                          
-librtmp1                                                    2.4+20151223.gitfa8646d.1-2build7                                        deb                          
-libsasl2-2                                                  2.1.28+dfsg1-5ubuntu3.1                                                  deb                          
-libsasl2-modules                                            2.1.28+dfsg1-5ubuntu3.1                                                  deb                          
-libsasl2-modules-db                                         2.1.28+dfsg1-5ubuntu3.1                                                  deb                          
-libseccomp2                                                 2.5.5-1ubuntu3.1                                                         deb                          
-libselinux1                                                 3.5-2ubuntu2.1                                                           deb                          
-libsemanage-common                                          3.5-1build5                                                              deb                          
-libsemanage2                                                3.5-1build5                                                              deb                          
-libsepol2                                                   3.5-2build1                                                              deb                          
-libsmartcols1                                               2.39.3-9ubuntu6.2                                                        deb                          
-libsqlite3-0                                                3.45.1-1ubuntu2.1                                                        deb                          
-libss2                                                      1.47.0-2.4~exp1ubuntu4.1                                                 deb                          
-libssh-4                                                    0.10.6-2build2                                                           deb                          
-libssl3t64                                                  3.0.13-0ubuntu3.5                                                        deb                          
-libstdc++6                                                  14.2.0-4ubuntu2~24.04                                                    deb                          
-libsystemd0                                                 255.4-1ubuntu8.6                                                         deb                          
-libtasn1-6                                                  4.19.0-3ubuntu0.24.04.1                                                  deb                          
-libtinfo6                                                   6.4+20240113-1ubuntu2                                                    deb                          
-libudev1                                                    255.4-1ubuntu8.6                                                         deb                          
-libunistring5                                               1.1-2build1.1                                                            deb                          
-libuuid1                                                    2.39.3-9ubuntu6.2                                                        deb                          
-libxml2                                                     2.9.14+dfsg-1.3ubuntu3.2                                                 deb                          
-libxxhash0                                                  0.8.2-2build1                                                            deb                          
-libyaml-0-2                                                 0.2.5-1build1                                                            deb                          
-libzstd1                                                    1.5.5+dfsg2-2build1.1                                                    deb                          
-locales                                                     2.39-0ubuntu8.4                                                          deb                          
-login                                                       1:4.13+dfsg1-4ubuntu3.2                                                  deb                          
-logsave                                                     1.47.0-2.4~exp1ubuntu4.1                                                 deb                          
-lsb-release                                                 12.0-2                                                                   deb                          
-mawk                                                        1.3.4.20240123-1build1                                                   deb                          
-media-types                                                 10.1.0                                                                   deb                          
-mount                                                       2.39.3-9ubuntu6.2                                                        deb                          
-mscorlib                                                    8.0.624.26715                                                            dotnet                       
-ncurses-base                                                6.4+20240113-1ubuntu2                                                    deb                          
-ncurses-bin                                                 6.4+20240113-1ubuntu2                                                    deb                          
-netbase                                                     6.4                                                                      deb                          
-netcat-openbsd                                              1.226-1ubuntu2                                                           deb                          
-netstandard                                                 8.0.624.26715                                                            dotnet                       
-openssl                                                     3.0.13-0ubuntu3.5                                                        deb                          
-passwd                                                      1:4.13+dfsg1-4ubuntu3.2                                                  deb                          
-patch                                                       2.7.6-7build3                                                            deb                          
-perl-base                                                   5.38.2-3.2build2.1                                                       deb                          
-pinentry-curses                                             1.2.1-3ubuntu5                                                           deb                          
-procps                                                      2:4.0.4-4ubuntu3.2                                                       deb                          
-publicsuffix                                                20231001.0357-0.1                                                        deb                          
-pygobject                                                   3.48.2                                                                   python                       
-python-apt                                                  2.7.7+ubuntu4                                                            python                       
-python-apt-common                                           2.7.7ubuntu4                                                             deb                          
-python-debian                                               0.1.49+ubuntu2                                                           python                       
-python3                                                     3.12.3-0ubuntu2                                                          deb                          
-python3-apt                                                 2.7.7ubuntu4                                                             deb                          
-python3-chardet                                             5.2.0+dfsg-1                                                             deb                          
-python3-dbus                                                1.3.2-5build3                                                            deb                          
-python3-debconf                                             1.5.86ubuntu1                                                            deb                          
-python3-debian                                              0.1.49ubuntu2                                                            deb                          
-python3-distro-info                                         1.7build1                                                                deb                          
-python3-distupgrade                                         1:24.04.26                                                               deb                          
-python3-gi                                                  3.48.2-1                                                                 deb                          
-python3-minimal                                             3.12.3-0ubuntu2                                                          deb                          
-python3-pkg-resources                                       68.1.2-2ubuntu1.1                                                        deb                          
-python3-update-manager                                      1:24.04.9                                                                deb                          
-python3-yaml                                                6.0.1-2build2                                                            deb                          
-python3.12                                                  3.12.3-1ubuntu0.5                                                        deb                          
-python3.12-minimal                                          3.12.3-1ubuntu0.5                                                        deb                          
-pyyaml                                                      6.0.1                                                                    python                       
-readline-common                                             8.2-4build1                                                              deb                          
-sed                                                         4.9-2build1                                                              deb                          
-sensible-utils                                              0.0.22                                                                   deb                          
-shared-mime-info                                            2.4-4                                                                    deb                          
-stdlib                                                      go1.21.12                                                                go-module                    
-storj.io/common                                             v0.0.0-20240424123607-5f226fc92c16                                       go-module                    
-storj.io/drpc                                               v0.0.33                                                                  go-module                    
-storj.io/eventkit                                           v0.0.0-20240306141230-6cb545e5f892                                       go-module                    
-storj.io/infectious                                         v0.0.2                                                                   go-module                    
-storj.io/picobuf                                            v0.0.3                                                                   go-module                    
-storj.io/uplink                                             v1.13.0                                                                  go-module                    
-storj.io/uplink-c                                           v1.9.0                                                                   go-module                    
-systemd-standalone-sysusers                                 255.4-1ubuntu8.6                                                         deb                          
-sysvinit-utils                                              3.08-6ubuntu3                                                            deb                          
-tar                                                         1.35+dfsg-3build1                                                        deb                          
-ttf-mscorefonts-installer                                   3.8.1ubuntu1                                                             deb                          
-tzdata                                                      2024b-0ubuntu0.24.04.1                                                   deb                          
-ubuntu-keyring                                              2023.11.28.1                                                             deb                          
-ubuntu-pro-client                                           34~24.04                                                                 deb                          
-ubuntu-pro-client                                           8001                                                                     python                       
-ubuntu-pro-client-l10n                                      34~24.04                                                                 deb                          
-ubuntu-release-upgrader-core                                1:24.04.26                                                               deb                          
-unminimize                                                  0.2.1                                                                    deb                          
-unzip                                                       6.0-28ubuntu4.1                                                          deb                          
-update-manager-core                                         1:24.04.9                                                                deb                          
-update-notifier-common                                      3.192.68build3                                                           deb                          
-uplink.NET                                                  2.13.0.3489+f4531debbac8b29d6a048345ea261f701e38309c                     dotnet                       
-util-linux                                                  2.39.3-9ubuntu6.2                                                        deb                          
-wget                                                        1.21.4-1ubuntu4.1                                                        deb                          
-x11-common                                                  1:7.7+23ubuntu3                                                          deb                          
-xdg-user-dirs                                               0.18-1build1                                                             deb                          
-xfonts-encodings                                            1:1.0.5-0ubuntu2                                                         deb                          
-xfonts-utils                                                1:7.7+6build3                                                            deb                          
-xz-utils                                                    5.6.1+really5.4.5-1build0.1                                              deb                          
-zlib1g                                                      1:1.3.dfsg-3.1ubuntu2.1                                                  deb                          
-zstd                                                        1.5.5+dfsg2-2build1.1                                                    deb                          
+NAME                                                          VERSION                             TYPE                        
+@duplicati/ngclient                                           0.0.91                              npm                          
+AWSSDK.Core                                                   3.7.400.45                          dotnet     (+8 duplicates)   
+AWSSDK.IdentityManagement                                     3.7.402.39                          dotnet     (+8 duplicates)   
+AWSSDK.S3                                                     3.7.405.9                           dotnet     (+8 duplicates)   
+AWSSDK.SecretsManager                                         3.7.102.54                          dotnet     (+8 duplicates)   
+AWSSDK.SecretsManager.Caching                                 1.0.6                               dotnet     (+8 duplicates)   
+Aliyun.OSS.SDK.NetCore                                        2.13.0                              dotnet     (+8 duplicates)   
+AlphaVSS                                                      2.0.3                               dotnet     (+11 duplicates)  
+Artalk.Xmpp                                                   1.0.5                               dotnet     (+8 duplicates)   
+Avalonia                                                      11.2.0                              dotnet                       
+Avalonia.Desktop                                              11.2.0                              dotnet                       
+Avalonia.FreeDesktop                                          11.2.0                              dotnet                       
+Avalonia.Native                                               11.2.0                              dotnet                       
+Avalonia.Remote.Protocol                                      11.2.0                              dotnet                       
+Avalonia.Skia                                                 11.2.0                              dotnet                       
+Avalonia.Themes.Fluent                                        11.2.0                              dotnet                       
+Avalonia.Win32                                                11.2.0                              dotnet                       
+Avalonia.X11                                                  11.2.0                              dotnet                       
+Azure.Core                                                    1.44.1                              dotnet     (+8 duplicates)   
+Azure.Identity                                                1.13.0                              dotnet     (+8 duplicates)   
+Azure.Security.KeyVault.Secrets                               4.7.0                               dotnet     (+8 duplicates)   
+BouncyCastle.Cryptography                                     2.4.0                               dotnet     (+8 duplicates)   
+CoCoL                                                         1.8.0                               dotnet     (+5 duplicates)   
+Crc32.NET                                                     1.2.0                               dotnet     (+8 duplicates)   
+DnsClient                                                     1.4.0                               dotnet     (+8 duplicates)   
+Duplicati.CommandLine                                         2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.CommandLine.AutoUpdater                             2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.CommandLine.BackendTester                           2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.CommandLine.BackendTester.Implementation            2.1.0.5-Stable-20250304             dotnet     (+5 duplicates)   
+Duplicati.CommandLine.BackendTester.Implementation.Reference  2.1.0.5                             dotnet     (+5 duplicates)   
+Duplicati.CommandLine.BackendTool                             2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.CommandLine.BackendTool.Implementation              2.1.0.5-Stable-20250304             dotnet     (+5 duplicates)   
+Duplicati.CommandLine.BackendTool.Implementation.Reference    2.1.0.5                             dotnet     (+5 duplicates)   
+Duplicati.CommandLine.Implementation                          2.1.0.5-Stable-20250304             dotnet     (+4 duplicates)   
+Duplicati.CommandLine.Implementation.Reference                2.1.0.5                             dotnet     (+4 duplicates)   
+Duplicati.CommandLine.RecoveryTool                            2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.CommandLine.RecoveryTool.Implementation             2.1.0.5-Stable-20250304             dotnet     (+5 duplicates)   
+Duplicati.CommandLine.RecoveryTool.Implementation.Reference   2.1.0.5                             dotnet     (+5 duplicates)   
+Duplicati.CommandLine.SecretTool                              2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.CommandLine.SecretTool.Implementation               2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.CommandLine.SecretTool.Implementation.Reference     2.1.0.5                             dotnet                       
+Duplicati.CommandLine.ServerUtil                              2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.CommandLine.ServerUtil.Implementation               2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.CommandLine.ServerUtil.Implementation.Reference     2.1.0.5                             dotnet                       
+Duplicati.CommandLine.SharpAESCrypt                           2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.CommandLine.Snapshots                               2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.GUI.TrayIcon                                        2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.GUI.TrayIcon.Implementation                         2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.GUI.TrayIcon.Implementation.Reference               2.1.0.5                             dotnet                       
+Duplicati.Library.AutoUpdater                                 2.1.0.5-Stable-20250304             dotnet     (+10 duplicates)  
+Duplicati.Library.Backend.AliyunOSS                           2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.AzureBlob                           2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.Backblaze                           2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.Box                                 2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.CloudFiles                          2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.Dropbox                             2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.FTP                                 2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.File                                2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.GoogleServices                      2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.Idrivee2                            2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.Jottacloud                          2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.Mega                                2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.OneDrive                            2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.OpenStack                           2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.Rclone                              2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.S3                                  2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.SSHv2                               2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.SharePoint                          2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.Sia                                 2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.Storj                               2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.TahoeLAFS                           2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.TencentCOS                          2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backend.WEBDAV                              2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Backends                                    2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Common                                      2.1.0.5-Stable-20250304             dotnet     (+11 duplicates)  
+Duplicati.Library.Compression                                 2.1.0.5-Stable-20250304             dotnet     (+10 duplicates)  
+Duplicati.Library.Crashlog                                    2.1.0.5-Stable-20250304             dotnet     (+11 duplicates)  
+Duplicati.Library.DynamicLoader                               2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Encryption                                  2.1.0.5-Stable-20250304             dotnet     (+9 duplicates)   
+Duplicati.Library.Interface                                   2.1.0.5-Stable-20250304             dotnet     (+11 duplicates)  
+Duplicati.Library.Localization                                2.1.0.5-Stable-20250304             dotnet     (+11 duplicates)  
+Duplicati.Library.Logging                                     2.1.0.5-Stable-20250304             dotnet     (+11 duplicates)  
+Duplicati.Library.Main                                        2.1.0.5-Stable-20250304             dotnet     (+5 duplicates)   
+Duplicati.Library.Modules.Builtin                             2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.OAuthHelper                                 2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.RemoteControl                               2.1.0.5-Stable-20250304             dotnet     (+3 duplicates)   
+Duplicati.Library.RestAPI                                     2.1.0.5-Stable-20250304             dotnet     (+3 duplicates)   
+Duplicati.Library.SecretProvider                              2.1.0.5-Stable-20250304             dotnet     (+8 duplicates)   
+Duplicati.Library.Snapshots                                   2.1.0.5-Stable-20250304             dotnet     (+9 duplicates)   
+Duplicati.Library.UsageReporter                               2.1.0.5-Stable-20250304             dotnet     (+5 duplicates)   
+Duplicati.Library.Utility                                     2.1.0.5-Stable-20250304             dotnet     (+11 duplicates)  
+Duplicati.License                                             2.1.0.5-Stable-20250304             dotnet     (+10 duplicates)  
+Duplicati.Server                                              2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.Server.Implementation                               2.1.0.5-Stable-20250304             dotnet     (+3 duplicates)   
+Duplicati.Server.Implementation.Reference                     2.1.0.5                             dotnet     (+3 duplicates)   
+Duplicati.Server.Serialization                                2.1.0.5-Stable-20250304             dotnet     (+3 duplicates)   
+Duplicati.Service                                             2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.Service.Implementation                              2.1.0.5-Stable-20250304             dotnet                       
+Duplicati.Service.Implementation.Reference                    2.1.0.5                             dotnet                       
+Duplicati.StreamUtil                                          1.0.0                               dotnet     (+11 duplicates)  
+Duplicati.Tools                                               2.1.0.5-Stable-20250304             dotnet     (+4 duplicates)   
+Duplicati.WebserverCore                                       2.1.0.5-Stable-20250304             dotnet     (+3 duplicates)   
+FluentFTP                                                     50.1.0                              dotnet     (+8 duplicates)   
+Google.Api.CommonProtos                                       2.15.0                              dotnet     (+8 duplicates)   
+Google.Api.Gax                                                4.8.0                               dotnet     (+8 duplicates)   
+Google.Api.Gax.Grpc                                           4.8.0                               dotnet     (+8 duplicates)   
+Google.Apis                                                   1.67.0                              dotnet     (+8 duplicates)   
+Google.Apis.Auth                                              1.67.0                              dotnet     (+8 duplicates)   
+Google.Apis.Core                                              1.67.0                              dotnet     (+8 duplicates)   
+Google.Cloud.Iam.V1                                           3.2.0                               dotnet     (+8 duplicates)   
+Google.Cloud.Location                                         2.2.0                               dotnet     (+8 duplicates)   
+Google.Cloud.SecretManager.V1                                 2.5.0                               dotnet     (+8 duplicates)   
+Google.Protobuf                                               3.25.0                              dotnet     (+8 duplicates)   
+Grpc.Auth                                                     2.60.0                              dotnet     (+8 duplicates)   
+Grpc.Core.Api                                                 2.60.0                              dotnet     (+8 duplicates)   
+Grpc.Net.Client                                               2.60.0                              dotnet     (+8 duplicates)   
+Grpc.Net.Common                                               2.60.0                              dotnet     (+8 duplicates)   
+HarfBuzzSharp                                                 7.3.0.2                             dotnet                       
+MailKit                                                       2.4.1                               dotnet     (+8 duplicates)   
+MegaApiClient                                                 1.10.4                              dotnet     (+8 duplicates)   
+Meziantou.Framework.Win32.CredentialManager                   1.7.0                               dotnet     (+8 duplicates)   
+MicroCom.Runtime                                              0.11.0                              dotnet                       
+Microsoft.AspNetCore.Authentication.JwtBearer                 8.0.3                               dotnet     (+3 duplicates)   
+Microsoft.Azure.KeyVault.Core                                 3.0.4                               dotnet     (+8 duplicates)   
+Microsoft.Azure.KeyVault.WebKey                               3.0.4                               dotnet     (+8 duplicates)   
+Microsoft.Azure.Storage.Blob                                  11.0.1                              dotnet     (+8 duplicates)   
+Microsoft.Azure.Storage.Common                                11.0.1                              dotnet     (+8 duplicates)   
+Microsoft.Azure.Storage.File                                  11.0.1                              dotnet     (+8 duplicates)   
+Microsoft.Azure.Storage.Queue                                 11.0.1                              dotnet     (+8 duplicates)   
+Microsoft.Bcl.AsyncInterfaces                                 6.0.0                               dotnet     (+8 duplicates)   
+Microsoft.Extensions.Caching.Abstractions                     7.0.0                               dotnet     (+4 duplicates)   
+Microsoft.Extensions.Caching.Memory                           7.0.0                               dotnet     (+4 duplicates)   
+Microsoft.Extensions.Configuration                            8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.Configuration.Abstractions               8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.Configuration.Binder                     8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.DependencyInjection                      8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.DependencyInjection.Abstractions         8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.Diagnostics                              8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.Diagnostics.Abstractions                 8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.Http                                     8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.Logging                                  8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.Logging.Abstractions                     8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.Options                                  8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.Options.ConfigurationExtensions          8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.Extensions.Primitives                               8.0.0                               dotnet     (+7 duplicates)   
+Microsoft.IO.RecyclableMemoryStream                           3.0.0                               dotnet     (+3 duplicates)   
+Microsoft.Identity.Client                                     4.65.0                              dotnet     (+8 duplicates)   
+Microsoft.Identity.Client.Extensions.Msal                     4.65.0                              dotnet     (+8 duplicates)   
+Microsoft.IdentityModel.Abstractions                          6.35.0                              dotnet     (+4 duplicates)   
+Microsoft.IdentityModel.Abstractions                          7.5.0                               dotnet     (+3 duplicates)   
+Microsoft.IdentityModel.JsonWebTokens                         7.5.0                               dotnet     (+3 duplicates)   
+Microsoft.IdentityModel.Logging                               7.5.0                               dotnet     (+3 duplicates)   
+Microsoft.IdentityModel.Protocols                             7.1.2                               dotnet     (+3 duplicates)   
+Microsoft.IdentityModel.Protocols.OpenIdConnect               7.1.2                               dotnet     (+3 duplicates)   
+Microsoft.IdentityModel.Tokens                                7.5.0                               dotnet     (+3 duplicates)   
+Microsoft.OpenApi                                             1.2.3                               dotnet     (+3 duplicates)   
+Microsoft.Rest.ClientRuntime                                  2.3.24                              dotnet     (+8 duplicates)   
+Microsoft.Rest.ClientRuntime.Azure                            3.3.19                              dotnet     (+8 duplicates)   
+Microsoft.Win32.SystemEvents                                  7.0.0                               dotnet     (+8 duplicates)   
+MimeKit                                                       2.4.1                               dotnet     (+8 duplicates)   
+Minio                                                         3.1.13                              dotnet     (+8 duplicates)   
+Mono.Unix                                                     7.1.0-final.1.21458.1               dotnet     (+11 duplicates)  
+NGettext                                                      0.6.5                               dotnet     (+11 duplicates)  
+Newtonsoft.Json                                               13.0.3                              dotnet     (+11 duplicates)  
+Otp.NET                                                       1.4.0                               dotnet     (+8 duplicates)   
+Portable.BouncyCastle                                         1.8.5                               dotnet     (+8 duplicates)   
+RestSharp                                                     106.10.1                            dotnet     (+8 duplicates)   
+SQLiteHelper                                                  2.1.0.5-Stable-20250304             dotnet     (+6 duplicates)   
+SQLiteHelper.Reference                                        2.1.0.5                             dotnet     (+6 duplicates)   
+SQLitePCLRaw.bundle_green                                     2.0.3                               dotnet     (+8 duplicates)   
+SQLitePCLRaw.core                                             2.0.3                               dotnet     (+8 duplicates)   
+SQLitePCLRaw.provider.dynamic_cdecl                           2.0.3                               dotnet     (+8 duplicates)   
+SSH.NET                                                       2024.2.0                            dotnet     (+8 duplicates)   
+SharePointPnP.Client                                          16.1.0.0                            dotnet     (+8 duplicates)   
+SharpAESCrypt                                                 2.0.3                               dotnet     (+9 duplicates)   
+SharpCompress                                                 0.36.0                              dotnet     (+10 duplicates)  
+SixLabors.Fonts                                               2.0.3                               dotnet     (+3 duplicates)   
+SixLabors.ImageSharp                                          3.1.5                               dotnet     (+3 duplicates)   
+SixLabors.ImageSharp.Drawing                                  2.1.3                               dotnet     (+3 duplicates)   
+SkiaSharp                                                     2.88.8                              dotnet                       
+Stub.System.Data.SQLite.Core.NetStandard                      1.0.115                             dotnet     (+6 duplicates)   
+Swashbuckle.AspNetCore.Swagger                                6.5.0                               dotnet     (+3 duplicates)   
+Swashbuckle.AspNetCore.SwaggerGen                             6.5.0                               dotnet     (+3 duplicates)   
+Swashbuckle.AspNetCore.SwaggerUI                              6.5.0                               dotnet     (+3 duplicates)   
+System.ClientModel                                            1.1.0                               dotnet     (+8 duplicates)   
+System.CodeDom                                                8.0.0                               dotnet     (+11 duplicates)  
+System.CommandLine                                            2.0.0-beta4.22272.1                 dotnet     (+1 duplicate)    
+System.CommandLine.NamingConventionBinder                     2.0.0-beta4.22272.1                 dotnet     (+1 duplicate)    
+System.Drawing.Common                                         7.0.0                               dotnet     (+8 duplicates)   
+System.IO.Pipelines                                           8.0.0                               dotnet     (+4 duplicates)   
+System.IdentityModel.Tokens.Jwt                               7.5.0                               dotnet     (+3 duplicates)   
+System.Management                                             8.0.0                               dotnet     (+11 duplicates)  
+System.Memory.Data                                            6.0.0                               dotnet     (+8 duplicates)   
+System.Reactive                                               6.0.0                               dotnet     (+3 duplicates)   
+System.Reactive.Linq                                          4.3.2                               dotnet     (+8 duplicates)   
+System.Reactive.Reference                                     4.3.0.0                             dotnet     (+4 duplicates)   
+System.Security.Cryptography.ProtectedData                    4.5.0                               dotnet     (+8 duplicates)   
+Tencent.QCloud.Cos.Sdk                                        5.4.11                              dotnet     (+8 duplicates)   
+Tmds.DBus.Protocol                                            0.20.0                              dotnet     (+8 duplicates)   
+VaultSharp                                                    1.7.0                               dotnet     (+8 duplicates)   
+Websocket.Client                                              5.1.2                               dotnet     (+3 duplicates)   
+WindowsAzure.Storage                                          9.3.3                               dotnet     (+8 duplicates)   
+ZstdSharp.Port                                                0.7.4                               dotnet     (+10 duplicates)  
+adduser                                                       3.137ubuntu1                        deb                          
+apt                                                           2.7.14build2                        deb                          
+apt-utils                                                     2.7.14build2                        deb                          
+base-files                                                    13ubuntu10.2                        deb                          
+base-passwd                                                   3.6.3build1                         deb                          
+bash                                                          5.2.21-2ubuntu4                     deb                          
+bsdutils                                                      1:2.39.3-9ubuntu6.2                 deb                          
+ca-certificates                                               20240203                            deb                          
+cabextract                                                    1.11-2                              deb                          
+catatonit                                                     0.1.7-1                             deb                          
+chardet                                                       5.2.0                               python                       
+coreutils                                                     9.4-3ubuntu6                        deb                          
+cron                                                          3.0pl1-184ubuntu2                   deb                          
+cron-daemon-common                                            3.0pl1-184ubuntu2                   deb                          
+curl                                                          8.5.0-2ubuntu10.6                   deb                          
+dash                                                          0.5.12-6ubuntu5                     deb                          
+dbus                                                          1.14.10-4ubuntu4.1                  deb                          
+dbus-bin                                                      1.14.10-4ubuntu4.1                  deb                          
+dbus-daemon                                                   1.14.10-4ubuntu4.1                  deb                          
+dbus-python                                                   1.3.2                               python                       
+dbus-session-bus-common                                       1.14.10-4ubuntu4.1                  deb                          
+dbus-system-bus-common                                        1.14.10-4ubuntu4.1                  deb                          
+debconf                                                       1.5.86ubuntu1                       deb                          
+debianutils                                                   5.17build1                          deb                          
+diffutils                                                     1:3.10-1build1                      deb                          
+dirmngr                                                       2.4.4-2ubuntu17                     deb                          
+distro-info                                                   1.7+build1                          python                       
+distro-info                                                   1.7build1                           deb                          
+distro-info-data                                              0.60ubuntu0.2                       deb                          
+dpkg                                                          1.22.6ubuntu6.1                     deb                          
+e2fsprogs                                                     1.47.0-2.4~exp1ubuntu4.1            deb                          
+findutils                                                     4.9.0-5build1                       deb                          
+fonts-liberation                                              1:2.1.5-3                           deb                          
+fonts-liberation-sans-narrow                                  1:1.07.6-4                          deb                          
+gcc-14-base                                                   14.2.0-4ubuntu2~24.04               deb                          
+gir1.2-girepository-2.0                                       1.80.1-1                            deb                          
+gir1.2-glib-2.0                                               2.80.0-6ubuntu3.2                   deb                          
+github.com/calebcase/tmpfile                                  v1.0.3                              go-module                    
+github.com/flynn/noise                                        v1.0.0                              go-module                    
+github.com/gogo/protobuf                                      v1.3.2                              go-module                    
+github.com/jtolio/noiseconn                                   v0.0.0-20230111204749-d7ec1a08b0b8  go-module                    
+github.com/klauspost/compress                                 v1.17.7                             go-module                    
+github.com/klauspost/cpuid/v2                                 v2.2.5                              go-module                    
+github.com/spacemonkeygo/monkit/v3                            v3.0.22                             go-module                    
+github.com/zeebo/blake3                                       v0.2.3                              go-module                    
+github.com/zeebo/errs                                         v1.3.0                              go-module                    
+gnupg                                                         2.4.4-2ubuntu17                     deb                          
+gnupg-l10n                                                    2.4.4-2ubuntu17                     deb                          
+gnupg-utils                                                   2.4.4-2ubuntu17                     deb                          
+golang.org/x/crypto                                           v0.19.0                             go-module                    
+golang.org/x/exp                                              v0.0.0-20231006140011-7918f672742d  go-module                    
+golang.org/x/sync                                             v0.6.0                              go-module                    
+golang.org/x/sys                                              v0.17.0                             go-module                    
+gpg                                                           2.4.4-2ubuntu17                     deb                          
+gpg-agent                                                     2.4.4-2ubuntu17                     deb                          
+gpg-wks-client                                                2.4.4-2ubuntu17                     deb                          
+gpgconf                                                       2.4.4-2ubuntu17                     deb                          
+gpgsm                                                         2.4.4-2ubuntu17                     deb                          
+gpgv                                                          2.4.4-2ubuntu17                     deb                          
+grep                                                          3.11-4build1                        deb                          
+gzip                                                          1.12-1ubuntu3                       deb                          
+hostname                                                      3.23+nmu2ubuntu2                    deb                          
+init-system-helpers                                           1.66ubuntu1                         deb                          
+iso-codes                                                     4.16.0-1                            deb                          
+jose-jwt                                                      5.0.0                               dotnet     (+3 duplicates)   
+jq                                                            1.7.1-3build1                       deb                          
+keyboxd                                                       2.4.4-2ubuntu17                     deb                          
+krb5-locales                                                  1.20.1-6ubuntu2.5                   deb                          
+libacl1                                                       2.3.2-1build1.1                     deb                          
+libapparmor1                                                  4.0.1really4.0.1-0ubuntu0.24.04.3   deb                          
+libapt-pkg6.0t64                                              2.7.14build2                        deb                          
+libassuan0                                                    2.5.6-1build1                       deb                          
+libattr1                                                      1:2.5.2-1build1.1                   deb                          
+libaudit-common                                               1:3.1.2-2.1build1.1                 deb                          
+libaudit1                                                     1:3.1.2-2.1build1.1                 deb                          
+libblkid1                                                     2.39.3-9ubuntu6.2                   deb                          
+libbrotli1                                                    1.1.0-2build2                       deb                          
+libbsd0                                                       0.12.1-1build1.1                    deb                          
+libbz2-1.0                                                    1.0.8-5.1build0.1                   deb                          
+libc-bin                                                      2.39-0ubuntu8.4                     deb                          
+libc6                                                         2.39-0ubuntu8.4                     deb                          
+libcap-ng0                                                    0.8.4-2build2                       deb                          
+libcap2                                                       1:2.66-5ubuntu2.2                   deb                          
+libcom-err2                                                   1.47.0-2.4~exp1ubuntu4.1            deb                          
+libcrypt1                                                     1:4.4.36-4build1                    deb                          
+libcurl4t64                                                   8.5.0-2ubuntu10.6                   deb                          
+libdb5.3t64                                                   5.3.28+dfsg2-7                      deb                          
+libdbus-1-3                                                   1.14.10-4ubuntu4.1                  deb                          
+libdebconfclient0                                             0.271ubuntu3                        deb                          
+libexpat1                                                     2.6.1-2ubuntu0.2                    deb                          
+libext2fs2t64                                                 1.47.0-2.4~exp1ubuntu4.1            deb                          
+libffi8                                                       3.4.6-1build1                       deb                          
+libfontenc1                                                   1:1.1.8-1build1                     deb                          
+libfreetype6                                                  2.13.2+dfsg-1build3                 deb                          
+libgcc-s1                                                     14.2.0-4ubuntu2~24.04               deb                          
+libgcrypt20                                                   1.10.3-2build1                      deb                          
+libgirepository-1.0-1                                         1.80.1-1                            deb                          
+libglib2.0-0t64                                               2.80.0-6ubuntu3.2                   deb                          
+libglib2.0-data                                               2.80.0-6ubuntu3.2                   deb                          
+libgmp10                                                      2:6.3.0+dfsg-2ubuntu6.1             deb                          
+libgnutls30t64                                                3.8.3-1.1ubuntu3.3                  deb                          
+libgpg-error0                                                 1.47-3build2.1                      deb                          
+libgssapi-krb5-2                                              1.20.1-6ubuntu2.5                   deb                          
+libhogweed6t64                                                3.9.1-2.2build1.1                   deb                          
+libicu74                                                      74.2-1ubuntu3.1                     deb                          
+libidn2-0                                                     2.3.7-2build1.1                     deb                          
+libjq1                                                        1.7.1-3build1                       deb                          
+libjson-c5                                                    0.17-1build1                        deb                          
+libk5crypto3                                                  1.20.1-6ubuntu2.5                   deb                          
+libkeyutils1                                                  1.6.3-3build1                       deb                          
+libkrb5-3                                                     1.20.1-6ubuntu2.5                   deb                          
+libkrb5support0                                               1.20.1-6ubuntu2.5                   deb                          
+libksba8                                                      1.6.6-1build1                       deb                          
+libldap-common                                                2.6.7+dfsg-1~exp1ubuntu8.2          deb                          
+libldap2                                                      2.6.7+dfsg-1~exp1ubuntu8.2          deb                          
+liblz4-1                                                      1.9.4-1build1.1                     deb                          
+liblzma5                                                      5.6.1+really5.4.5-1ubuntu0.2        deb                          
+libmd0                                                        1.1.0-2build1.1                     deb                          
+libmount1                                                     2.39.3-9ubuntu6.2                   deb                          
+libmspack0t64                                                 0.11-1.1build1                      deb                          
+libncursesw6                                                  6.4+20240113-1ubuntu2               deb                          
+libnettle8t64                                                 3.9.1-2.2build1.1                   deb                          
+libnghttp2-14                                                 1.59.0-1ubuntu0.2                   deb                          
+libnpth0t64                                                   1.6-3.1build1                       deb                          
+libonig5                                                      6.9.9-1build1                       deb                          
+libp11-kit0                                                   0.25.3-4ubuntu2.1                   deb                          
+libpam-modules                                                1.5.3-5ubuntu5.1                    deb                          
+libpam-modules-bin                                            1.5.3-5ubuntu5.1                    deb                          
+libpam-runtime                                                1.5.3-5ubuntu5.1                    deb                          
+libpam0g                                                      1.5.3-5ubuntu5.1                    deb                          
+libpcre2-8-0                                                  10.42-4ubuntu2.1                    deb                          
+libpng16-16t64                                                1.6.43-5build1                      deb                          
+libproc2-0                                                    2:4.0.4-4ubuntu3.2                  deb                          
+libpsl5t64                                                    0.21.2-1.1build1                    deb                          
+libpython3-stdlib                                             3.12.3-0ubuntu2                     deb                          
+libpython3.12-minimal                                         3.12.3-1ubuntu0.5                   deb                          
+libpython3.12-stdlib                                          3.12.3-1ubuntu0.5                   deb                          
+libreadline8t64                                               8.2-4build1                         deb                          
+librtmp1                                                      2.4+20151223.gitfa8646d.1-2build7   deb                          
+libsasl2-2                                                    2.1.28+dfsg1-5ubuntu3.1             deb                          
+libsasl2-modules                                              2.1.28+dfsg1-5ubuntu3.1             deb                          
+libsasl2-modules-db                                           2.1.28+dfsg1-5ubuntu3.1             deb                          
+libseccomp2                                                   2.5.5-1ubuntu3.1                    deb                          
+libselinux1                                                   3.5-2ubuntu2.1                      deb                          
+libsemanage-common                                            3.5-1build5                         deb                          
+libsemanage2                                                  3.5-1build5                         deb                          
+libsepol2                                                     3.5-2build1                         deb                          
+libsmartcols1                                                 2.39.3-9ubuntu6.2                   deb                          
+libsqlite3-0                                                  3.45.1-1ubuntu2.1                   deb                          
+libss2                                                        1.47.0-2.4~exp1ubuntu4.1            deb                          
+libssh-4                                                      0.10.6-2build2                      deb                          
+libssl3t64                                                    3.0.13-0ubuntu3.5                   deb                          
+libstdc++6                                                    14.2.0-4ubuntu2~24.04               deb                          
+libsystemd0                                                   255.4-1ubuntu8.6                    deb                          
+libtasn1-6                                                    4.19.0-3ubuntu0.24.04.1             deb                          
+libtinfo6                                                     6.4+20240113-1ubuntu2               deb                          
+libudev1                                                      255.4-1ubuntu8.6                    deb                          
+libunistring5                                                 1.1-2build1.1                       deb                          
+libuuid1                                                      2.39.3-9ubuntu6.2                   deb                          
+libxml2                                                       2.9.14+dfsg-1.3ubuntu3.2            deb                          
+libxxhash0                                                    0.8.2-2build1                       deb                          
+libyaml-0-2                                                   0.2.5-1build1                       deb                          
+libzstd1                                                      1.5.5+dfsg2-2build1.1               deb                          
+locales                                                       2.39-0ubuntu8.4                     deb                          
+login                                                         1:4.13+dfsg1-4ubuntu3.2             deb                          
+logsave                                                       1.47.0-2.4~exp1ubuntu4.1            deb                          
+lsb-release                                                   12.0-2                              deb                          
+mawk                                                          1.3.4.20240123-1build1              deb                          
+media-types                                                   10.1.0                              deb                          
+mount                                                         2.39.3-9ubuntu6.2                   deb                          
+ncurses-base                                                  6.4+20240113-1ubuntu2               deb                          
+ncurses-bin                                                   6.4+20240113-1ubuntu2               deb                          
+netbase                                                       6.4                                 deb                          
+netcat-openbsd                                                1.226-1ubuntu2                      deb                          
+openssl                                                       3.0.13-0ubuntu3.5                   deb                          
+passwd                                                        1:4.13+dfsg1-4ubuntu3.2             deb                          
+patch                                                         2.7.6-7build3                       deb                          
+perl-base                                                     5.38.2-3.2build2.1                  deb                          
+pinentry-curses                                               1.2.1-3ubuntu5                      deb                          
+procps                                                        2:4.0.4-4ubuntu3.2                  deb                          
+publicsuffix                                                  20231001.0357-0.1                   deb                          
+pygobject                                                     3.48.2                              python                       
+python-apt                                                    2.7.7+ubuntu4                       python                       
+python-apt-common                                             2.7.7ubuntu4                        deb                          
+python-debian                                                 0.1.49+ubuntu2                      python                       
+python3                                                       3.12.3-0ubuntu2                     deb                          
+python3-apt                                                   2.7.7ubuntu4                        deb                          
+python3-chardet                                               5.2.0+dfsg-1                        deb                          
+python3-dbus                                                  1.3.2-5build3                       deb                          
+python3-debconf                                               1.5.86ubuntu1                       deb                          
+python3-debian                                                0.1.49ubuntu2                       deb                          
+python3-distro-info                                           1.7build1                           deb                          
+python3-distupgrade                                           1:24.04.26                          deb                          
+python3-gi                                                    3.48.2-1                            deb                          
+python3-minimal                                               3.12.3-0ubuntu2                     deb                          
+python3-pkg-resources                                         68.1.2-2ubuntu1.1                   deb                          
+python3-update-manager                                        1:24.04.9                           deb                          
+python3-yaml                                                  6.0.1-2build2                       deb                          
+python3.12                                                    3.12.3-1ubuntu0.5                   deb                          
+python3.12-minimal                                            3.12.3-1ubuntu0.5                   deb                          
+pyyaml                                                        6.0.1                               python                       
+readline-common                                               8.2-4build1                         deb                          
+runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64        8.0.6                               dotnet     (+3 duplicates)   
+runtimepack.Microsoft.NETCore.App.Runtime.linux-x64           8.0.6                               dotnet     (+11 duplicates)  
+sed                                                           4.9-2build1                         deb                          
+sensible-utils                                                0.0.22                              deb                          
+shared-mime-info                                              2.4-4                               deb                          
+sqlite-net-pcl                                                1.7.335                             dotnet     (+8 duplicates)   
+stdlib                                                        go1.21.12                           go-module                    
+storj.io/common                                               v0.0.0-20240424123607-5f226fc92c16  go-module                    
+storj.io/drpc                                                 v0.0.33                             go-module                    
+storj.io/eventkit                                             v0.0.0-20240306141230-6cb545e5f892  go-module                    
+storj.io/infectious                                           v0.0.2                              go-module                    
+storj.io/picobuf                                              v0.0.3                              go-module                    
+storj.io/uplink                                               v1.13.0                             go-module                    
+storj.io/uplink-c                                             v1.9.0                              go-module                    
+systemd-standalone-sysusers                                   255.4-1ubuntu8.6                    deb                          
+sysvinit-utils                                                3.08-6ubuntu3                       deb                          
+tar                                                           1.35+dfsg-3build1                   deb                          
+ttf-mscorefonts-installer                                     3.8.1ubuntu1                        deb                          
+tzdata                                                        2025a-0ubuntu0.24.04                deb                          
+ubuntu-keyring                                                2023.11.28.1                        deb                          
+ubuntu-pro-client                                             34~24.04                            deb                          
+ubuntu-pro-client                                             8001                                python                       
+ubuntu-pro-client-l10n                                        34~24.04                            deb                          
+ubuntu-release-upgrader-core                                  1:24.04.26                          deb                          
+unminimize                                                    0.2.1                               deb                          
+unzip                                                         6.0-28ubuntu4.1                     deb                          
+update-manager-core                                           1:24.04.9                           deb                          
+update-notifier-common                                        3.192.68.1                          deb                          
+uplink.NET                                                    2.13.3484                           dotnet     (+8 duplicates)   
+util-linux                                                    2.39.3-9ubuntu6.2                   deb                          
+wget                                                          1.21.4-1ubuntu4.1                   deb                          
+x11-common                                                    1:7.7+23ubuntu3                     deb                          
+xdg-user-dirs                                                 0.18-1build1                        deb                          
+xfonts-encodings                                              1:1.0.5-0ubuntu2                    deb                          
+xfonts-utils                                                  1:7.7+6build3                       deb                          
+xz-utils                                                      5.6.1+really5.4.5-1ubuntu0.2        deb                          
+zlib1g                                                        1:1.3.dfsg-3.1ubuntu2.1             deb                          
+zstd                                                          1.5.5+dfsg2-2build1.1               deb                          
