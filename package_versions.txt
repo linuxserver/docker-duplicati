@@ -117,6 +117,7 @@ Grpc.Core.Api                                                 2.60.0            
 Grpc.Net.Client                                               2.60.0                              dotnet     (+8 duplicates)   
 Grpc.Net.Common                                               2.60.0                              dotnet     (+8 duplicates)   
 HarfBuzzSharp                                                 7.3.0.2                             dotnet                       
+HarfBuzzSharp.NativeAssets.Linux                              7.3.0.2                             dotnet                       
 MailKit                                                       2.4.1                               dotnet     (+8 duplicates)   
 MegaApiClient                                                 1.10.4                              dotnet     (+8 duplicates)   
 Meziantou.Framework.Win32.CredentialManager                   1.7.0                               dotnet     (+8 duplicates)   
@@ -170,6 +171,7 @@ SQLiteHelper                                                  2.1.0.5-Stable-202
 SQLiteHelper.Reference                                        2.1.0.5                             dotnet     (+6 duplicates)   
 SQLitePCLRaw.bundle_green                                     2.0.3                               dotnet     (+8 duplicates)   
 SQLitePCLRaw.core                                             2.0.3                               dotnet     (+8 duplicates)   
+SQLitePCLRaw.lib.e_sqlite3                                    2.0.3                               dotnet     (+8 duplicates)   
 SQLitePCLRaw.provider.dynamic_cdecl                           2.0.3                               dotnet     (+8 duplicates)   
 SSH.NET                                                       2024.2.0                            dotnet     (+8 duplicates)   
 SharePointPnP.Client                                          16.1.0.0                            dotnet     (+8 duplicates)   
@@ -179,7 +181,9 @@ SixLabors.Fonts                                               2.0.3             
 SixLabors.ImageSharp                                          3.1.5                               dotnet     (+3 duplicates)   
 SixLabors.ImageSharp.Drawing                                  2.1.3                               dotnet     (+3 duplicates)   
 SkiaSharp                                                     2.88.8                              dotnet                       
+SkiaSharp.NativeAssets.Linux                                  2.88.8                              dotnet                       
 Stub.System.Data.SQLite.Core.NetStandard                      1.0.115                             dotnet     (+6 duplicates)   
+Swashbuckle.AspNetCore                                        6.5.0                               dotnet     (+3 duplicates)   
 Swashbuckle.AspNetCore.Swagger                                6.5.0                               dotnet     (+3 duplicates)   
 Swashbuckle.AspNetCore.SwaggerGen                             6.5.0                               dotnet     (+3 duplicates)   
 Swashbuckle.AspNetCore.SwaggerUI                              6.5.0                               dotnet     (+3 duplicates)   
@@ -187,6 +191,7 @@ System.ClientModel                                            1.1.0             
 System.CodeDom                                                8.0.0                               dotnet     (+11 duplicates)  
 System.CommandLine                                            2.0.0-beta4.22272.1                 dotnet     (+1 duplicate)    
 System.CommandLine.NamingConventionBinder                     2.0.0-beta4.22272.1                 dotnet     (+1 duplicate)    
+System.Data.SQLite.Core                                       1.0.115                             dotnet     (+6 duplicates)   
 System.Drawing.Common                                         7.0.0                               dotnet     (+8 duplicates)   
 System.IO.Pipelines                                           8.0.0                               dotnet     (+4 duplicates)   
 System.IdentityModel.Tokens.Jwt                               7.5.0                               dotnet     (+3 duplicates)   
@@ -433,6 +438,7 @@ unzip                                                         6.0-28ubuntu4.1   
 update-manager-core                                           1:24.04.9                           deb                          
 update-notifier-common                                        3.192.68.1                          deb                          
 uplink.NET                                                    2.13.3484                           dotnet     (+8 duplicates)   
+uplink.NET.Linux                                              2.13.3484                           dotnet     (+8 duplicates)   
 util-linux                                                    2.39.3-9ubuntu6.2                   deb                          
 wget                                                          1.21.4-1ubuntu4.1                   deb                          
 x11-common                                                    1:7.7+23ubuntu3                     deb                          
