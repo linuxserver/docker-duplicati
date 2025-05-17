@@ -422,7 +422,7 @@ storj.io/eventkit                                             v0.0.0-20240306141
 storj.io/infectious                                           v0.0.2                              go-module                    
 storj.io/picobuf                                              v0.0.3                              go-module                    
 storj.io/uplink                                               v1.13.0                             go-module                    
-storj.io/uplink-c                                             v1.9.0                              go-module                    
+storj.io/uplink-c                                             UNKNOWN                             go-module                    
 systemd-standalone-sysusers                                   255.4-1ubuntu8.6                    deb                          
 sysvinit-utils                                                3.08-6ubuntu3                       deb                          
 tar                                                           1.35+dfsg-3build1                   deb                          
