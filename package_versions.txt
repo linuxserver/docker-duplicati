@@ -243,7 +243,7 @@ fonts-liberation                                              1:2.1.5-3         
 fonts-liberation-sans-narrow                                  1:1.07.6-4                          deb                          
 gcc-14-base                                                   14.2.0-4ubuntu2~24.04               deb                          
 gir1.2-girepository-2.0                                       1.80.1-1                            deb                          
-gir1.2-glib-2.0                                               2.80.0-6ubuntu3.2                   deb                          
+gir1.2-glib-2.0                                               2.80.0-6ubuntu3.4                   deb                          
 github.com/calebcase/tmpfile                                  v1.0.3                              go-module                    
 github.com/flynn/noise                                        v1.0.0                              go-module                    
 github.com/gogo/protobuf                                      v1.3.2                              go-module                    
@@ -304,8 +304,8 @@ libfreetype6                                                  2.13.2+dfsg-1build
 libgcc-s1                                                     14.2.0-4ubuntu2~24.04               deb                          
 libgcrypt20                                                   1.10.3-2build1                      deb                          
 libgirepository-1.0-1                                         1.80.1-1                            deb                          
-libglib2.0-0t64                                               2.80.0-6ubuntu3.2                   deb                          
-libglib2.0-data                                               2.80.0-6ubuntu3.2                   deb                          
+libglib2.0-0t64                                               2.80.0-6ubuntu3.4                   deb                          
+libglib2.0-data                                               2.80.0-6ubuntu3.4                   deb                          
 libgmp10                                                      2:6.3.0+dfsg-2ubuntu6.1             deb                          
 libgnutls30t64                                                3.8.3-1.1ubuntu3.3                  deb                          
 libgpg-error0                                                 1.47-3build2.1                      deb                          
@@ -355,7 +355,7 @@ libsemanage-common                                            3.5-1build5       
 libsemanage2                                                  3.5-1build5                         deb                          
 libsepol2                                                     3.5-2build1                         deb                          
 libsmartcols1                                                 2.39.3-9ubuntu6.2                   deb                          
-libsqlite3-0                                                  3.45.1-1ubuntu2.1                   deb                          
+libsqlite3-0                                                  3.45.1-1ubuntu2.3                   deb                          
 libss2                                                        1.47.0-2.4~exp1ubuntu4.1            deb                          
 libssh-4                                                      0.10.6-2build2                      deb                          
 libssl3t64                                                    3.0.13-0ubuntu3.5                   deb                          
@@ -402,8 +402,8 @@ python3-distro-info                                           1.7build1         
 python3-distupgrade                                           1:24.04.26                          deb                          
 python3-gi                                                    3.48.2-1                            deb                          
 python3-minimal                                               3.12.3-0ubuntu2                     deb                          
-python3-pkg-resources                                         68.1.2-2ubuntu1.1                   deb                          
-python3-update-manager                                        1:24.04.9                           deb                          
+python3-pkg-resources                                         68.1.2-2ubuntu1.2                   deb                          
+python3-update-manager                                        1:24.04.12                          deb                          
 python3-yaml                                                  6.0.1-2build2                       deb                          
 python3.12                                                    3.12.3-1ubuntu0.5                   deb                          
 python3.12-minimal                                            3.12.3-1ubuntu0.5                   deb                          
@@ -435,7 +435,7 @@ ubuntu-pro-client-l10n                                        35.1ubuntu0~24.04 
 ubuntu-release-upgrader-core                                  1:24.04.26                          deb                          
 unminimize                                                    0.2.1                               deb                          
 unzip                                                         6.0-28ubuntu4.1                     deb                          
-update-manager-core                                           1:24.04.9                           deb                          
+update-manager-core                                           1:24.04.12                          deb                          
 update-notifier-common                                        3.192.68.1                          deb                          
 uplink.NET                                                    2.13.3484                           dotnet     (+8 duplicates)   
 uplink.NET.Linux                                              2.13.3484                           dotnet     (+8 duplicates)   
