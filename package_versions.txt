@@ -342,8 +342,8 @@ libpng16-16t64                                                1.6.43-5build1    
 libproc2-0                                                    2:4.0.4-4ubuntu3.2                  deb                          
 libpsl5t64                                                    0.21.2-1.1build1                    deb                          
 libpython3-stdlib                                             3.12.3-0ubuntu2                     deb                          
-libpython3.12-minimal                                         3.12.3-1ubuntu0.5                   deb                          
-libpython3.12-stdlib                                          3.12.3-1ubuntu0.5                   deb                          
+libpython3.12-minimal                                         3.12.3-1ubuntu0.7                   deb                          
+libpython3.12-stdlib                                          3.12.3-1ubuntu0.7                   deb                          
 libreadline8t64                                               8.2-4build1                         deb                          
 librtmp1                                                      2.4+20151223.gitfa8646d.1-2build7   deb                          
 libsasl2-2                                                    2.1.28+dfsg1-5ubuntu3.1             deb                          
@@ -405,8 +405,8 @@ python3-minimal                                               3.12.3-0ubuntu2   
 python3-pkg-resources                                         68.1.2-2ubuntu1.2                   deb                          
 python3-update-manager                                        1:24.04.12                          deb                          
 python3-yaml                                                  6.0.1-2build2                       deb                          
-python3.12                                                    3.12.3-1ubuntu0.5                   deb                          
-python3.12-minimal                                            3.12.3-1ubuntu0.5                   deb                          
+python3.12                                                    3.12.3-1ubuntu0.7                   deb                          
+python3.12-minimal                                            3.12.3-1ubuntu0.7                   deb                          
 pyyaml                                                        6.0.1                               python                       
 readline-common                                               8.2-4build1                         deb                          
 runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64        8.0.6                               dotnet     (+3 duplicates)   
