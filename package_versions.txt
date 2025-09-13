@@ -235,7 +235,7 @@ ca-certificates                                               20240203          
 cabextract                                                    1.11-2                              deb                          
 catatonit                                                     0.1.7-1                             deb                          
 chardet                                                       5.2.0                               python                       
-coreutils                                                     9.4-3ubuntu6                        deb                          
+coreutils                                                     9.4-3ubuntu6.1                      deb                          
 cron                                                          3.0pl1-184ubuntu2                   deb                          
 cron-daemon-common                                            3.0pl1-184ubuntu2                   deb                          
 curl                                                          8.5.0-2ubuntu10.6                   deb                          
@@ -383,7 +383,7 @@ libtinfo6                                                     6.4+20240113-1ubun
 libudev1                                                      255.4-1ubuntu8.10                   deb                          
 libunistring5                                                 1.1-2build1.1                       deb                          
 libuuid1                                                      2.39.3-9ubuntu6.3                   deb                          
-libxml2                                                       2.9.14+dfsg-1.3ubuntu3.4            deb                          
+libxml2                                                       2.9.14+dfsg-1.3ubuntu3.5            deb                          
 libxxhash0                                                    0.8.2-2build1                       deb                          
 libyaml-0-2                                                   0.2.5-1build1                       deb                          
 libzstd1                                                      1.5.5+dfsg2-2build1.1               deb                          
