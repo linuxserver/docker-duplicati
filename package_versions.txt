@@ -358,7 +358,7 @@ libpcre2-8-0                                                  10.42-4ubuntu2.1  
 libpng16-16t64                                                1.6.43-5build1                      deb                          
 libproc2-0                                                    2:4.0.4-4ubuntu3.2                  deb                          
 libpsl5t64                                                    0.21.2-1.1build1                    deb                          
-libpython3-stdlib                                             3.12.3-0ubuntu2                     deb                          
+libpython3-stdlib                                             3.12.3-0ubuntu2.1                   deb                          
 libpython3.12-minimal                                         3.12.3-1ubuntu0.8                   deb                          
 libpython3.12-stdlib                                          3.12.3-1ubuntu0.8                   deb                          
 libreadline8t64                                               8.2-4build1                         deb                          
@@ -409,7 +409,7 @@ pygobject                                                     3.48.2            
 python-apt                                                    2.7.7+ubuntu5                       python                       
 python-apt-common                                             2.7.7ubuntu5                        deb                          
 python-debian                                                 0.1.49+ubuntu2                      python                       
-python3                                                       3.12.3-0ubuntu2                     deb                          
+python3                                                       3.12.3-0ubuntu2.1                   deb                          
 python3-apt                                                   2.7.7ubuntu5                        deb                          
 python3-chardet                                               5.2.0+dfsg-1                        deb                          
 python3-dbus                                                  1.3.2-5build3                       deb                          
@@ -418,7 +418,7 @@ python3-debian                                                0.1.49ubuntu2     
 python3-distro-info                                           1.7build1                           deb                          
 python3-distupgrade                                           1:24.04.27                          deb                          
 python3-gi                                                    3.48.2-1                            deb                          
-python3-minimal                                               3.12.3-0ubuntu2                     deb                          
+python3-minimal                                               3.12.3-0ubuntu2.1                   deb                          
 python3-pkg-resources                                         68.1.2-2ubuntu1.2                   deb                          
 python3-update-manager                                        1:24.04.12                          deb                          
 python3-yaml                                                  6.0.1-2build2                       deb                          
