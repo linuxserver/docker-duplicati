@@ -1,467 +1,455 @@
-NAME                                                          VERSION                             TYPE                        
-@duplicati/ngclient                                           0.0.161                             npm                          
-AWSSDK.Core                                                   3.7.400.45                          dotnet     (+11 duplicates)  
-AWSSDK.IdentityManagement                                     3.7.402.39                          dotnet     (+11 duplicates)  
-AWSSDK.S3                                                     3.7.405.9                           dotnet     (+11 duplicates)  
-AWSSDK.SecretsManager                                         3.7.102.54                          dotnet     (+11 duplicates)  
-AWSSDK.SecretsManager.Caching                                 1.0.6                               dotnet     (+11 duplicates)  
-Aliyun.OSS.SDK.NetCore                                        2.13.0                              dotnet     (+11 duplicates)  
-AlphaVSS                                                      2.0.3                               dotnet     (+14 duplicates)  
-Artalk.Xmpp                                                   1.0.5                               dotnet     (+11 duplicates)  
-Avalonia                                                      11.3.2                              dotnet                       
-Avalonia.Desktop                                              11.3.2                              dotnet                       
-Avalonia.FreeDesktop                                          11.3.2                              dotnet                       
-Avalonia.Native                                               11.3.2                              dotnet                       
-Avalonia.Remote.Protocol                                      11.3.2                              dotnet                       
-Avalonia.Skia                                                 11.3.2                              dotnet                       
-Avalonia.Themes.Fluent                                        11.3.2                              dotnet                       
-Avalonia.Win32                                                11.3.2                              dotnet                       
-Avalonia.X11                                                  11.3.2                              dotnet                       
-Azure.Core                                                    1.44.1                              dotnet     (+11 duplicates)  
-Azure.Identity                                                1.13.0                              dotnet     (+11 duplicates)  
-Azure.Security.KeyVault.Secrets                               4.7.0                               dotnet     (+11 duplicates)  
-Azure.Storage.Blobs                                           12.23.0                             dotnet     (+11 duplicates)  
-Azure.Storage.Common                                          12.22.0                             dotnet     (+11 duplicates)  
-BouncyCastle.Cryptography                                     2.5.1                               dotnet     (+11 duplicates)  
-CoCoL                                                         1.8.4                               dotnet     (+7 duplicates)   
-CommunityToolkit.HighPerformance                              8.2.1                               dotnet     (+11 duplicates)  
-DnsClient                                                     1.8.0                               dotnet     (+11 duplicates)  
-Duplicati.CommandLine                                         2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.AutoUpdater                             2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.BackendTester                           2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.BackendTester.Implementation            2.1.2.3-Beta-20251011               dotnet     (+7 duplicates)   
-Duplicati.CommandLine.BackendTester.Implementation.Reference  2.1.2.3                             dotnet     (+7 duplicates)   
-Duplicati.CommandLine.BackendTool                             2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.BackendTool.Implementation              2.1.2.3-Beta-20251011               dotnet     (+7 duplicates)   
-Duplicati.CommandLine.BackendTool.Implementation.Reference    2.1.2.3                             dotnet     (+7 duplicates)   
-Duplicati.CommandLine.DatabaseTool                            2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.DatabaseTool.Implementation             2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.DatabaseTool.Implementation.Reference   2.1.2.3                             dotnet                       
-Duplicati.CommandLine.Implementation                          2.1.2.3-Beta-20251011               dotnet     (+6 duplicates)   
-Duplicati.CommandLine.Implementation.Reference                2.1.2.3                             dotnet     (+6 duplicates)   
-Duplicati.CommandLine.RecoveryTool                            2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.RecoveryTool.Implementation             2.1.2.3-Beta-20251011               dotnet     (+7 duplicates)   
-Duplicati.CommandLine.RecoveryTool.Implementation.Reference   2.1.2.3                             dotnet     (+7 duplicates)   
-Duplicati.CommandLine.SecretTool                              2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.SecretTool.Implementation               2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.SecretTool.Implementation.Reference     2.1.2.3                             dotnet                       
-Duplicati.CommandLine.ServerUtil                              2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.ServerUtil.Implementation               2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.ServerUtil.Implementation.Reference     2.1.2.3                             dotnet                       
-Duplicati.CommandLine.SharpAESCrypt                           2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.Snapshots                               2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.SourceTool                              2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.SourceTool.Implementation               2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.CommandLine.SourceTool.Implementation.Reference     2.1.2.3                             dotnet                       
-Duplicati.CommandLine.SyncTool                                2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.GUI.TrayIcon                                        2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.GUI.TrayIcon.Implementation                         2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.GUI.TrayIcon.Implementation.Reference               2.1.2.3                             dotnet                       
-Duplicati.Library.AutoUpdater                                 2.1.2.3-Beta-20251011               dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.AliyunOSS                           2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.AzureBlob                           2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.Backblaze                           2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.Box                                 2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.Dropbox                             2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.FTP                                 2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.File                                2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.Filejump                            2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.Filen                               2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.GoogleServices                      2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.Idrivee2                            2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.Jottacloud                          2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.Mega                                2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.OneDrive                            2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.OpenStack                           2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.Rclone                              2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.S3                                  2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.SMB                                 2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.SSHv2                               2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.SharePoint                          2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.Storj                               2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.TahoeLAFS                           2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.TencentCOS                          2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.WEBDAV                              2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backend.pCloud                              2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Backends                                    2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Common                                      2.1.2.3-Beta-20251011               dotnet     (+14 duplicates)  
-Duplicati.Library.Compression                                 2.1.2.3-Beta-20251011               dotnet     (+13 duplicates)  
-Duplicati.Library.Crashlog                                    2.1.2.3-Beta-20251011               dotnet     (+14 duplicates)  
-Duplicati.Library.DynamicLoader                               2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Encryption                                  2.1.2.3-Beta-20251011               dotnet     (+12 duplicates)  
-Duplicati.Library.Interface                                   2.1.2.3-Beta-20251011               dotnet     (+14 duplicates)  
-Duplicati.Library.Localization                                2.1.2.3-Beta-20251011               dotnet     (+14 duplicates)  
-Duplicati.Library.Logging                                     2.1.2.3-Beta-20251011               dotnet     (+14 duplicates)  
-Duplicati.Library.Main                                        2.1.2.3-Beta-20251011               dotnet     (+7 duplicates)   
-Duplicati.Library.Modules.Builtin                             2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.OAuthHelper                                 2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.RemoteControl                               2.1.2.3-Beta-20251011               dotnet     (+3 duplicates)   
-Duplicati.Library.RestAPI                                     2.1.2.3-Beta-20251011               dotnet     (+4 duplicates)   
-Duplicati.Library.SecretProvider                              2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.Snapshots                                   2.1.2.3-Beta-20251011               dotnet     (+12 duplicates)  
-Duplicati.Library.SourceProvider.Builtin                      2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.SourceProviders                             2.1.2.3-Beta-20251011               dotnet     (+11 duplicates)  
-Duplicati.Library.UsageReporter                               2.1.2.3-Beta-20251011               dotnet     (+7 duplicates)   
-Duplicati.Library.Utility                                     2.1.2.3-Beta-20251011               dotnet     (+14 duplicates)  
-Duplicati.License                                             2.1.2.3-Beta-20251011               dotnet     (+13 duplicates)  
-Duplicati.PackageRef                                          2.1.2.3-Beta-20251011               dotnet     (+14 duplicates)  
-Duplicati.Server                                              2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.Server.Implementation                               2.1.2.3-Beta-20251011               dotnet     (+3 duplicates)   
-Duplicati.Server.Implementation.Reference                     2.1.2.3                             dotnet     (+3 duplicates)   
-Duplicati.Server.Serialization                                2.1.2.3-Beta-20251011               dotnet     (+4 duplicates)   
-Duplicati.Service                                             2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.Service.Implementation                              2.1.2.3-Beta-20251011               dotnet                       
-Duplicati.Service.Implementation.Reference                    2.1.2.3                             dotnet                       
-Duplicati.StreamUtil                                          1.0.5                               dotnet     (+14 duplicates)  
-Duplicati.Tools                                               2.1.2.3-Beta-20251011               dotnet     (+6 duplicates)   
-Duplicati.WebserverCore                                       2.1.2.3-Beta-20251011               dotnet     (+3 duplicates)   
-FluentFTP                                                     52.0.0                              dotnet     (+11 duplicates)  
-Google.Api.CommonProtos                                       2.15.0                              dotnet     (+11 duplicates)  
-Google.Api.Gax                                                4.8.0                               dotnet     (+11 duplicates)  
-Google.Api.Gax.Grpc                                           4.8.0                               dotnet     (+11 duplicates)  
-Google.Apis                                                   1.67.0                              dotnet     (+11 duplicates)  
-Google.Apis.Auth                                              1.67.0                              dotnet     (+11 duplicates)  
-Google.Apis.Core                                              1.67.0                              dotnet     (+11 duplicates)  
-Google.Cloud.Iam.V1                                           3.2.0                               dotnet     (+11 duplicates)  
-Google.Cloud.Location                                         2.2.0                               dotnet     (+11 duplicates)  
-Google.Cloud.SecretManager.V1                                 2.5.0                               dotnet     (+11 duplicates)  
-Google.Protobuf                                               3.25.0                              dotnet     (+11 duplicates)  
-Grpc.Auth                                                     2.60.0                              dotnet     (+11 duplicates)  
-Grpc.Core.Api                                                 2.60.0                              dotnet     (+11 duplicates)  
-Grpc.Net.Client                                               2.60.0                              dotnet     (+11 duplicates)  
-Grpc.Net.Common                                               2.60.0                              dotnet     (+11 duplicates)  
-HarfBuzzSharp                                                 8.3.1.1                             dotnet                       
-HarfBuzzSharp.NativeAssets.Linux                              8.3.1.1                             dotnet                       
-MailKit                                                       4.12.1                              dotnet     (+11 duplicates)  
-MegaApiClient                                                 1.10.4                              dotnet     (+11 duplicates)  
-Meziantou.Framework.Win32.CredentialManager                   1.7.0                               dotnet     (+11 duplicates)  
-MicroCom.Runtime                                              0.11.0                              dotnet                       
-Microsoft.AspNetCore.Authentication.JwtBearer                 8.0.3                               dotnet     (+3 duplicates)   
-Microsoft.AspNetCore.HostFiltering                            2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.AspNetCore.Hosting.Abstractions                     2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.AspNetCore.Hosting.Server.Abstractions              2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.AspNetCore.Http                                     2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.AspNetCore.Http.Abstractions                        2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.AspNetCore.Http.Extensions                          2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.AspNetCore.Http.Features                            2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.AspNetCore.WebUtilities                             2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.Bcl.AsyncInterfaces                                 6.0.0                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Caching.Abstractions                     9.0.4                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Caching.Memory                           9.0.4                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Configuration                            8.0.0                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Configuration.Abstractions               8.0.0                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Configuration.Binder                     8.0.0                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.DependencyInjection                      8.0.0                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.DependencyInjection.Abstractions         9.0.4                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Diagnostics                              8.0.0                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Diagnostics.Abstractions                 8.0.0                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.FileProviders.Abstractions               2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.Extensions.Hosting.Abstractions                     2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.Extensions.Http                                     8.0.0                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Logging                                  8.0.0                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Logging.Abstractions                     9.0.4                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Options                                  9.0.4                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Options.ConfigurationExtensions          8.0.0                               dotnet     (+14 duplicates)  
-Microsoft.Extensions.Primitives                               9.0.4                               dotnet     (+14 duplicates)  
-Microsoft.IO.RecyclableMemoryStream                           3.0.0                               dotnet     (+3 duplicates)   
-Microsoft.Identity.Client                                     4.65.0                              dotnet     (+11 duplicates)  
-Microsoft.Identity.Client.Extensions.Msal                     4.65.0                              dotnet     (+11 duplicates)  
-Microsoft.IdentityModel.Abstractions                          7.5.0                               dotnet     (+14 duplicates)  
-Microsoft.IdentityModel.JsonWebTokens                         7.5.0                               dotnet     (+3 duplicates)   
-Microsoft.IdentityModel.Logging                               7.5.0                               dotnet     (+3 duplicates)   
-Microsoft.IdentityModel.Protocols                             7.1.2                               dotnet     (+3 duplicates)   
-Microsoft.IdentityModel.Protocols.OpenIdConnect               7.1.2                               dotnet     (+3 duplicates)   
-Microsoft.IdentityModel.Tokens                                7.5.0                               dotnet     (+3 duplicates)   
-Microsoft.Net.Http.Headers                                    2.2.0                               dotnet     (+3 duplicates)   
-Microsoft.OpenApi                                             1.2.3                               dotnet     (+3 duplicates)   
-Microsoft.Win32.SystemEvents                                  7.0.0                               dotnet     (+11 duplicates)  
-MimeKit                                                       4.12.0                              dotnet     (+11 duplicates)  
-Minio                                                         6.0.0                               dotnet     (+11 duplicates)  
-Mono.Unix                                                     7.1.0-final.1.21458.1               dotnet     (+14 duplicates)  
-NGettext                                                      0.6.5                               dotnet     (+14 duplicates)  
-Newtonsoft.Json                                               13.0.3                              dotnet     (+14 duplicates)  
-Otp.NET                                                       1.4.0                               dotnet     (+11 duplicates)  
-RemoteSynchronization                                         2.1.2.3-Beta-20251011               dotnet                       
-SMBLibrary                                                    1.5.3.5                             dotnet     (+11 duplicates)  
-SMBLibrary.Win32                                              1.5.3                               dotnet     (+11 duplicates)  
-SQLiteHelper                                                  2.1.2.3-Beta-20251011               dotnet     (+8 duplicates)   
-SQLiteHelper.Reference                                        2.1.2.3                             dotnet     (+8 duplicates)   
-SQLitePCLRaw.bundle_green                                     2.0.3                               dotnet     (+11 duplicates)  
-SQLitePCLRaw.core                                             2.0.3                               dotnet     (+11 duplicates)  
-SQLitePCLRaw.lib.e_sqlite3                                    2.0.3                               dotnet     (+11 duplicates)  
-SQLitePCLRaw.provider.dynamic_cdecl                           2.0.3                               dotnet     (+11 duplicates)  
-SSH.NET                                                       2025.0.0                            dotnet     (+11 duplicates)  
-SharePointPnP.Client                                          16.1.0.0                            dotnet     (+11 duplicates)  
-SharpAESCrypt                                                 2.0.3                               dotnet     (+12 duplicates)  
-SharpCompress                                                 0.39.0                              dotnet     (+13 duplicates)  
-SkiaSharp                                                     2.88.9                              dotnet                       
-SkiaSharp.NativeAssets.Linux                                  2.88.9                              dotnet                       
-SshNet.Agent                                                  2024.2.0                            dotnet     (+11 duplicates)  
-Stub.System.Data.SQLite.Core.NetStandard                      1.0.115                             dotnet     (+8 duplicates)   
-Swashbuckle.AspNetCore                                        6.5.0                               dotnet     (+3 duplicates)   
-Swashbuckle.AspNetCore.Swagger                                6.5.0                               dotnet     (+3 duplicates)   
-Swashbuckle.AspNetCore.SwaggerGen                             6.5.0                               dotnet     (+3 duplicates)   
-Swashbuckle.AspNetCore.SwaggerUI                              6.5.0                               dotnet     (+3 duplicates)   
-System.ClientModel                                            1.1.0                               dotnet     (+11 duplicates)  
-System.CodeDom                                                8.0.0                               dotnet     (+14 duplicates)  
-System.CommandLine                                            2.0.0-beta4.22272.1                 dotnet     (+14 duplicates)  
-System.CommandLine.NamingConventionBinder                     2.0.0-beta4.22272.1                 dotnet     (+4 duplicates)   
-System.Data.SQLite.Core                                       1.0.115                             dotnet     (+8 duplicates)   
-System.Diagnostics.DiagnosticSource                           9.0.4                               dotnet     (+14 duplicates)  
-System.Drawing.Common                                         7.0.0                               dotnet     (+11 duplicates)  
-System.IO.Hashing                                             7.0.0                               dotnet     (+11 duplicates)  
-System.IO.Pipelines                                           9.0.2                               dotnet     (+11 duplicates)  
-System.IdentityModel.Tokens.Jwt                               7.5.0                               dotnet     (+3 duplicates)   
-System.Linq.Async                                             6.0.1                               dotnet     (+14 duplicates)  
-System.Management                                             8.0.0                               dotnet     (+14 duplicates)  
-System.Memory.Data                                            6.0.0                               dotnet     (+11 duplicates)  
-System.Net.Http                                               4.3.4                               dotnet     (+11 duplicates)  
-System.Reactive                                               6.0.0                               dotnet     (+11 duplicates)  
-System.Security.Cryptography.Pkcs                             8.0.1                               dotnet     (+7 duplicates)   
-System.Security.Cryptography.ProtectedData                    4.5.0                               dotnet     (+11 duplicates)  
-Tencent.QCloud.Cos.Sdk                                        5.4.11                              dotnet     (+11 duplicates)  
-Tmds.DBus.Protocol                                            0.21.2                              dotnet     (+11 duplicates)  
-VaultSharp                                                    1.7.0                               dotnet     (+11 duplicates)  
-Websocket.Client                                              5.1.2                               dotnet     (+3 duplicates)   
-ZstdSharp.Port                                                0.8.4                               dotnet     (+13 duplicates)  
-adduser                                                       3.137ubuntu1                        deb                          
-apt                                                           2.8.3                               deb                          
-apt-utils                                                     2.8.3                               deb                          
-base-files                                                    13ubuntu10.3                        deb                          
-base-passwd                                                   3.6.3build1                         deb                          
-bash                                                          5.2.21-2ubuntu4                     deb                          
-bsdutils                                                      1:2.39.3-9ubuntu6.3                 deb                          
-ca-certificates                                               20240203                            deb                          
-cabextract                                                    1.11-2                              deb                          
-catatonit                                                     0.1.7-1                             deb                          
-chardet                                                       5.2.0                               python                       
-coreutils                                                     9.4-3ubuntu6.1                      deb                          
-cron                                                          3.0pl1-184ubuntu2                   deb                          
-cron-daemon-common                                            3.0pl1-184ubuntu2                   deb                          
-curl                                                          8.5.0-2ubuntu10.6                   deb                          
-dash                                                          0.5.12-6ubuntu5                     deb                          
-dbus                                                          1.14.10-4ubuntu4.1                  deb                          
-dbus-bin                                                      1.14.10-4ubuntu4.1                  deb                          
-dbus-daemon                                                   1.14.10-4ubuntu4.1                  deb                          
-dbus-python                                                   1.3.2                               python                       
-dbus-session-bus-common                                       1.14.10-4ubuntu4.1                  deb                          
-dbus-system-bus-common                                        1.14.10-4ubuntu4.1                  deb                          
-debconf                                                       1.5.86ubuntu1                       deb                          
-debianutils                                                   5.17build1                          deb                          
-diffutils                                                     1:3.10-1build1                      deb                          
-dirmngr                                                       2.4.4-2ubuntu17.3                   deb                          
-distro-info                                                   1.7+build1                          python                       
-distro-info                                                   1.7build1                           deb                          
-distro-info-data                                              0.60ubuntu0.5                       deb                          
-dpkg                                                          1.22.6ubuntu6.5                     deb                          
-e2fsprogs                                                     1.47.0-2.4~exp1ubuntu4.1            deb                          
-findutils                                                     4.9.0-5build1                       deb                          
-fonts-liberation                                              1:2.1.5-3                           deb                          
-fonts-liberation-sans-narrow                                  1:1.07.6-4                          deb                          
-gcc-14-base                                                   14.2.0-4ubuntu2~24.04               deb                          
-gir1.2-girepository-2.0                                       1.80.1-1                            deb                          
-gir1.2-glib-2.0                                               2.80.0-6ubuntu3.4                   deb                          
-github.com/calebcase/tmpfile                                  v1.0.3                              go-module                    
-github.com/flynn/noise                                        v1.0.0                              go-module                    
-github.com/gogo/protobuf                                      v1.3.2                              go-module                    
-github.com/jtolio/noiseconn                                   v0.0.0-20230111204749-d7ec1a08b0b8  go-module                    
-github.com/klauspost/compress                                 v1.17.7                             go-module                    
-github.com/klauspost/cpuid/v2                                 v2.2.5                              go-module                    
-github.com/spacemonkeygo/monkit/v3                            v3.0.22                             go-module                    
-github.com/zeebo/blake3                                       v0.2.3                              go-module                    
-github.com/zeebo/errs                                         v1.3.0                              go-module                    
-gnupg                                                         2.4.4-2ubuntu17.3                   deb                          
-gnupg-l10n                                                    2.4.4-2ubuntu17.3                   deb                          
-gnupg-utils                                                   2.4.4-2ubuntu17.3                   deb                          
-golang.org/x/crypto                                           v0.19.0                             go-module                    
-golang.org/x/exp                                              v0.0.0-20231006140011-7918f672742d  go-module                    
-golang.org/x/sync                                             v0.6.0                              go-module                    
-golang.org/x/sys                                              v0.17.0                             go-module                    
-gpg                                                           2.4.4-2ubuntu17.3                   deb                          
-gpg-agent                                                     2.4.4-2ubuntu17.3                   deb                          
-gpg-wks-client                                                2.4.4-2ubuntu17.3                   deb                          
-gpgconf                                                       2.4.4-2ubuntu17.3                   deb                          
-gpgsm                                                         2.4.4-2ubuntu17.3                   deb                          
-gpgv                                                          2.4.4-2ubuntu17.3                   deb                          
-grep                                                          3.11-4build1                        deb                          
-gzip                                                          1.12-1ubuntu3.1                     deb                          
-hostname                                                      3.23+nmu2ubuntu2                    deb                          
-init-system-helpers                                           1.66ubuntu1                         deb                          
-iso-codes                                                     4.16.0-1                            deb                          
-jose-jwt                                                      5.0.0                               dotnet     (+3 duplicates)   
-jq                                                            1.7.1-3ubuntu0.24.04.1              deb                          
-keyboxd                                                       2.4.4-2ubuntu17.3                   deb                          
-krb5-locales                                                  1.20.1-6ubuntu2.6                   deb                          
-libacl1                                                       2.3.2-1build1.1                     deb                          
-libapparmor1                                                  4.0.1really4.0.1-0ubuntu0.24.04.4   deb                          
-libapt-pkg6.0t64                                              2.8.3                               deb                          
-libassuan0                                                    2.5.6-1build1                       deb                          
-libattr1                                                      1:2.5.2-1build1.1                   deb                          
-libaudit-common                                               1:3.1.2-2.1build1.1                 deb                          
-libaudit1                                                     1:3.1.2-2.1build1.1                 deb                          
-libblkid1                                                     2.39.3-9ubuntu6.3                   deb                          
-libbrotli1                                                    1.1.0-2build2                       deb                          
-libbsd0                                                       0.12.1-1build1.1                    deb                          
-libbz2-1.0                                                    1.0.8-5.1build0.1                   deb                          
-libc-bin                                                      2.39-0ubuntu8.6                     deb                          
-libc6                                                         2.39-0ubuntu8.6                     deb                          
-libcap-ng0                                                    0.8.4-2build2                       deb                          
-libcap2                                                       1:2.66-5ubuntu2.2                   deb                          
-libcom-err2                                                   1.47.0-2.4~exp1ubuntu4.1            deb                          
-libcrypt1                                                     1:4.4.36-4build1                    deb                          
-libcurl4t64                                                   8.5.0-2ubuntu10.6                   deb                          
-libdb5.3t64                                                   5.3.28+dfsg2-7                      deb                          
-libdbus-1-3                                                   1.14.10-4ubuntu4.1                  deb                          
-libdebconfclient0                                             0.271ubuntu3                        deb                          
-libexpat1                                                     2.6.1-2ubuntu0.3                    deb                          
-libext2fs2t64                                                 1.47.0-2.4~exp1ubuntu4.1            deb                          
-libffi8                                                       3.4.6-1build1                       deb                          
-libfontenc1                                                   1:1.1.8-1build1                     deb                          
-libfreetype6                                                  2.13.2+dfsg-1build3                 deb                          
-libgcc-s1                                                     14.2.0-4ubuntu2~24.04               deb                          
-libgcrypt20                                                   1.10.3-2build1                      deb                          
-libgirepository-1.0-1                                         1.80.1-1                            deb                          
-libglib2.0-0t64                                               2.80.0-6ubuntu3.4                   deb                          
-libglib2.0-data                                               2.80.0-6ubuntu3.4                   deb                          
-libgmp10                                                      2:6.3.0+dfsg-2ubuntu6.1             deb                          
-libgnutls30t64                                                3.8.3-1.1ubuntu3.4                  deb                          
-libgpg-error0                                                 1.47-3build2.1                      deb                          
-libgssapi-krb5-2                                              1.20.1-6ubuntu2.6                   deb                          
-libhogweed6t64                                                3.9.1-2.2build1.1                   deb                          
-libicu74                                                      74.2-1ubuntu3.1                     deb                          
-libidn2-0                                                     2.3.7-2build1.1                     deb                          
-libjq1                                                        1.7.1-3ubuntu0.24.04.1              deb                          
-libjson-c5                                                    0.17-1build1                        deb                          
-libk5crypto3                                                  1.20.1-6ubuntu2.6                   deb                          
-libkeyutils1                                                  1.6.3-3build1                       deb                          
-libkrb5-3                                                     1.20.1-6ubuntu2.6                   deb                          
-libkrb5support0                                               1.20.1-6ubuntu2.6                   deb                          
-libksba8                                                      1.6.6-1build1                       deb                          
-libldap-common                                                2.6.7+dfsg-1~exp1ubuntu8.2          deb                          
-libldap2                                                      2.6.7+dfsg-1~exp1ubuntu8.2          deb                          
-liblz4-1                                                      1.9.4-1build1.1                     deb                          
-liblzma5                                                      5.6.1+really5.4.5-1ubuntu0.2        deb                          
-libmd0                                                        1.1.0-2build1.1                     deb                          
-libmount1                                                     2.39.3-9ubuntu6.3                   deb                          
-libmspack0t64                                                 0.11-1.1build1                      deb                          
-libncursesw6                                                  6.4+20240113-1ubuntu2               deb                          
-libnettle8t64                                                 3.9.1-2.2build1.1                   deb                          
-libnghttp2-14                                                 1.59.0-1ubuntu0.2                   deb                          
-libnpth0t64                                                   1.6-3.1build1                       deb                          
-libonig5                                                      6.9.9-1build1                       deb                          
-libp11-kit0                                                   0.25.3-4ubuntu2.1                   deb                          
-libpam-modules                                                1.5.3-5ubuntu5.5                    deb                          
-libpam-modules-bin                                            1.5.3-5ubuntu5.5                    deb                          
-libpam-runtime                                                1.5.3-5ubuntu5.5                    deb                          
-libpam0g                                                      1.5.3-5ubuntu5.5                    deb                          
-libpcre2-8-0                                                  10.42-4ubuntu2.1                    deb                          
-libpng16-16t64                                                1.6.43-5build1                      deb                          
-libproc2-0                                                    2:4.0.4-4ubuntu3.2                  deb                          
-libpsl5t64                                                    0.21.2-1.1build1                    deb                          
-libpython3-stdlib                                             3.12.3-0ubuntu2.1                   deb                          
-libpython3.12-minimal                                         3.12.3-1ubuntu0.8                   deb                          
-libpython3.12-stdlib                                          3.12.3-1ubuntu0.8                   deb                          
-libreadline8t64                                               8.2-4build1                         deb                          
-librtmp1                                                      2.4+20151223.gitfa8646d.1-2build7   deb                          
-libsasl2-2                                                    2.1.28+dfsg1-5ubuntu3.1             deb                          
-libsasl2-modules                                              2.1.28+dfsg1-5ubuntu3.1             deb                          
-libsasl2-modules-db                                           2.1.28+dfsg1-5ubuntu3.1             deb                          
-libseccomp2                                                   2.5.5-1ubuntu3.1                    deb                          
-libselinux1                                                   3.5-2ubuntu2.1                      deb                          
-libsemanage-common                                            3.5-1build5                         deb                          
-libsemanage2                                                  3.5-1build5                         deb                          
-libsepol2                                                     3.5-2build1                         deb                          
-libsmartcols1                                                 2.39.3-9ubuntu6.3                   deb                          
-libsqlite3-0                                                  3.45.1-1ubuntu2.5                   deb                          
-libss2                                                        1.47.0-2.4~exp1ubuntu4.1            deb                          
-libssh-4                                                      0.10.6-2ubuntu0.2                   deb                          
-libssl3t64                                                    3.0.13-0ubuntu3.6                   deb                          
-libstdc++6                                                    14.2.0-4ubuntu2~24.04               deb                          
-libsystemd0                                                   255.4-1ubuntu8.11                   deb                          
-libtasn1-6                                                    4.19.0-3ubuntu0.24.04.1             deb                          
-libtinfo6                                                     6.4+20240113-1ubuntu2               deb                          
-libudev1                                                      255.4-1ubuntu8.11                   deb                          
-libunistring5                                                 1.1-2build1.1                       deb                          
-libuuid1                                                      2.39.3-9ubuntu6.3                   deb                          
-libxml2                                                       2.9.14+dfsg-1.3ubuntu3.6            deb                          
-libxxhash0                                                    0.8.2-2build1                       deb                          
-libyaml-0-2                                                   0.2.5-1build1                       deb                          
-libzstd1                                                      1.5.5+dfsg2-2build1.1               deb                          
-locales                                                       2.39-0ubuntu8.6                     deb                          
-login                                                         1:4.13+dfsg1-4ubuntu3.2             deb                          
-logsave                                                       1.47.0-2.4~exp1ubuntu4.1            deb                          
-lsb-release                                                   12.0-2                              deb                          
-mawk                                                          1.3.4.20240123-1build1              deb                          
-media-types                                                   10.1.0                              deb                          
-mount                                                         2.39.3-9ubuntu6.3                   deb                          
-ncurses-base                                                  6.4+20240113-1ubuntu2               deb                          
-ncurses-bin                                                   6.4+20240113-1ubuntu2               deb                          
-netbase                                                       6.4                                 deb                          
-netcat-openbsd                                                1.226-1ubuntu2                      deb                          
-openssl                                                       3.0.13-0ubuntu3.6                   deb                          
-passwd                                                        1:4.13+dfsg1-4ubuntu3.2             deb                          
-patch                                                         2.7.6-7build3                       deb                          
-perl-base                                                     5.38.2-3.2ubuntu0.2                 deb                          
-pinentry-curses                                               1.2.1-3ubuntu5                      deb                          
-procps                                                        2:4.0.4-4ubuntu3.2                  deb                          
-publicsuffix                                                  20231001.0357-0.1                   deb                          
-pygobject                                                     3.48.2                              python                       
-python-apt                                                    2.7.7+ubuntu5                       python                       
-python-apt-common                                             2.7.7ubuntu5                        deb                          
-python-debian                                                 0.1.49+ubuntu2                      python                       
-python3                                                       3.12.3-0ubuntu2.1                   deb                          
-python3-apt                                                   2.7.7ubuntu5                        deb                          
-python3-chardet                                               5.2.0+dfsg-1                        deb                          
-python3-dbus                                                  1.3.2-5build3                       deb                          
-python3-debconf                                               1.5.86ubuntu1                       deb                          
-python3-debian                                                0.1.49ubuntu2                       deb                          
-python3-distro-info                                           1.7build1                           deb                          
-python3-distupgrade                                           1:24.04.27                          deb                          
-python3-gi                                                    3.48.2-1                            deb                          
-python3-minimal                                               3.12.3-0ubuntu2.1                   deb                          
-python3-pkg-resources                                         68.1.2-2ubuntu1.2                   deb                          
-python3-update-manager                                        1:24.04.12                          deb                          
-python3-yaml                                                  6.0.1-2build2                       deb                          
-python3.12                                                    3.12.3-1ubuntu0.8                   deb                          
-python3.12-minimal                                            3.12.3-1ubuntu0.8                   deb                          
-pyyaml                                                        6.0.1                               python                       
-readline-common                                               8.2-4build1                         deb                          
-runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64        8.0.20                              dotnet     (+3 duplicates)   
-runtimepack.Microsoft.NETCore.App.Runtime.linux-x64           8.0.20                              dotnet     (+14 duplicates)  
-sed                                                           4.9-2build1                         deb                          
-sensible-utils                                                0.0.22                              deb                          
-shared-mime-info                                              2.4-4                               deb                          
-sqlite-net-pcl                                                1.7.335                             dotnet     (+11 duplicates)  
-stdlib                                                        go1.21.12                           go-module                    
-storj.io/common                                               v0.0.0-20240424123607-5f226fc92c16  go-module                    
-storj.io/drpc                                                 v0.0.33                             go-module                    
-storj.io/eventkit                                             v0.0.0-20240306141230-6cb545e5f892  go-module                    
-storj.io/infectious                                           v0.0.2                              go-module                    
-storj.io/picobuf                                              v0.0.3                              go-module                    
-storj.io/uplink                                               v1.13.0                             go-module                    
-storj.io/uplink-c                                             UNKNOWN                             go-module                    
-systemd-standalone-sysusers                                   255.4-1ubuntu8.11                   deb                          
-sysvinit-utils                                                3.08-6ubuntu3                       deb                          
-tar                                                           1.35+dfsg-3build1                   deb                          
-ttf-mscorefonts-installer                                     3.8.1ubuntu1                        deb                          
-tzdata                                                        2025b-0ubuntu0.24.04.1              deb                          
-ubuntu-keyring                                                2023.11.28.1                        deb                          
-ubuntu-pro-client                                             36ubuntu0~24.04                     deb                          
-ubuntu-pro-client                                             8001                                python                       
-ubuntu-pro-client-l10n                                        36ubuntu0~24.04                     deb                          
-ubuntu-release-upgrader-core                                  1:24.04.27                          deb                          
-unminimize                                                    0.2.1                               deb                          
-unzip                                                         6.0-28ubuntu4.1                     deb                          
-update-manager-core                                           1:24.04.12                          deb                          
-update-notifier-common                                        3.192.68.2                          deb                          
-uplink.NET                                                    2.13.3484                           dotnet     (+11 duplicates)  
-uplink.NET.Linux                                              2.13.3484                           dotnet     (+11 duplicates)  
-util-linux                                                    2.39.3-9ubuntu6.3                   deb                          
-wget                                                          1.21.4-1ubuntu4.1                   deb                          
-x11-common                                                    1:7.7+23ubuntu3                     deb                          
-xdg-user-dirs                                                 0.18-1build1                        deb                          
-xfonts-encodings                                              1:1.0.5-0ubuntu2                    deb                          
-xfonts-utils                                                  1:7.7+6build3                       deb                          
-xz-utils                                                      5.6.1+really5.4.5-1ubuntu0.2        deb                          
-zlib1g                                                        1:1.3.dfsg-3.1ubuntu2.1             deb                          
-zstd                                                          1.5.5+dfsg2-2build1.1               deb                          
+NAME                                                          VERSION                                TYPE                        
+@duplicati/ngclient                                           0.0.178                                npm                          
+AWSSDK.Core                                                   3.7.400.45                             dotnet     (+11 duplicates)  
+AWSSDK.IdentityManagement                                     3.7.402.39                             dotnet     (+11 duplicates)  
+AWSSDK.S3                                                     3.7.405.9                              dotnet     (+11 duplicates)  
+AWSSDK.SecretsManager                                         3.7.102.54                             dotnet     (+11 duplicates)  
+AWSSDK.SecretsManager.Caching                                 1.0.6                                  dotnet     (+11 duplicates)  
+Aliyun.OSS.SDK.NetCore                                        2.13.0                                 dotnet     (+11 duplicates)  
+AlphaVSS                                                      2.0.3                                  dotnet     (+14 duplicates)  
+Artalk.Xmpp                                                   1.0.5                                  dotnet     (+11 duplicates)  
+Avalonia                                                      11.3.2                                 dotnet                       
+Avalonia.Desktop                                              11.3.2                                 dotnet                       
+Avalonia.FreeDesktop                                          11.3.2                                 dotnet                       
+Avalonia.Native                                               11.3.2                                 dotnet                       
+Avalonia.Remote.Protocol                                      11.3.2                                 dotnet                       
+Avalonia.Skia                                                 11.3.2                                 dotnet                       
+Avalonia.Themes.Fluent                                        11.3.2                                 dotnet                       
+Avalonia.Win32                                                11.3.2                                 dotnet                       
+Avalonia.X11                                                  11.3.2                                 dotnet                       
+Azure.Core                                                    1.44.1                                 dotnet     (+11 duplicates)  
+Azure.Identity                                                1.13.0                                 dotnet     (+11 duplicates)  
+Azure.Security.KeyVault.Secrets                               4.7.0                                  dotnet     (+11 duplicates)  
+Azure.Storage.Blobs                                           12.23.0                                dotnet     (+11 duplicates)  
+Azure.Storage.Common                                          12.22.0                                dotnet     (+11 duplicates)  
+BouncyCastle.Cryptography                                     2.5.1                                  dotnet     (+11 duplicates)  
+CoCoL                                                         1.8.4                                  dotnet     (+7 duplicates)   
+CommunityToolkit.HighPerformance                              8.2.1                                  dotnet     (+11 duplicates)  
+DnsClient                                                     1.8.0                                  dotnet     (+11 duplicates)  
+Duplicati.CommandLine                                         2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.AutoUpdater                             2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.BackendTester                           2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.BackendTester.Implementation            2.2.0.2-Beta-20251126                  dotnet     (+7 duplicates)   
+Duplicati.CommandLine.BackendTester.Implementation.Reference  2.2.0.2                                dotnet     (+7 duplicates)   
+Duplicati.CommandLine.BackendTool                             2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.BackendTool.Implementation              2.2.0.2-Beta-20251126                  dotnet     (+7 duplicates)   
+Duplicati.CommandLine.BackendTool.Implementation.Reference    2.2.0.2                                dotnet     (+7 duplicates)   
+Duplicati.CommandLine.DatabaseTool                            2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.DatabaseTool.Implementation             2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.DatabaseTool.Implementation.Reference   2.2.0.2                                dotnet                       
+Duplicati.CommandLine.Implementation                          2.2.0.2-Beta-20251126                  dotnet     (+6 duplicates)   
+Duplicati.CommandLine.Implementation.Reference                2.2.0.2                                dotnet     (+6 duplicates)   
+Duplicati.CommandLine.RecoveryTool                            2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.RecoveryTool.Implementation             2.2.0.2-Beta-20251126                  dotnet     (+7 duplicates)   
+Duplicati.CommandLine.RecoveryTool.Implementation.Reference   2.2.0.2                                dotnet     (+7 duplicates)   
+Duplicati.CommandLine.SecretTool                              2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.SecretTool.Implementation               2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.SecretTool.Implementation.Reference     2.2.0.2                                dotnet                       
+Duplicati.CommandLine.ServerUtil                              2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.ServerUtil.Implementation               2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.ServerUtil.Implementation.Reference     2.2.0.2                                dotnet                       
+Duplicati.CommandLine.SharpAESCrypt                           2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.Snapshots                               2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.SourceTool                              2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.SourceTool.Implementation               2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.CommandLine.SourceTool.Implementation.Reference     2.2.0.2                                dotnet                       
+Duplicati.CommandLine.SyncTool                                2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.GUI.TrayIcon                                        2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.GUI.TrayIcon.Implementation                         2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.GUI.TrayIcon.Implementation.Reference               2.2.0.2                                dotnet                       
+Duplicati.Library.AutoUpdater                                 2.2.0.2-Beta-20251126                  dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.AliyunOSS                           2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.AzureBlob                           2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.Backblaze                           2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.Box                                 2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.Dropbox                             2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.FTP                                 2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.File                                2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.Filejump                            2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.Filen                               2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.GoogleServices                      2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.Idrivee2                            2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.Jottacloud                          2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.Mega                                2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.OneDrive                            2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.OpenStack                           2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.Rclone                              2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.S3                                  2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.SMB                                 2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.SSHv2                               2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.SharePoint                          2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.Storj                               2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.TahoeLAFS                           2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.TencentCOS                          2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.WEBDAV                              2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backend.pCloud                              2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Backends                                    2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Common                                      2.2.0.2-Beta-20251126                  dotnet     (+14 duplicates)  
+Duplicati.Library.Compression                                 2.2.0.2-Beta-20251126                  dotnet     (+13 duplicates)  
+Duplicati.Library.Crashlog                                    2.2.0.2-Beta-20251126                  dotnet     (+14 duplicates)  
+Duplicati.Library.DynamicLoader                               2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Encryption                                  2.2.0.2-Beta-20251126                  dotnet     (+12 duplicates)  
+Duplicati.Library.Interface                                   2.2.0.2-Beta-20251126                  dotnet     (+14 duplicates)  
+Duplicati.Library.Localization                                2.2.0.2-Beta-20251126                  dotnet     (+14 duplicates)  
+Duplicati.Library.Logging                                     2.2.0.2-Beta-20251126                  dotnet     (+14 duplicates)  
+Duplicati.Library.Main                                        2.2.0.2-Beta-20251126                  dotnet     (+7 duplicates)   
+Duplicati.Library.Modules.Builtin                             2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.OAuthHelper                                 2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.RemoteControl                               2.2.0.2-Beta-20251126                  dotnet     (+3 duplicates)   
+Duplicati.Library.RestAPI                                     2.2.0.2-Beta-20251126                  dotnet     (+4 duplicates)   
+Duplicati.Library.SecretProvider                              2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.Snapshots                                   2.2.0.2-Beta-20251126                  dotnet     (+12 duplicates)  
+Duplicati.Library.SourceProvider.Builtin                      2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.SourceProviders                             2.2.0.2-Beta-20251126                  dotnet     (+11 duplicates)  
+Duplicati.Library.UsageReporter                               2.2.0.2-Beta-20251126                  dotnet     (+7 duplicates)   
+Duplicati.Library.Utility                                     2.2.0.2-Beta-20251126                  dotnet     (+14 duplicates)  
+Duplicati.License                                             2.2.0.2-Beta-20251126                  dotnet     (+13 duplicates)  
+Duplicati.PackageRef                                          2.2.0.2-Beta-20251126                  dotnet     (+14 duplicates)  
+Duplicati.Server                                              2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.Server.Implementation                               2.2.0.2-Beta-20251126                  dotnet     (+3 duplicates)   
+Duplicati.Server.Implementation.Reference                     2.2.0.2                                dotnet     (+3 duplicates)   
+Duplicati.Server.Serialization                                2.2.0.2-Beta-20251126                  dotnet     (+4 duplicates)   
+Duplicati.Service                                             2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.Service.Implementation                              2.2.0.2-Beta-20251126                  dotnet                       
+Duplicati.Service.Implementation.Reference                    2.2.0.2                                dotnet                       
+Duplicati.StreamUtil                                          1.0.5                                  dotnet     (+14 duplicates)  
+Duplicati.Tools                                               2.2.0.2-Beta-20251126                  dotnet     (+6 duplicates)   
+Duplicati.WebserverCore                                       2.2.0.2-Beta-20251126                  dotnet     (+3 duplicates)   
+FluentFTP                                                     52.0.0                                 dotnet     (+11 duplicates)  
+Google.Api.CommonProtos                                       2.15.0                                 dotnet     (+11 duplicates)  
+Google.Api.Gax                                                4.8.0                                  dotnet     (+11 duplicates)  
+Google.Api.Gax.Grpc                                           4.8.0                                  dotnet     (+11 duplicates)  
+Google.Apis                                                   1.67.0                                 dotnet     (+11 duplicates)  
+Google.Apis.Auth                                              1.67.0                                 dotnet     (+11 duplicates)  
+Google.Apis.Core                                              1.67.0                                 dotnet     (+11 duplicates)  
+Google.Cloud.Iam.V1                                           3.2.0                                  dotnet     (+11 duplicates)  
+Google.Cloud.Location                                         2.2.0                                  dotnet     (+11 duplicates)  
+Google.Cloud.SecretManager.V1                                 2.5.0                                  dotnet     (+11 duplicates)  
+Google.Protobuf                                               3.25.0                                 dotnet     (+11 duplicates)  
+Grpc.Auth                                                     2.60.0                                 dotnet     (+11 duplicates)  
+Grpc.Core.Api                                                 2.60.0                                 dotnet     (+11 duplicates)  
+Grpc.Net.Client                                               2.60.0                                 dotnet     (+11 duplicates)  
+Grpc.Net.Common                                               2.60.0                                 dotnet     (+11 duplicates)  
+HarfBuzzSharp                                                 8.3.1.1                                dotnet                       
+HarfBuzzSharp.NativeAssets.Linux                              8.3.1.1                                dotnet                       
+MailKit                                                       4.12.1                                 dotnet     (+11 duplicates)  
+MegaApiClient                                                 1.10.4                                 dotnet     (+11 duplicates)  
+Meziantou.Framework.Win32.CredentialManager                   1.7.0                                  dotnet     (+11 duplicates)  
+MicroCom.Runtime                                              0.11.0                                 dotnet                       
+Microsoft.AspNetCore.Authentication.JwtBearer                 8.0.3                                  dotnet     (+3 duplicates)   
+Microsoft.Bcl.AsyncInterfaces                                 6.0.0                                  dotnet     (+14 duplicates)  
+Microsoft.Extensions.Caching.Abstractions                     9.0.4                                  dotnet     (+14 duplicates)  
+Microsoft.Extensions.Caching.Memory                           9.0.4                                  dotnet     (+14 duplicates)  
+Microsoft.Extensions.Configuration                            8.0.0                                  dotnet     (+10 duplicates)  
+Microsoft.Extensions.Configuration.Abstractions               8.0.0                                  dotnet     (+10 duplicates)  
+Microsoft.Extensions.Configuration.Binder                     8.0.0                                  dotnet     (+10 duplicates)  
+Microsoft.Extensions.DependencyInjection                      8.0.0                                  dotnet     (+10 duplicates)  
+Microsoft.Extensions.DependencyInjection.Abstractions         9.0.4                                  dotnet     (+14 duplicates)  
+Microsoft.Extensions.Diagnostics                              8.0.0                                  dotnet     (+10 duplicates)  
+Microsoft.Extensions.Diagnostics.Abstractions                 8.0.0                                  dotnet     (+10 duplicates)  
+Microsoft.Extensions.Http                                     8.0.0                                  dotnet     (+10 duplicates)  
+Microsoft.Extensions.Logging                                  8.0.0                                  dotnet     (+10 duplicates)  
+Microsoft.Extensions.Logging.Abstractions                     9.0.4                                  dotnet     (+14 duplicates)  
+Microsoft.Extensions.Options                                  9.0.4                                  dotnet     (+14 duplicates)  
+Microsoft.Extensions.Options.ConfigurationExtensions          8.0.0                                  dotnet     (+10 duplicates)  
+Microsoft.Extensions.Primitives                               9.0.4                                  dotnet     (+14 duplicates)  
+Microsoft.IO.RecyclableMemoryStream                           3.0.0                                  dotnet     (+3 duplicates)   
+Microsoft.Identity.Client                                     4.65.0                                 dotnet     (+11 duplicates)  
+Microsoft.Identity.Client.Extensions.Msal                     4.65.0                                 dotnet     (+11 duplicates)  
+Microsoft.IdentityModel.Abstractions                          7.5.0                                  dotnet     (+14 duplicates)  
+Microsoft.IdentityModel.JsonWebTokens                         7.5.0                                  dotnet     (+3 duplicates)   
+Microsoft.IdentityModel.Logging                               7.5.0                                  dotnet     (+3 duplicates)   
+Microsoft.IdentityModel.Protocols                             7.1.2                                  dotnet     (+3 duplicates)   
+Microsoft.IdentityModel.Protocols.OpenIdConnect               7.1.2                                  dotnet     (+3 duplicates)   
+Microsoft.IdentityModel.Tokens                                7.5.0                                  dotnet     (+3 duplicates)   
+Microsoft.OpenApi                                             1.2.3                                  dotnet     (+3 duplicates)   
+Microsoft.Win32.SystemEvents                                  7.0.0                                  dotnet     (+11 duplicates)  
+MimeKit                                                       4.12.0                                 dotnet     (+11 duplicates)  
+Minio                                                         6.0.0                                  dotnet     (+11 duplicates)  
+Mono.Unix                                                     7.1.0-final.1.21458.1                  dotnet     (+14 duplicates)  
+NGettext                                                      0.6.5                                  dotnet     (+14 duplicates)  
+Newtonsoft.Json                                               13.0.3                                 dotnet     (+14 duplicates)  
+Otp.NET                                                       1.4.0                                  dotnet     (+11 duplicates)  
+RemoteSynchronization                                         2.2.0.2-Beta-20251126                  dotnet                       
+SMBLibrary                                                    1.5.3.5                                dotnet     (+11 duplicates)  
+SMBLibrary.Win32                                              1.5.3                                  dotnet     (+11 duplicates)  
+SQLiteHelper                                                  2.2.0.2-Beta-20251126                  dotnet     (+8 duplicates)   
+SQLiteHelper.Reference                                        2.2.0.2                                dotnet     (+8 duplicates)   
+SQLitePCLRaw.bundle_green                                     2.0.3                                  dotnet     (+11 duplicates)  
+SQLitePCLRaw.core                                             2.0.3                                  dotnet     (+11 duplicates)  
+SQLitePCLRaw.lib.e_sqlite3                                    2.0.3                                  dotnet     (+11 duplicates)  
+SQLitePCLRaw.provider.dynamic_cdecl                           2.0.3                                  dotnet     (+11 duplicates)  
+SSH.NET                                                       2025.0.0                               dotnet     (+11 duplicates)  
+SharePointPnP.Client                                          16.1.0.0                               dotnet     (+11 duplicates)  
+SharpAESCrypt                                                 2.0.3                                  dotnet     (+12 duplicates)  
+SharpCompress                                                 0.39.0                                 dotnet     (+13 duplicates)  
+SkiaSharp                                                     2.88.9                                 dotnet                       
+SkiaSharp.NativeAssets.Linux                                  2.88.9                                 dotnet                       
+SshNet.Agent                                                  2024.2.0                               dotnet     (+11 duplicates)  
+Stub.System.Data.SQLite.Core.NetStandard                      1.0.115                                dotnet     (+8 duplicates)   
+Swashbuckle.AspNetCore                                        6.5.0                                  dotnet     (+3 duplicates)   
+Swashbuckle.AspNetCore.Swagger                                6.5.0                                  dotnet     (+3 duplicates)   
+Swashbuckle.AspNetCore.SwaggerGen                             6.5.0                                  dotnet     (+3 duplicates)   
+Swashbuckle.AspNetCore.SwaggerUI                              6.5.0                                  dotnet     (+3 duplicates)   
+System.ClientModel                                            1.1.0                                  dotnet     (+11 duplicates)  
+System.CodeDom                                                8.0.0                                  dotnet     (+14 duplicates)  
+System.CommandLine                                            2.0.0-beta4.22272.1                    dotnet     (+14 duplicates)  
+System.CommandLine.NamingConventionBinder                     2.0.0-beta4.22272.1                    dotnet     (+4 duplicates)   
+System.Data.SQLite.Core                                       1.0.115                                dotnet     (+8 duplicates)   
+System.Diagnostics.DiagnosticSource                           9.0.4                                  dotnet     (+14 duplicates)  
+System.Drawing.Common                                         7.0.0                                  dotnet     (+11 duplicates)  
+System.IO.Hashing                                             7.0.0                                  dotnet     (+11 duplicates)  
+System.IO.Pipelines                                           9.0.2                                  dotnet     (+11 duplicates)  
+System.IdentityModel.Tokens.Jwt                               7.5.0                                  dotnet     (+3 duplicates)   
+System.Linq.Async                                             6.0.1                                  dotnet     (+14 duplicates)  
+System.Management                                             8.0.0                                  dotnet     (+14 duplicates)  
+System.Memory.Data                                            6.0.0                                  dotnet     (+11 duplicates)  
+System.Reactive                                               6.0.0                                  dotnet     (+11 duplicates)  
+System.Security.Cryptography.Pkcs                             8.0.1                                  dotnet     (+7 duplicates)   
+System.Security.Cryptography.ProtectedData                    4.5.0                                  dotnet     (+11 duplicates)  
+Tencent.QCloud.Cos.Sdk                                        5.4.11                                 dotnet     (+11 duplicates)  
+Tmds.DBus.Protocol                                            0.21.2                                 dotnet     (+11 duplicates)  
+VaultSharp                                                    1.7.0                                  dotnet     (+11 duplicates)  
+Websocket.Client                                              5.1.2                                  dotnet     (+3 duplicates)   
+ZstdSharp.Port                                                0.8.4                                  dotnet     (+13 duplicates)  
+adduser                                                       3.137ubuntu1                           deb                          
+apt                                                           2.8.3                                  deb                          
+apt-utils                                                     2.8.3                                  deb                          
+base-files                                                    13ubuntu10.3                           deb                          
+base-passwd                                                   3.6.3build1                            deb                          
+bash                                                          5.2.21-2ubuntu4                        deb                          
+bsdutils                                                      1:2.39.3-9ubuntu6.3                    deb                          
+ca-certificates                                               20240203                               deb                          
+cabextract                                                    1.11-2                                 deb                          
+catatonit                                                     0.1.7-1                                deb                          
+chardet                                                       5.2.0                                  python                       
+coreutils                                                     9.4-3ubuntu6.1                         deb                          
+cron                                                          3.0pl1-184ubuntu2                      deb                          
+cron-daemon-common                                            3.0pl1-184ubuntu2                      deb                          
+curl                                                          8.5.0-2ubuntu10.6                      deb                          
+dash                                                          0.5.12-6ubuntu5                        deb                          
+dbus                                                          1.14.10-4ubuntu4.1                     deb                          
+dbus-bin                                                      1.14.10-4ubuntu4.1                     deb                          
+dbus-daemon                                                   1.14.10-4ubuntu4.1                     deb                          
+dbus-python                                                   1.3.2                                  python                       
+dbus-session-bus-common                                       1.14.10-4ubuntu4.1                     deb                          
+dbus-system-bus-common                                        1.14.10-4ubuntu4.1                     deb                          
+debconf                                                       1.5.86ubuntu1                          deb                          
+debianutils                                                   5.17build1                             deb                          
+diffutils                                                     1:3.10-1build1                         deb                          
+dirmngr                                                       2.4.4-2ubuntu17.3                      deb                          
+distro-info                                                   1.7+build1                             python                       
+distro-info                                                   1.7build1                              deb                          
+distro-info-data                                              0.60ubuntu0.5                          deb                          
+dpkg                                                          1.22.6ubuntu6.5                        deb                          
+e2fsprogs                                                     1.47.0-2.4~exp1ubuntu4.1               deb                          
+findutils                                                     4.9.0-5build1                          deb                          
+fonts-liberation                                              1:2.1.5-3                              deb                          
+fonts-liberation-sans-narrow                                  1:1.07.6-4                             deb                          
+gcc-14-base                                                   14.2.0-4ubuntu2~24.04                  deb                          
+gir1.2-girepository-2.0                                       1.80.1-1                               deb                          
+gir1.2-glib-2.0                                               2.80.0-6ubuntu3.4                      deb                          
+github.com/calebcase/tmpfile                                  v1.0.3                                 go-module                    
+github.com/flynn/noise                                        v1.0.0                                 go-module                    
+github.com/gogo/protobuf                                      v1.3.2                                 go-module                    
+github.com/jtolio/noiseconn                                   v0.0.0-20230111204749-d7ec1a08b0b8     go-module                    
+github.com/klauspost/compress                                 v1.17.7                                go-module                    
+github.com/klauspost/cpuid/v2                                 v2.2.5                                 go-module                    
+github.com/spacemonkeygo/monkit/v3                            v3.0.22                                go-module                    
+github.com/zeebo/blake3                                       v0.2.3                                 go-module                    
+github.com/zeebo/errs                                         v1.3.0                                 go-module                    
+gnupg                                                         2.4.4-2ubuntu17.3                      deb                          
+gnupg-l10n                                                    2.4.4-2ubuntu17.3                      deb                          
+gnupg-utils                                                   2.4.4-2ubuntu17.3                      deb                          
+golang.org/x/crypto                                           v0.19.0                                go-module                    
+golang.org/x/exp                                              v0.0.0-20231006140011-7918f672742d     go-module                    
+golang.org/x/sync                                             v0.6.0                                 go-module                    
+golang.org/x/sys                                              v0.20.0                                go-module                    
+gpg                                                           2.4.4-2ubuntu17.3                      deb                          
+gpg-agent                                                     2.4.4-2ubuntu17.3                      deb                          
+gpg-wks-client                                                2.4.4-2ubuntu17.3                      deb                          
+gpgconf                                                       2.4.4-2ubuntu17.3                      deb                          
+gpgsm                                                         2.4.4-2ubuntu17.3                      deb                          
+gpgv                                                          2.4.4-2ubuntu17.3                      deb                          
+grep                                                          3.11-4build1                           deb                          
+gzip                                                          1.12-1ubuntu3.1                        deb                          
+hostname                                                      3.23+nmu2ubuntu2                       deb                          
+init-system-helpers                                           1.66ubuntu1                            deb                          
+iso-codes                                                     4.16.0-1                               deb                          
+jose-jwt                                                      5.0.0                                  dotnet     (+3 duplicates)   
+jq                                                            1.7.1-3ubuntu0.24.04.1                 deb                          
+keyboxd                                                       2.4.4-2ubuntu17.3                      deb                          
+krb5-locales                                                  1.20.1-6ubuntu2.6                      deb                          
+libacl1                                                       2.3.2-1build1.1                        deb                          
+libapparmor1                                                  4.0.1really4.0.1-0ubuntu0.24.04.4      deb                          
+libapt-pkg6.0t64                                              2.8.3                                  deb                          
+libassuan0                                                    2.5.6-1build1                          deb                          
+libattr1                                                      1:2.5.2-1build1.1                      deb                          
+libaudit-common                                               1:3.1.2-2.1build1.1                    deb                          
+libaudit1                                                     1:3.1.2-2.1build1.1                    deb                          
+libblkid1                                                     2.39.3-9ubuntu6.3                      deb                          
+libbrotli1                                                    1.1.0-2build2                          deb                          
+libbsd0                                                       0.12.1-1build1.1                       deb                          
+libbz2-1.0                                                    1.0.8-5.1build0.1                      deb                          
+libc-bin                                                      2.39-0ubuntu8.6                        deb                          
+libc6                                                         2.39-0ubuntu8.6                        deb                          
+libcap-ng0                                                    0.8.4-2build2                          deb                          
+libcap2                                                       1:2.66-5ubuntu2.2                      deb                          
+libcom-err2                                                   1.47.0-2.4~exp1ubuntu4.1               deb                          
+libcrypt1                                                     1:4.4.36-4build1                       deb                          
+libcurl4t64                                                   8.5.0-2ubuntu10.6                      deb                          
+libdb5.3t64                                                   5.3.28+dfsg2-7                         deb                          
+libdbus-1-3                                                   1.14.10-4ubuntu4.1                     deb                          
+libdebconfclient0                                             0.271ubuntu3                           deb                          
+libexpat1                                                     2.6.1-2ubuntu0.3                       deb                          
+libext2fs2t64                                                 1.47.0-2.4~exp1ubuntu4.1               deb                          
+libffi8                                                       3.4.6-1build1                          deb                          
+libfontenc1                                                   1:1.1.8-1build1                        deb                          
+libfreetype6                                                  2.13.2+dfsg-1build3                    deb                          
+libgcc-s1                                                     14.2.0-4ubuntu2~24.04                  deb                          
+libgcrypt20                                                   1.10.3-2build1                         deb                          
+libgirepository-1.0-1                                         1.80.1-1                               deb                          
+libglib2.0-0t64                                               2.80.0-6ubuntu3.4                      deb                          
+libglib2.0-data                                               2.80.0-6ubuntu3.4                      deb                          
+libgmp10                                                      2:6.3.0+dfsg-2ubuntu6.1                deb                          
+libgnutls30t64                                                3.8.3-1.1ubuntu3.4                     deb                          
+libgpg-error0                                                 1.47-3build2.1                         deb                          
+libgssapi-krb5-2                                              1.20.1-6ubuntu2.6                      deb                          
+libhogweed6t64                                                3.9.1-2.2build1.1                      deb                          
+libicu74                                                      74.2-1ubuntu3.1                        deb                          
+libidn2-0                                                     2.3.7-2build1.1                        deb                          
+libjq1                                                        1.7.1-3ubuntu0.24.04.1                 deb                          
+libjson-c5                                                    0.17-1build1                           deb                          
+libk5crypto3                                                  1.20.1-6ubuntu2.6                      deb                          
+libkeyutils1                                                  1.6.3-3build1                          deb                          
+libkrb5-3                                                     1.20.1-6ubuntu2.6                      deb                          
+libkrb5support0                                               1.20.1-6ubuntu2.6                      deb                          
+libksba8                                                      1.6.6-1build1                          deb                          
+libldap-common                                                2.6.7+dfsg-1~exp1ubuntu8.2             deb                          
+libldap2                                                      2.6.7+dfsg-1~exp1ubuntu8.2             deb                          
+liblz4-1                                                      1.9.4-1build1.1                        deb                          
+liblzma5                                                      5.6.1+really5.4.5-1ubuntu0.2           deb                          
+libmd0                                                        1.1.0-2build1.1                        deb                          
+libmount1                                                     2.39.3-9ubuntu6.3                      deb                          
+libmspack0t64                                                 0.11-1.1build1                         deb                          
+libncursesw6                                                  6.4+20240113-1ubuntu2                  deb                          
+libnettle8t64                                                 3.9.1-2.2build1.1                      deb                          
+libnghttp2-14                                                 1.59.0-1ubuntu0.2                      deb                          
+libnpth0t64                                                   1.6-3.1build1                          deb                          
+libonig5                                                      6.9.9-1build1                          deb                          
+libp11-kit0                                                   0.25.3-4ubuntu2.1                      deb                          
+libpam-modules                                                1.5.3-5ubuntu5.5                       deb                          
+libpam-modules-bin                                            1.5.3-5ubuntu5.5                       deb                          
+libpam-runtime                                                1.5.3-5ubuntu5.5                       deb                          
+libpam0g                                                      1.5.3-5ubuntu5.5                       deb                          
+libpcre2-8-0                                                  10.42-4ubuntu2.1                       deb                          
+libpng16-16t64                                                1.6.43-5build1                         deb                          
+libproc2-0                                                    2:4.0.4-4ubuntu3.2                     deb                          
+libpsl5t64                                                    0.21.2-1.1build1                       deb                          
+libpython3-stdlib                                             3.12.3-0ubuntu2.1                      deb                          
+libpython3.12-minimal                                         3.12.3-1ubuntu0.9                      deb                          
+libpython3.12-stdlib                                          3.12.3-1ubuntu0.9                      deb                          
+libreadline8t64                                               8.2-4build1                            deb                          
+librtmp1                                                      2.4+20151223.gitfa8646d.1-2build7      deb                          
+libsasl2-2                                                    2.1.28+dfsg1-5ubuntu3.1                deb                          
+libsasl2-modules                                              2.1.28+dfsg1-5ubuntu3.1                deb                          
+libsasl2-modules-db                                           2.1.28+dfsg1-5ubuntu3.1                deb                          
+libseccomp2                                                   2.5.5-1ubuntu3.1                       deb                          
+libselinux1                                                   3.5-2ubuntu2.1                         deb                          
+libsemanage-common                                            3.5-1build5                            deb                          
+libsemanage2                                                  3.5-1build5                            deb                          
+libsepol2                                                     3.5-2build1                            deb                          
+libsmartcols1                                                 2.39.3-9ubuntu6.3                      deb                          
+libsqlite3-0                                                  3.45.1-1ubuntu2.5                      deb                          
+libss2                                                        1.47.0-2.4~exp1ubuntu4.1               deb                          
+libssh-4                                                      0.10.6-2ubuntu0.2                      deb                          
+libssl3t64                                                    3.0.13-0ubuntu3.6                      deb                          
+libstdc++6                                                    14.2.0-4ubuntu2~24.04                  deb                          
+libsystemd0                                                   255.4-1ubuntu8.11                      deb                          
+libtasn1-6                                                    4.19.0-3ubuntu0.24.04.1                deb                          
+libtinfo6                                                     6.4+20240113-1ubuntu2                  deb                          
+libudev1                                                      255.4-1ubuntu8.11                      deb                          
+libunistring5                                                 1.1-2build1.1                          deb                          
+libuuid1                                                      2.39.3-9ubuntu6.3                      deb                          
+libxml2                                                       2.9.14+dfsg-1.3ubuntu3.6               deb                          
+libxxhash0                                                    0.8.2-2build1                          deb                          
+libyaml-0-2                                                   0.2.5-1build1                          deb                          
+libzstd1                                                      1.5.5+dfsg2-2build1.1                  deb                          
+locales                                                       2.39-0ubuntu8.6                        deb                          
+login                                                         1:4.13+dfsg1-4ubuntu3.2                deb                          
+logsave                                                       1.47.0-2.4~exp1ubuntu4.1               deb                          
+lsb-release                                                   12.0-2                                 deb                          
+mawk                                                          1.3.4.20240123-1build1                 deb                          
+media-types                                                   10.1.0                                 deb                          
+mount                                                         2.39.3-9ubuntu6.3                      deb                          
+ncurses-base                                                  6.4+20240113-1ubuntu2                  deb                          
+ncurses-bin                                                   6.4+20240113-1ubuntu2                  deb                          
+netbase                                                       6.4                                    deb                          
+netcat-openbsd                                                1.226-1ubuntu2                         deb                          
+openssl                                                       3.0.13-0ubuntu3.6                      deb                          
+passwd                                                        1:4.13+dfsg1-4ubuntu3.2                deb                          
+patch                                                         2.7.6-7build3                          deb                          
+perl-base                                                     5.38.2-3.2ubuntu0.2                    deb                          
+pinentry-curses                                               1.2.1-3ubuntu5                         deb                          
+procps                                                        2:4.0.4-4ubuntu3.2                     deb                          
+publicsuffix                                                  20231001.0357-0.1                      deb                          
+pygobject                                                     3.48.2                                 python                       
+python-apt                                                    2.7.7+ubuntu5                          python                       
+python-apt-common                                             2.7.7ubuntu5                           deb                          
+python-debian                                                 0.1.49+ubuntu2                         python                       
+python3                                                       3.12.3-0ubuntu2.1                      deb                          
+python3-apt                                                   2.7.7ubuntu5                           deb                          
+python3-chardet                                               5.2.0+dfsg-1                           deb                          
+python3-dbus                                                  1.3.2-5build3                          deb                          
+python3-debconf                                               1.5.86ubuntu1                          deb                          
+python3-debian                                                0.1.49ubuntu2                          deb                          
+python3-distro-info                                           1.7build1                              deb                          
+python3-distupgrade                                           1:24.04.27                             deb                          
+python3-gi                                                    3.48.2-1                               deb                          
+python3-minimal                                               3.12.3-0ubuntu2.1                      deb                          
+python3-pkg-resources                                         68.1.2-2ubuntu1.2                      deb                          
+python3-update-manager                                        1:24.04.12                             deb                          
+python3-yaml                                                  6.0.1-2build2                          deb                          
+python3.12                                                    3.12.3-1ubuntu0.9                      deb                          
+python3.12-minimal                                            3.12.3-1ubuntu0.9                      deb                          
+pyyaml                                                        6.0.1                                  python                       
+readline-common                                               8.2-4build1                            deb                          
+runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64        8.0.22                                 dotnet     (+3 duplicates)   
+runtimepack.Microsoft.NETCore.App.Runtime.linux-x64           8.0.22                                 dotnet     (+14 duplicates)  
+sed                                                           4.9-2build1                            deb                          
+sensible-utils                                                0.0.22                                 deb                          
+shared-mime-info                                              2.4-4                                  deb                          
+sqlite-net-pcl                                                1.7.335                                dotnet     (+11 duplicates)  
+stdlib                                                        go1.24.9                               go-module                    
+storj.io/common                                               v0.0.0-20240812101423-26b53789c348     go-module                    
+storj.io/drpc                                                 v0.0.35-0.20240709171858-0075ac871661  go-module                    
+storj.io/eventkit                                             v0.0.0-20240415002644-1d9596fee086     go-module                    
+storj.io/infectious                                           v0.0.2                                 go-module                    
+storj.io/picobuf                                              v0.0.3                                 go-module                    
+storj.io/uplink                                               v1.13.1                                go-module                    
+storj.io/uplink-c                                             UNKNOWN                                go-module                    
+systemd-standalone-sysusers                                   255.4-1ubuntu8.11                      deb                          
+sysvinit-utils                                                3.08-6ubuntu3                          deb                          
+tar                                                           1.35+dfsg-3build1                      deb                          
+ttf-mscorefonts-installer                                     3.8.1ubuntu1                           deb                          
+tzdata                                                        2025b-0ubuntu0.24.04.1                 deb                          
+ubuntu-keyring                                                2023.11.28.1                           deb                          
+ubuntu-pro-client                                             37.1ubuntu0~24.04                      deb                          
+ubuntu-pro-client                                             8001                                   python                       
+ubuntu-pro-client-l10n                                        37.1ubuntu0~24.04                      deb                          
+ubuntu-release-upgrader-core                                  1:24.04.27                             deb                          
+unminimize                                                    0.2.1                                  deb                          
+unzip                                                         6.0-28ubuntu4.1                        deb                          
+update-manager-core                                           1:24.04.12                             deb                          
+update-notifier-common                                        3.192.68.2                             deb                          
+uplink.NET                                                    2.14.3623                              dotnet     (+11 duplicates)  
+uplink.NET.Linux                                              2.14.3623                              dotnet     (+11 duplicates)  
+util-linux                                                    2.39.3-9ubuntu6.3                      deb                          
+wget                                                          1.21.4-1ubuntu4.1                      deb                          
+x11-common                                                    1:7.7+23ubuntu3                        deb                          
+xdg-user-dirs                                                 0.18-1build1                           deb                          
+xfonts-encodings                                              1:1.0.5-0ubuntu2                       deb                          
+xfonts-utils                                                  1:7.7+6build3                          deb                          
+xz-utils                                                      5.6.1+really5.4.5-1ubuntu0.2           deb                          
+zlib1g                                                        1:1.3.dfsg-3.1ubuntu2.1                deb                          
+zstd                                                          1.5.5+dfsg2-2build1.1                  deb                          
