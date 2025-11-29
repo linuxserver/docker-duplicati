@@ -359,8 +359,8 @@ libpng16-16t64                                                1.6.43-5build1    
 libproc2-0                                                    2:4.0.4-4ubuntu3.2                  deb                          
 libpsl5t64                                                    0.21.2-1.1build1                    deb                          
 libpython3-stdlib                                             3.12.3-0ubuntu2.1                   deb                          
-libpython3.12-minimal                                         3.12.3-1ubuntu0.8                   deb                          
-libpython3.12-stdlib                                          3.12.3-1ubuntu0.8                   deb                          
+libpython3.12-minimal                                         3.12.3-1ubuntu0.9                   deb                          
+libpython3.12-stdlib                                          3.12.3-1ubuntu0.9                   deb                          
 libreadline8t64                                               8.2-4build1                         deb                          
 librtmp1                                                      2.4+20151223.gitfa8646d.1-2build7   deb                          
 libsasl2-2                                                    2.1.28+dfsg1-5ubuntu3.1             deb                          
@@ -422,8 +422,8 @@ python3-minimal                                               3.12.3-0ubuntu2.1 
 python3-pkg-resources                                         68.1.2-2ubuntu1.2                   deb                          
 python3-update-manager                                        1:24.04.12                          deb                          
 python3-yaml                                                  6.0.1-2build2                       deb                          
-python3.12                                                    3.12.3-1ubuntu0.8                   deb                          
-python3.12-minimal                                            3.12.3-1ubuntu0.8                   deb                          
+python3.12                                                    3.12.3-1ubuntu0.9                   deb                          
+python3.12-minimal                                            3.12.3-1ubuntu0.9                   deb                          
 pyyaml                                                        6.0.1                               python                       
 readline-common                                               8.2-4build1                         deb                          
 runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64        8.0.20                              dotnet     (+3 duplicates)   
@@ -446,9 +446,9 @@ tar                                                           1.35+dfsg-3build1 
 ttf-mscorefonts-installer                                     3.8.1ubuntu1                        deb                          
 tzdata                                                        2025b-0ubuntu0.24.04.1              deb                          
 ubuntu-keyring                                                2023.11.28.1                        deb                          
-ubuntu-pro-client                                             36ubuntu0~24.04                     deb                          
+ubuntu-pro-client                                             37.1ubuntu0~24.04                   deb                          
 ubuntu-pro-client                                             8001                                python                       
-ubuntu-pro-client-l10n                                        36ubuntu0~24.04                     deb                          
+ubuntu-pro-client-l10n                                        37.1ubuntu0~24.04                   deb                          
 ubuntu-release-upgrader-core                                  1:24.04.27                          deb                          
 unminimize                                                    0.2.1                               deb                          
 unzip                                                         6.0-28ubuntu4.1                     deb                          
