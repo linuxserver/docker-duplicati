@@ -260,7 +260,7 @@ fonts-liberation                                              1:2.1.5-3         
 fonts-liberation-sans-narrow                                  1:1.07.6-4                          deb                          
 gcc-14-base                                                   14.2.0-4ubuntu2~24.04               deb                          
 gir1.2-girepository-2.0                                       1.80.1-1                            deb                          
-gir1.2-glib-2.0                                               2.80.0-6ubuntu3.4                   deb                          
+gir1.2-glib-2.0                                               2.80.0-6ubuntu3.5                   deb                          
 github.com/calebcase/tmpfile                                  v1.0.3                              go-module                    
 github.com/flynn/noise                                        v1.0.0                              go-module                    
 github.com/gogo/protobuf                                      v1.3.2                              go-module                    
@@ -321,8 +321,8 @@ libfreetype6                                                  2.13.2+dfsg-1build
 libgcc-s1                                                     14.2.0-4ubuntu2~24.04               deb                          
 libgcrypt20                                                   1.10.3-2build1                      deb                          
 libgirepository-1.0-1                                         1.80.1-1                            deb                          
-libglib2.0-0t64                                               2.80.0-6ubuntu3.4                   deb                          
-libglib2.0-data                                               2.80.0-6ubuntu3.4                   deb                          
+libglib2.0-0t64                                               2.80.0-6ubuntu3.5                   deb                          
+libglib2.0-data                                               2.80.0-6ubuntu3.5                   deb                          
 libgmp10                                                      2:6.3.0+dfsg-2ubuntu6.1             deb                          
 libgnutls30t64                                                3.8.3-1.1ubuntu3.4                  deb                          
 libgpg-error0                                                 1.47-3build2.1                      deb                          
