@@ -281,7 +281,7 @@ jq                                                            1.7.1-3ubuntu0.24.
 keyboxd                                                       2.4.4-2ubuntu17.3                      deb                          
 krb5-locales                                                  1.20.1-6ubuntu2.6                      deb                          
 libacl1                                                       2.3.2-1build1.1                        deb                          
-libapparmor1                                                  4.0.1really4.0.1-0ubuntu0.24.04.4      deb                          
+libapparmor1                                                  4.0.1really4.0.1-0ubuntu0.24.04.5      deb                          
 libapt-pkg6.0t64                                              2.8.3                                  deb                          
 libassuan0                                                    2.5.6-1build1                          deb                          
 libattr1                                                      1:2.5.2-1build1.1                      deb                          
@@ -343,7 +343,7 @@ libpam-modules-bin                                            1.5.3-5ubuntu5.5  
 libpam-runtime                                                1.5.3-5ubuntu5.5                       deb                          
 libpam0g                                                      1.5.3-5ubuntu5.5                       deb                          
 libpcre2-8-0                                                  10.42-4ubuntu2.1                       deb                          
-libpng16-16t64                                                1.6.43-5build1                         deb                          
+libpng16-16t64                                                1.6.43-5ubuntu0.1                      deb                          
 libproc2-0                                                    2:4.0.4-4ubuntu3.2                     deb                          
 libpsl5t64                                                    0.21.2-1.1build1                       deb                          
 libpython3-stdlib                                             3.12.3-0ubuntu2.1                      deb                          
@@ -394,11 +394,11 @@ pinentry-curses                                               1.2.1-3ubuntu5    
 procps                                                        2:4.0.4-4ubuntu3.2                     deb                          
 publicsuffix                                                  20231001.0357-0.1                      deb                          
 pygobject                                                     3.48.2                                 python                       
-python-apt                                                    2.7.7+ubuntu5                          python                       
-python-apt-common                                             2.7.7ubuntu5                           deb                          
+python-apt                                                    2.7.7+ubuntu5.1                        python                       
+python-apt-common                                             2.7.7ubuntu5.1                         deb                          
 python-debian                                                 0.1.49+ubuntu2                         python                       
 python3                                                       3.12.3-0ubuntu2.1                      deb                          
-python3-apt                                                   2.7.7ubuntu5                           deb                          
+python3-apt                                                   2.7.7ubuntu5.1                         deb                          
 python3-chardet                                               5.2.0+dfsg-1                           deb                          
 python3-dbus                                                  1.3.2-5build3                          deb                          
 python3-debconf                                               1.5.86ubuntu1                          deb                          
