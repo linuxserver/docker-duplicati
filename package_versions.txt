@@ -261,7 +261,7 @@ dirmngr                                                       2.4.4-2ubuntu17.4 
 distro-info                                                   1.7+build1                             python                       
 distro-info                                                   1.7build1                              deb                          
 distro-info-data                                              0.60ubuntu0.6                          deb                          
-dpkg                                                          1.22.6ubuntu6.5                        deb                          
+dpkg                                                          1.22.6ubuntu6.6                        deb                          
 e2fsprogs                                                     1.47.0-2.4~exp1ubuntu4.1               deb                          
 findutils                                                     4.9.0-5build1                          deb                          
 fonts-liberation                                              1:2.1.5-3                              deb                          
