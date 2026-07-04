@@ -380,7 +380,7 @@ libsemanage-common                                            3.5-1build5       
 libsemanage2                                                  3.5-1build5                            deb                          
 libsepol2                                                     3.5-2build1                            deb                          
 libsmartcols1                                                 2.39.3-9ubuntu6.5                      deb                          
-libsqlite3-0                                                  3.45.1-1ubuntu2.5                      deb                          
+libsqlite3-0                                                  3.45.1-1ubuntu2.6                      deb                          
 libss2                                                        1.47.0-2.4~exp1ubuntu4.1               deb                          
 libssh-4                                                      0.10.6-2ubuntu0.4                      deb                          
 libssl3t64                                                    3.0.13-0ubuntu3.11                     deb                          
@@ -409,7 +409,7 @@ netcat-openbsd                                                1.226-1ubuntu2    
 openssl                                                       3.0.13-0ubuntu3.11                     deb                          
 passwd                                                        1:4.13+dfsg1-4ubuntu3.2                deb                          
 patch                                                         2.7.6-7build3                          deb                          
-perl-base                                                     5.38.2-3.2ubuntu0.2                    deb                          
+perl-base                                                     5.38.2-3.2ubuntu0.3                    deb                          
 pinentry-curses                                               1.2.1-3ubuntu5                         deb                          
 procps                                                        2:4.0.4-4ubuntu3.2                     deb                          
 publicsuffix                                                  20231001.0357-0.1                      deb                          
@@ -450,7 +450,7 @@ storj.io/uplink                                               v1.13.1           
 storj.io/uplink-c                                             UNKNOWN                                go-module                    
 systemd-standalone-sysusers                                   255.4-1ubuntu8.16                      deb                          
 sysvinit-utils                                                3.08-6ubuntu3                          deb                          
-tar                                                           1.35+dfsg-3build1                      deb                          
+tar                                                           1.35+dfsg-3ubuntu0.1                   deb                          
 ttf-mscorefonts-installer                                     3.8.1ubuntu1                           deb                          
 tzdata                                                        2026a-0ubuntu0.24.04.1                 deb                          
 ubuntu-keyring                                                2023.11.28.1                           deb                          
