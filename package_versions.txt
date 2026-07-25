@@ -381,7 +381,7 @@ libsemanage-common                                            3.5-1build5       
 libsemanage2                                                  3.5-1build5                            deb                          
 libsepol2                                                     3.5-2build1                            deb                          
 libsmartcols1                                                 2.39.3-9ubuntu6.5                      deb                          
-libsqlite3-0                                                  3.45.1-1ubuntu2.6                      deb                          
+libsqlite3-0                                                  3.45.1-1ubuntu2.7                      deb                          
 libss2                                                        1.47.0-2.4~exp1ubuntu4.1               deb                          
 libssh-4                                                      0.10.6-2ubuntu0.4                      deb                          
 libssl3t64                                                    3.0.13-0ubuntu3.11                     deb                          
@@ -451,7 +451,7 @@ storj.io/uplink                                               v1.13.1           
 storj.io/uplink-c                                             UNKNOWN                                go-module                    
 systemd-standalone-sysusers                                   255.4-1ubuntu8.16                      deb                          
 sysvinit-utils                                                3.08-6ubuntu3                          deb                          
-tar                                                           1.35+dfsg-3ubuntu0.2                   deb                          
+tar                                                           1.35+dfsg-3ubuntu0.3                   deb                          
 ttf-mscorefonts-installer                                     3.8.1ubuntu1                           deb                          
 tzdata                                                        2026b-0ubuntu0.24.04.1                 deb                          
 ubuntu-keyring                                                2023.11.28.1                           deb                          
@@ -466,7 +466,7 @@ update-notifier-common                                        3.192.68.2        
 uplink.NET                                                    2.14.3623                              dotnet     (+11 duplicates)  
 uplink.NET.Linux                                              2.14.3623                              dotnet     (+11 duplicates)  
 util-linux                                                    2.39.3-9ubuntu6.5                      deb                          
-wget                                                          1.21.4-1ubuntu4.3                      deb                          
+wget                                                          1.21.4-1ubuntu4.4                      deb                          
 x11-common                                                    1:7.7+23ubuntu3                        deb                          
 xdg-user-dirs                                                 0.18-1build1                           deb                          
 xfonts-encodings                                              1:1.0.5-0ubuntu2                       deb                          
