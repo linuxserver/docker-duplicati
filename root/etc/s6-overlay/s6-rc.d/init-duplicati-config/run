@@ -34,3 +34,4 @@ fi
 lsiown -R abc:abc \
     /config \
     /run/duplicati-temp
+chmod 700 /config

@@ -84,6 +84,7 @@ init_diagram: |
   "duplicati:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "03.09.26:", desc: "Make sure /config is only accessible by the PUID user."}
   - {date: "31.01.25:", desc: "Make `latest` stable releases, move beta releases to `development`."}
   - {date: "28.01.25:", desc: "Add xz-utils."}
   - {date: "03.12.24:", desc: "Add mscorefonts for captcha support."}
