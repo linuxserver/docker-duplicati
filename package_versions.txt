@@ -1,5 +1,5 @@
 NAME                                                          VERSION                                TYPE                        
-@duplicati/ngclient                                           0.0.234                                npm                          
+@duplicati/ngclient                                           0.0.238                                npm                          
 AWSSDK.Core                                                   4.0.100.5                              dotnet     (+13 duplicates)  
 AWSSDK.IdentityManagement                                     4.0.100.4                              dotnet     (+13 duplicates)  
 AWSSDK.S3                                                     4.0.100.3                              dotnet     (+13 duplicates)  
@@ -8,7 +8,7 @@ AWSSDK.SecretsManager.Caching                                 2.0.0             
 Aliyun.OSS.SDK.NetCore                                        2.14.1                                 dotnet     (+13 duplicates)  
 AlphaVSS                                                      2.0.3                                  dotnet     (+14 duplicates)  
 Artalk.Xmpp                                                   1.0.5                                  dotnet     (+7 duplicates)   
-AutoTune                                                      2.4.0-Stable-20260903                  dotnet                       
+AutoTune                                                      2.4.0.1-Stable-20261007                dotnet                       
 Avalonia                                                      12.1.1                                 dotnet                       
 Avalonia.Desktop                                              12.1.1                                 dotnet                       
 Avalonia.FreeDesktop                                          12.1.1                                 dotnet                       
@@ -29,112 +29,112 @@ BouncyCastle.Cryptography                                     2.7.0             
 CoCoL                                                         1.8.4                                  dotnet     (+9 duplicates)   
 CommunityToolkit.HighPerformance                              8.2.1                                  dotnet     (+13 duplicates)  
 DnsClient                                                     1.8.0                                  dotnet     (+7 duplicates)   
-Duplicati.Agent.Implementation                                2.4.0-Stable-20260903                  dotnet                       
-Duplicati.Agent.Implementation.Reference                      2.4.0.0                                dotnet                       
-Duplicati.CommandLine                                         2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.AutoTuneTool                            2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.AutoUpdater                             2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.BackendTester                           2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.BackendTester.Implementation            2.4.0-Stable-20260903                  dotnet     (+7 duplicates)   
-Duplicati.CommandLine.BackendTester.Implementation.Reference  2.4.0.0                                dotnet     (+7 duplicates)   
-Duplicati.CommandLine.BackendTool                             2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.BackendTool.Implementation              2.4.0-Stable-20260903                  dotnet     (+7 duplicates)   
-Duplicati.CommandLine.BackendTool.Implementation.Reference    2.4.0.0                                dotnet     (+7 duplicates)   
-Duplicati.CommandLine.ConfigureTool                           2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.ConfigureTool.Implementation            2.4.0-Stable-20260903                  dotnet                       
-Duplicati.CommandLine.ConfigureTool.Implementation.Reference  2.4.0.0                                dotnet                       
-Duplicati.CommandLine.DatabaseTool                            2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.DatabaseTool.Implementation             2.4.0-Stable-20260903                  dotnet                       
-Duplicati.CommandLine.DatabaseTool.Implementation.Reference   2.4.0.0                                dotnet                       
-Duplicati.CommandLine.Implementation                          2.4.0-Stable-20260903                  dotnet     (+6 duplicates)   
-Duplicati.CommandLine.Implementation.Reference                2.4.0.0                                dotnet     (+6 duplicates)   
-Duplicati.CommandLine.RecoveryTool                            2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.RecoveryTool.Implementation             2.4.0-Stable-20260903                  dotnet     (+7 duplicates)   
-Duplicati.CommandLine.RecoveryTool.Implementation.Reference   2.4.0.0                                dotnet     (+7 duplicates)   
-Duplicati.CommandLine.SecretTool                              2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.SecretTool.Implementation               2.4.0-Stable-20260903                  dotnet                       
-Duplicati.CommandLine.SecretTool.Implementation.Reference     2.4.0.0                                dotnet                       
-Duplicati.CommandLine.ServerUtil                              2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.ServerUtil.Implementation               2.4.0-Stable-20260903                  dotnet                       
-Duplicati.CommandLine.ServerUtil.Implementation.Reference     2.4.0.0                                dotnet                       
-Duplicati.CommandLine.SharpAESCrypt                           2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.Snapshots                               2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.SourceTool                              2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.CommandLine.SourceTool.Implementation               2.4.0-Stable-20260903                  dotnet                       
-Duplicati.CommandLine.SourceTool.Implementation.Reference     2.4.0.0                                dotnet                       
-Duplicati.CommandLine.SyncTool                                2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.GUI.TrayIcon                                        2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.GUI.TrayIcon.Implementation                         2.4.0-Stable-20260903                  dotnet                       
-Duplicati.GUI.TrayIcon.Implementation.Reference               2.4.0.0                                dotnet                       
-Duplicati.Library.AutoUpdater                                 2.4.0-Stable-20260903                  dotnet     (+15 duplicates)  
-Duplicati.Library.Backend.AliyunOSS                           2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.AzureBlob                           2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Backblaze                           2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Box                                 2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.DrimeCloud                          2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Dropbox                             2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Duplicati                           2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.FTP                                 2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.File                                2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Filejump                            2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Filen                               2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.GoogleServices                      2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Idrivee2                            2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Jottacloud                          2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Mega                                2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.MovistarCloud                       2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.OneDrive                            2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.OpenStack                           2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Rclone                              2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.S3                                  2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.SMB                                 2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.SSHv2                               2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.SharePoint                          2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.Storj                               2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.TahoeLAFS                           2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.TencentCOS                          2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.WEBDAV                              2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backend.pCloud                              2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Backends                                    2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Certificates                                2.4.0-Stable-20260903                  dotnet     (+4 duplicates)   
-Duplicati.Library.Common                                      2.4.0-Stable-20260903                  dotnet     (+16 duplicates)  
-Duplicati.Library.Compression                                 2.4.0-Stable-20260903                  dotnet     (+15 duplicates)  
-Duplicati.Library.Crashlog                                    2.4.0-Stable-20260903                  dotnet     (+16 duplicates)  
-Duplicati.Library.DynamicLoader                               2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Encryption                                  2.4.0-Stable-20260903                  dotnet     (+14 duplicates)  
-Duplicati.Library.Interface                                   2.4.0-Stable-20260903                  dotnet     (+16 duplicates)  
-Duplicati.Library.Localization                                2.4.0-Stable-20260903                  dotnet     (+16 duplicates)  
-Duplicati.Library.Logging                                     2.4.0-Stable-20260903                  dotnet     (+16 duplicates)  
-Duplicati.Library.Main                                        2.4.0-Stable-20260903                  dotnet     (+9 duplicates)   
-Duplicati.Library.Modules.Builtin                             2.4.0-Stable-20260903                  dotnet     (+7 duplicates)   
-Duplicati.Library.OAuthHelper                                 2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Parity                                      2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.RemoteControl                               2.4.0-Stable-20260903                  dotnet     (+4 duplicates)   
-Duplicati.Library.RestAPI                                     2.4.0-Stable-20260903                  dotnet     (+5 duplicates)   
-Duplicati.Library.ResultSerialization                         2.4.0-Stable-20260903                  dotnet     (+10 duplicates)  
-Duplicati.Library.SecretProvider                              2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.Snapshots                                   2.4.0-Stable-20260903                  dotnet     (+14 duplicates)  
-Duplicati.Library.SourceProvider.Builtin                      2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.SourceProviders                             2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Library.UsageReporter                               2.4.0-Stable-20260903                  dotnet     (+9 duplicates)   
-Duplicati.Library.Utility                                     2.4.0-Stable-20260903                  dotnet     (+16 duplicates)  
-Duplicati.License                                             2.4.0-Stable-20260903                  dotnet     (+15 duplicates)  
-Duplicati.PackageRef                                          2.4.0-Stable-20260903                  dotnet     (+16 duplicates)  
-Duplicati.Proprietary.DiskImage                               2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Proprietary.GoogleWorkspace                         2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Proprietary.LicenseChecker                          2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Proprietary.LoaderHelper                            2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Proprietary.Office365                               2.4.0-Stable-20260903                  dotnet     (+13 duplicates)  
-Duplicati.Server                                              2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.Server.Implementation                               2.4.0-Stable-20260903                  dotnet     (+4 duplicates)   
-Duplicati.Server.Implementation.Reference                     2.4.0.0                                dotnet     (+4 duplicates)   
-Duplicati.Server.Serialization                                2.4.0-Stable-20260903                  dotnet     (+5 duplicates)   
-Duplicati.Service                                             2.4.0.0-Stable-20260903                dotnet                       
-Duplicati.Service.Implementation                              2.4.0-Stable-20260903                  dotnet                       
-Duplicati.Service.Implementation.Reference                    2.4.0.0                                dotnet                       
+Duplicati.Agent.Implementation                                2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.Agent.Implementation.Reference                      2.4.0.1                                dotnet                       
+Duplicati.CommandLine                                         2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.AutoTuneTool                            2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.AutoUpdater                             2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.BackendTester                           2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.BackendTester.Implementation            2.4.0.1-Stable-20261007                dotnet     (+7 duplicates)   
+Duplicati.CommandLine.BackendTester.Implementation.Reference  2.4.0.1                                dotnet     (+7 duplicates)   
+Duplicati.CommandLine.BackendTool                             2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.BackendTool.Implementation              2.4.0.1-Stable-20261007                dotnet     (+7 duplicates)   
+Duplicati.CommandLine.BackendTool.Implementation.Reference    2.4.0.1                                dotnet     (+7 duplicates)   
+Duplicati.CommandLine.ConfigureTool                           2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.ConfigureTool.Implementation            2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.ConfigureTool.Implementation.Reference  2.4.0.1                                dotnet                       
+Duplicati.CommandLine.DatabaseTool                            2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.DatabaseTool.Implementation             2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.DatabaseTool.Implementation.Reference   2.4.0.1                                dotnet                       
+Duplicati.CommandLine.Implementation                          2.4.0.1-Stable-20261007                dotnet     (+6 duplicates)   
+Duplicati.CommandLine.Implementation.Reference                2.4.0.1                                dotnet     (+6 duplicates)   
+Duplicati.CommandLine.RecoveryTool                            2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.RecoveryTool.Implementation             2.4.0.1-Stable-20261007                dotnet     (+7 duplicates)   
+Duplicati.CommandLine.RecoveryTool.Implementation.Reference   2.4.0.1                                dotnet     (+7 duplicates)   
+Duplicati.CommandLine.SecretTool                              2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.SecretTool.Implementation               2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.SecretTool.Implementation.Reference     2.4.0.1                                dotnet                       
+Duplicati.CommandLine.ServerUtil                              2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.ServerUtil.Implementation               2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.ServerUtil.Implementation.Reference     2.4.0.1                                dotnet                       
+Duplicati.CommandLine.SharpAESCrypt                           2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.Snapshots                               2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.SourceTool                              2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.SourceTool.Implementation               2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.CommandLine.SourceTool.Implementation.Reference     2.4.0.1                                dotnet                       
+Duplicati.CommandLine.SyncTool                                2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.GUI.TrayIcon                                        2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.GUI.TrayIcon.Implementation                         2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.GUI.TrayIcon.Implementation.Reference               2.4.0.1                                dotnet                       
+Duplicati.Library.AutoUpdater                                 2.4.0.1-Stable-20261007                dotnet     (+15 duplicates)  
+Duplicati.Library.Backend.AliyunOSS                           2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.AzureBlob                           2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Backblaze                           2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Box                                 2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.DrimeCloud                          2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Dropbox                             2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Duplicati                           2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.FTP                                 2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.File                                2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Filejump                            2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Filen                               2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.GoogleServices                      2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Idrivee2                            2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Jottacloud                          2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Mega                                2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.MovistarCloud                       2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.OneDrive                            2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.OpenStack                           2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Rclone                              2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.S3                                  2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.SMB                                 2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.SSHv2                               2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.SharePoint                          2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.Storj                               2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.TahoeLAFS                           2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.TencentCOS                          2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.WEBDAV                              2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backend.pCloud                              2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Backends                                    2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Certificates                                2.4.0.1-Stable-20261007                dotnet     (+4 duplicates)   
+Duplicati.Library.Common                                      2.4.0.1-Stable-20261007                dotnet     (+16 duplicates)  
+Duplicati.Library.Compression                                 2.4.0.1-Stable-20261007                dotnet     (+15 duplicates)  
+Duplicati.Library.Crashlog                                    2.4.0.1-Stable-20261007                dotnet     (+16 duplicates)  
+Duplicati.Library.DynamicLoader                               2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Encryption                                  2.4.0.1-Stable-20261007                dotnet     (+14 duplicates)  
+Duplicati.Library.Interface                                   2.4.0.1-Stable-20261007                dotnet     (+16 duplicates)  
+Duplicati.Library.Localization                                2.4.0.1-Stable-20261007                dotnet     (+16 duplicates)  
+Duplicati.Library.Logging                                     2.4.0.1-Stable-20261007                dotnet     (+16 duplicates)  
+Duplicati.Library.Main                                        2.4.0.1-Stable-20261007                dotnet     (+9 duplicates)   
+Duplicati.Library.Modules.Builtin                             2.4.0.1-Stable-20261007                dotnet     (+7 duplicates)   
+Duplicati.Library.OAuthHelper                                 2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Parity                                      2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.RemoteControl                               2.4.0.1-Stable-20261007                dotnet     (+4 duplicates)   
+Duplicati.Library.RestAPI                                     2.4.0.1-Stable-20261007                dotnet     (+5 duplicates)   
+Duplicati.Library.ResultSerialization                         2.4.0.1-Stable-20261007                dotnet     (+10 duplicates)  
+Duplicati.Library.SecretProvider                              2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.Snapshots                                   2.4.0.1-Stable-20261007                dotnet     (+14 duplicates)  
+Duplicati.Library.SourceProvider.Builtin                      2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.SourceProviders                             2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Library.UsageReporter                               2.4.0.1-Stable-20261007                dotnet     (+9 duplicates)   
+Duplicati.Library.Utility                                     2.4.0.1-Stable-20261007                dotnet     (+16 duplicates)  
+Duplicati.License                                             2.4.0.1-Stable-20261007                dotnet     (+15 duplicates)  
+Duplicati.PackageRef                                          2.4.0.1-Stable-20261007                dotnet     (+16 duplicates)  
+Duplicati.Proprietary.DiskImage                               2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Proprietary.GoogleWorkspace                         2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Proprietary.LicenseChecker                          2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Proprietary.LoaderHelper                            2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Proprietary.Office365                               2.4.0.1-Stable-20261007                dotnet     (+13 duplicates)  
+Duplicati.Server                                              2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.Server.Implementation                               2.4.0.1-Stable-20261007                dotnet     (+4 duplicates)   
+Duplicati.Server.Implementation.Reference                     2.4.0.1                                dotnet     (+4 duplicates)   
+Duplicati.Server.Serialization                                2.4.0.1-Stable-20261007                dotnet     (+5 duplicates)   
+Duplicati.Service                                             2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.Service.Implementation                              2.4.0.1-Stable-20261007                dotnet                       
+Duplicati.Service.Implementation.Reference                    2.4.0.1                                dotnet                       
 Duplicati.StreamUtil                                          1.0.5                                  dotnet     (+16 duplicates)  
-Duplicati.Tools                                               2.4.0-Stable-20260903                  dotnet     (+6 duplicates)   
-Duplicati.WebserverCore                                       2.4.0-Stable-20260903                  dotnet     (+4 duplicates)   
+Duplicati.Tools                                               2.4.0.1-Stable-20261007                dotnet     (+6 duplicates)   
+Duplicati.WebserverCore                                       2.4.0.1-Stable-20261007                dotnet     (+4 duplicates)   
 FluentFTP                                                     54.2.0                                 dotnet     (+13 duplicates)  
 Google.Api.CommonProtos                                       2.17.0                                 dotnet     (+13 duplicates)  
 Google.Api.Gax                                                4.11.0                                 dotnet     (+13 duplicates)  
@@ -214,13 +214,13 @@ Nerdbank.Streams                                              2.13.16           
 Newtonsoft.Json                                               13.0.4                                 dotnet     (+16 duplicates)  
 Otp.NET                                                       1.4.0                                  dotnet     (+13 duplicates)  
 PolyType                                                      1.3.1                                  dotnet     (+9 duplicates)   
-RemoteSynchronization                                         2.4.0-Stable-20260903                  dotnet                       
+RemoteSynchronization                                         2.4.0.1-Stable-20261007                dotnet                       
 RumpSharp                                                     1.0.1                                  dotnet                       
 SMBLibrary                                                    1.5.4                                  dotnet     (+13 duplicates)  
 SMBLibrary.Win32                                              1.5.4                                  dotnet     (+13 duplicates)  
 SQLite                                                        3.53.4                                 dotnet     (+13 duplicates)  
-SQLiteHelper                                                  2.4.0-Stable-20260903                  dotnet     (+10 duplicates)  
-SQLiteHelper.Reference                                        2.4.0.0                                dotnet     (+10 duplicates)  
+SQLiteHelper                                                  2.4.0.1-Stable-20261007                dotnet     (+10 duplicates)  
+SQLiteHelper.Reference                                        2.4.0.1                                dotnet     (+10 duplicates)  
 SQLitePCLRaw.bundle_e_sqlite3                                 3.0.5                                  dotnet     (+13 duplicates)  
 SQLitePCLRaw.config.e_sqlite3                                 3.0.5                                  dotnet     (+13 duplicates)  
 SQLitePCLRaw.core                                             3.0.5                                  dotnet     (+13 duplicates)  
@@ -251,7 +251,7 @@ System.Reactive                                               7.0.0             
 System.Security.Cryptography.Pkcs                             10.0.0                                 dotnet     (+8 duplicates)   
 System.Security.Cryptography.ProtectedData                    4.5.0                                  dotnet     (+13 duplicates)  
 Tencent.QCloud.Cos.Sdk                                        5.4.11                                 dotnet     (+13 duplicates)  
-TestDataGenerator                                             2.4.0-Stable-20260903                  dotnet                       
+TestDataGenerator                                             2.4.0.1-Stable-20261007                dotnet                       
 Tmds.DBus.Protocol                                            0.94.1                                 dotnet     (+13 duplicates)  
 Vanara.Core                                                   5.0.0                                  dotnet     (+13 duplicates)  
 Vanara.PInvoke.Kernel32                                       5.0.0                                  dotnet     (+13 duplicates)  
@@ -352,7 +352,7 @@ libexpat1                                                     2.6.1-2ubuntu0.6  
 libext2fs2t64                                                 1.47.0-2.4~exp1ubuntu4.1               deb                          
 libffi8                                                       3.4.6-1build1                          deb                          
 libfontenc1                                                   1:1.1.8-1build1                        deb                          
-libfreetype6                                                  2.13.2+dfsg-1ubuntu0.1                 deb                          
+libfreetype6                                                  2.13.2+dfsg-1ubuntu0.2                 deb                          
 libgcc-s1                                                     14.2.0-4ubuntu2~24.04.1                deb                          
 libgcrypt20                                                   1.10.3-2ubuntu0.2                      deb                          
 libgirepository-1.0-1                                         1.80.1-1                               deb                          
