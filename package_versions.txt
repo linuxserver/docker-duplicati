@@ -378,7 +378,7 @@ liblz4-1                                                      1.9.4-1build1.1   
 liblzma5                                                      5.6.1+really5.4.5-1ubuntu0.4           deb                          
 libmd0                                                        1.1.0-2build1.1                        deb                          
 libmount1                                                     2.39.3-9ubuntu6.6                      deb                          
-libmspack0t64                                                 0.11-1.1build1                         deb                          
+libmspack0t64                                                 0.11-1.1ubuntu0.24.04.1                deb                          
 libncursesw6                                                  6.4+20240113-1ubuntu2.2                deb                          
 libnettle8t64                                                 3.9.1-2.2build1.1                      deb                          
 libnghttp2-14                                                 1.59.0-1ubuntu0.4                      deb                          
@@ -389,7 +389,7 @@ libpam-modules                                                1.5.3-5ubuntu5.7  
 libpam-modules-bin                                            1.5.3-5ubuntu5.7                       deb                          
 libpam-runtime                                                1.5.3-5ubuntu5.7                       deb                          
 libpam0g                                                      1.5.3-5ubuntu5.7                       deb                          
-libpcre2-8-0                                                  10.42-4ubuntu2.1                       deb                          
+libpcre2-8-0                                                  10.42-4ubuntu2.2                       deb                          
 libpng16-16t64                                                1.6.43-5ubuntu0.7                      deb                          
 libproc2-0                                                    2:4.0.4-4ubuntu3.3                     deb                          
 libpsl5t64                                                    0.21.2-1.1build1                       deb                          
